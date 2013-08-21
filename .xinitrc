@@ -35,9 +35,13 @@ X)
 	urxvtd &
 	trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 6 --transparent true --alpha 0 --tint 0x000000 --height 16 &
 	execxautolock -time 10 -locker "i3clock -c 000000"
-	exec feh --bg-scale /home/lumolk/Kuvat/Wallpapers/current &
+	hsetroot -center /home/lumolk/Kuvat/Wallpapers/current &
         #docky &
+        #return 0;
+    unclutter&
 	exec xmonad
+
+
 
 	;;
 *)

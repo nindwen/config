@@ -6,10 +6,10 @@ alias sudo="sudo "
 export EDITOR="vim"
 alias vim="vim '+set encoding=utf-8'"
 alias pacman="pacmatic"
-alias connect_wifi='nmcli dev wifi con "Koti_866C" password RR9VKVVU7NT49 name "Koti"'
 alias nukkumaan="systemctl poweroff"
 alias dropbox="python2.7 ~/bin/dropbox.py"
 alias ls='ls --color=auto'
+export _JAVA_AWT_WM_NONREPARENTING=1 
 
 alias pingg="ping -c 1 8.8.8.8;echo DNS:;ping -c 2 google.com"
 #PS1='[\u@\h \W]\$ '
