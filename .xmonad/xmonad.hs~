@@ -6,6 +6,7 @@ import XMonad.Util.Run(spawnPipe)
 import XMonad.Util.EZConfig(additionalKeys)
 import System.IO
 import XMonad.Layout.NoBorders
+import XMonad.Layout.Circle
 
 myManageHook = composeAll
     [ className =? "Gimp"      --> doFloat
