@@ -12,7 +12,9 @@ urxvt*boldFont: xft:terminus_bold:size=10
 urxvt*italicFont: xft:terminus_italic:size=10
 
 
+URxvt.iso14755 : false
 !Xft.dpi: 72
+
 !Xft.rgba: rgb
 !Xft.antialias: true
 Xft.hinting: true

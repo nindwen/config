@@ -1,6 +1,7 @@
 setxkbmap fi
 alias update="yaourt -Suya"
-setxkbmap -option ctrl:nocaps
+#setxkbmap -option ctrl:nocaps
+xcape -e 'Caps_Lock=Escape'
 alias i3lock="i3lock -t -i /home/lumolk/Kuvat/Waves.png"
 alias sudo="sudo "
 export EDITOR="vim"
@@ -28,6 +29,15 @@ prompt walters
 autoload -U colors && colors
 PROMPT="%{$fg_bold[green]%}%n@%m %{$fg_bold[blue]%}%1~ %(#.#.$) %{$reset_color%}"
 RPROMPT='%(?,%F{green}:%),%F{red}%? %F{red}:()%f'
+
+
+    export LESS_TERMCAP_mb=$'\E[01;31m'
+    export LESS_TERMCAP_md=$'\E[01;31m'
+    export LESS_TERMCAP_me=$'\E[0m'
+    export LESS_TERMCAP_se=$'\E[0m'
+    export LESS_TERMCAP_so=$'\E[01;44;33m'
+    export LESS_TERMCAP_ue=$'\E[0m'
+    export LESS_TERMCAP_us=$'\E[01;32m'
 
 # create a zkbd compatible hash;
 # to add other keys to this hash, see: man 5 terminfo

@@ -17,9 +17,10 @@ myManageHook = composeAll
 main = do
   xmproc <- spawnPipe "/usr/bin/xmobar /home/lumolk/.xmonad/xmobarrc"
   xmonad $ defaultConfig
-    { terminal    = "urxvt"
+    { terminal    = "urxvtc"
     , modMask     = mod4Mask
-    , borderWidth = 2
+    , focusFollowsMouse = False
+    , borderWidth = 1
                  , normalBorderColor  = "#B8C68C" -- black
                  , focusedBorderColor = "#A0DF5D" -- reddish
     , logHook = dynamicLogWithPP xmobarPP
