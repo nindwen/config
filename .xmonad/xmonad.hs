@@ -3,7 +3,7 @@ import XMonad.Layout.Spacing
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks
 import XMonad.Util.Run(spawnPipe)
-import XMonad.Util.EZConfig(additionalKeys)
+import XMonad.Util.EZConfig
 import System.IO
 import XMonad.Layout.NoBorders
 import XMonad.Layout.Circle
@@ -33,3 +33,7 @@ main = do
                         <+> manageHook defaultConfig
     }
 
+    `additionalKeys`
+    [((mod1Mask .|. shiftMask   , xK_b), spawn "firefox")
+    ,((mod1Mask             , xK_p), spawn "gmrun")
+    ]

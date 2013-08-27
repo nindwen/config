@@ -14,15 +14,16 @@ xinput set-button-map "SynPS/2 Synaptics TouchPad" 1 2 3 5 4 6 7 8 9 10 11 12 13
 
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xdefaults
 redshift -l 61.475514:23.774414 &
+xsetroot -cursor_name left_ptr
 
 # The following variable defines the session which is started if the user doesn't explicitly select a session
 # Source: http://svn.berlios.de/svnroot/repos/slim/trunk/xinitrc.sample
 
-DEFAULT_SESSION=startxfce4
+DEFAULT_SESSION=bspwm -c /home/lumolk/bspwm/bspwmrc
 
 case $1 in
-i3)
-	exec i3
+bspwm)
+	exec bspwm -c /home/lumolk/bspwm/bspwmrc 
 	;;
 xfce)
 	exec startxfce4
@@ -31,7 +32,7 @@ X)
 	exec xterm
 	;;
 
-*)
+xmonad)
 	urxvtd &
 	trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 6 --transparent true --alpha 0 --tint 0x000000 --height 16 &
 	execxautolock -time 10 -locker "i3clock -c 000000"

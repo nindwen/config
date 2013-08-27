@@ -1,0 +1,29 @@
+#! /bin/sh
+
+FIRST_DESK=1
+REMAINING_DESKS="$(seq 2 9) 0"
+bspc desktop Desktop01 -n $FIRST_DESK
+bspc monitor -a $REMAINING_DESKS
+bspc monitor -p 16 0 0 0
+
+
+bspc rule -a Gimp -d Eight --floating
+
+bspc config split_ratio             0.52
+bspc config border_width            2
+bspc config window_gap              24
+bspc config borderless_monocle      true
+bspc config gapless_monocle         true
+bspc config focused_border_color    "#A0DF5D"
+bspc config normal_border_color     "#B8C68C"
+
+
+
+
+
+ewmhstatus | dzen2 -ta l -fn Terminus-8 -h 16 -w 1200 -e mouse3:collapse&
+
+echo "$(date +'%k:%M %e.%m')  $(cal)" | dzen2 -p -ta r -fn Terminus-8 -h 16 -w 126 -x 1192 -l 8 -e button1=togglecollapse  &
+
+trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 6 --transparent true --alpha 0 --tint 0x151515 --height 16&
+

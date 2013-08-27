@@ -6,7 +6,7 @@ alias i3lock="i3lock -t -i /home/lumolk/Kuvat/Waves.png"
 alias sudo="sudo "
 export EDITOR="vim"
 alias vim="vim '+set encoding=utf-8'"
-alias pacman="pacmatic"
+#alias pacman="pacmatic"
 alias nukkumaan="systemctl poweroff"
 alias dropbox="python2.7 ~/bin/dropbox.py"
 alias ls='ls --color=auto'
