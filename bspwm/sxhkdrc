@@ -5,6 +5,10 @@
 super + shift + q 
     bspc quit
 
+super + {minus,plus}
+    bspc config window_gap $(print "$(($(bspc config window_gap)+{-5,5}))")
+
+
 super + w
     bspc window -c
 

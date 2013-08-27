@@ -8,18 +8,16 @@ fi
 
 setxkbmap fi
 
-#xsetroot -cursor_name left_ptr &
 xinput set-button-map "Microsoft Microsoft® Comfort Mouse 4500" 1 2 3 5 4 6 7 8 9 10 11 12 13 14 15 16    
 xinput set-button-map "SynPS/2 Synaptics TouchPad" 1 2 3 5 4 6 7 8 9 10 11 12 13 14 15 16    
 
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xdefaults
 redshift -l 61.475514:23.774414 &
-xsetroot -cursor_name left_ptr
+xsetroot -cursor_name left_ptr&
 
 # The following variable defines the session which is started if the user doesn't explicitly select a session
 # Source: http://svn.berlios.de/svnroot/repos/slim/trunk/xinitrc.sample
 
-DEFAULT_SESSION=bspwm -c /home/lumolk/bspwm/bspwmrc
 
 case $1 in
 bspwm)
@@ -41,12 +39,9 @@ xmonad)
         #return 0;
     unclutter&
 	exec xmonad
-
-
-
 	;;
 *)
-	exec $DEFAULT_SESSION
+	exec bspwm -c /home/lumolk/bspwm/bspwmrc 
 	;;
 esac
 
