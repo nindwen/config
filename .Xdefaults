@@ -23,13 +23,14 @@ Xft.hinting: true
 !Xft.lcdfilter: lcddefault
 
 
-URxvt.transparent:   true
+URxvt.transparent:   false
 URxvt.tintColor:     white
-URxvt.shading:       30
+!URxvt.shading:       30
+URxvt.depth: 32
 
 
 *foreground: #D7D0C7
-*background: #151515
+URxvt.background: [80]#151515
 
 !black
 ! *color0:     #AF875F
