@@ -7,9 +7,9 @@ urxvt*perl-ext-common:  default,matcher
 urxvt*urlLauncher:      /usr/bin/jumanji
 urxvt*matcher.button:   1
 
-urxvt*font: xft:terminus:size=10
-urxvt*boldFont: xft:terminus_bold:size=10
-urxvt*italicFont: xft:terminus_italic:size=10
+urxvt*font: xft:terminus:size=9
+urxvt*boldFont: xft:terminus_bold:size=9
+urxvt*italicFont: xft:terminus_italic:size=9
 
 
 URxvt.iso14755 : false

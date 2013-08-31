@@ -8,8 +8,8 @@ sxhkd -c /home/lumolk/bspwm/sxhkdrc &
 
 FIRST_DESK=1
 REMAINING_DESKS="$(seq 2 9) 0"
-bspc desktop Desktop01 -n $FIRST_DESK
-bspc monitor -a $REMAINING_DESKS
+bspc desktop -n $FIRST_DESK
+bspc monitor -a 1 2 3 4 5 6 7 8 9 0
 bspc monitor -p 16 0 0 0
 
 
