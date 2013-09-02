@@ -3,7 +3,8 @@ ewmhstatus | dzen2 -ta l -fn Terminus-8 -h 16 -w 1200 -e mouse3:collapse&
 while true; 
 do 
     {
-        (echo "$(date +'%k:%M %e.%m') \n  $(cal)"; sleep 30)| dzen2 -ta r -fn Terminus-8 -h 16 -w 126 -x 1200 -l 8 -e button1=togglecollapse
+        (echo "$(date +'%k:%M %e.%m') 
+ $(cal)"; sleep 30)| dzen2 -ta r -fn Terminus-8 -h 16 -w 126 -x 1200 -l 8 -e button1=togglecollapse
     } 
 done &
 
