@@ -27,7 +27,7 @@ promptinit
 # This will set the default prompt to the walters theme
 prompt walters
 autoload -U colors && colors
-PROMPT="%{$fg_bold[green]%}%n@%m %{$fg_bold[blue]%}%1~ %(#.#.$) %{$reset_color%}"
+PROMPT="%{$fg_bold[green]%}%(2~.%1~ .)%F{red}»%F{white} %{$reset_color%}"
 RPROMPT='%(?,%F{green}:%),%F{red}%? %F{red}:()%f'
 
 
