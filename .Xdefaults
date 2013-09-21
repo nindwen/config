@@ -1,5 +1,5 @@
 ! Xdefaults file
-urxvt*internalBorder: 5
+urxvt*internalBorder: 7
 urxvt*termName:         rxvt
 urxvt*scrollBar:        false
 urxvt*perl-lib:         /usr/lib/urxvt/perl/
@@ -10,6 +10,7 @@ urxvt*matcher.button:   1
 urxvt*font: xft:terminus:size=9
 urxvt*boldFont: xft:terminus_bold:size=9
 urxvt*italicFont: xft:terminus_italic:size=9
+urxvt*bolditalicFont: xft:terminus_italic:size=9
 
 
 URxvt.iso14755 : false
@@ -56,5 +57,5 @@ URxvt.background: [80]#151515
 *color6:     #6D878D
 *color14:    #42717B
 !white
-*color7:     #dddddd
-*color15:    #dddddd
+*color7:     #D7D0C7
+*color15:    #D7D0C7

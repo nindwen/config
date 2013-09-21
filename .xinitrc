@@ -15,6 +15,11 @@ xinput set-button-map "SynPS/2 Synaptics TouchPad" 1 2 3 5 4 6 7 8 9 10 11 12 13
 redshift -l 61.475514:23.774414 &
 xsetroot -cursor_name left_ptr&
 
+xmodmap -e 'keycode 66 = Control_L'
+xmodmap -e 'clear Lock'
+
+xmodmap -e 'add Control = Control_L'
+xcape&
 # The following variable defines the session which is started if the user doesn't explicitly select a session
 # Source: http://svn.berlios.de/svnroot/repos/slim/trunk/xinitrc.sample
 

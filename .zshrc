@@ -1,7 +1,10 @@
 setxkbmap fi
 alias update="yaourt -Suya"
 #setxkbmap -option ctrl:nocaps
-xcape -e 'Caps_Lock=Escape'
+#xcape -e 'Caps_Lock=Escape'
+#
+
+
 alias i3lock="i3lock -t -i /home/lumolk/Kuvat/Waves.png"
 alias sudo="sudo "
 export EDITOR="vim"

@@ -1,8 +1,10 @@
 #! /bin/zsh
 
 hsetroot -fill /home/lumolk/Kuvat/Wallpapers/current
+dunst&
 compton&
 urxvtd&
+pa-applet&
 unclutter&
 sxhkd -c /home/lumolk/bspwm/sxhkdrc &
 
@@ -16,7 +18,7 @@ bspc monitor -p 16 0 0 0
 bspc rule -a Gimp -d Eight --floating
 
 bspc config split_ratio             0.52
-bspc config border_width            2
+bspc config border_width            4
 bspc config window_gap              24
 bspc config borderless_monocle      true
 bspc config gapless_monocle         true
