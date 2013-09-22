@@ -112,3 +112,9 @@ XF86AudioNext
 
 XF86AudioPrev
     ncmpcpp prev
+
+F12
+    {bspc desktop -f pad,bspc desktop -f last}
+
+ctrl + space
+    {bspc config window_gap 0;bspc config border_width 1,bspc config window_gap 24;bspc config border_width 5}

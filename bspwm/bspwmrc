@@ -11,19 +11,21 @@ sxhkd -c /home/lumolk/bspwm/sxhkdrc &
 FIRST_DESK=1
 REMAINING_DESKS="$(seq 2 9) 0"
 bspc desktop -n $FIRST_DESK
-bspc monitor -a 1 2 3 4 5 6 7 8 9 0
-bspc monitor -p 16 0 0 0
+bspc monitor -a 1 2 3 4 5 6 7 8 9 0 pad
+bspc desktop pad -l monocle 
+
+bspc config top_padding 16
 
 
 bspc rule -a Gimp -d Eight --floating
 
-bspc config split_ratio             0.52
+bspc config split_ratio             0.50
 bspc config border_width            4
 bspc config window_gap              24
 bspc config borderless_monocle      true
 bspc config gapless_monocle         true
-bspc config focused_border_color    "#351515"
-bspc config normal_border_color     "#151515"
+bspc config focused_border_color    "#AA6644"
+bspc config normal_border_color     "#A7884F"   
 
 
 

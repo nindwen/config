@@ -50,16 +50,16 @@ tabs#tabbrowser-tabs {
 	max-height: 12px !important;
 	margin-left: 0px !important;
 	padding-top: 2px !important;
-	color: #9a875f !important;
+	color: #A7884F !important;
 	border-bottom: 0px none !important;
-	background: #181512 !important;
+	background: #141414 !important;
 	/*box-shadow: inset 0px -4px 2px rgba(0,0,0,0.1) !important;*/
 
 }
 
 .tabbrowser-tab[selected=true] {
-	color: #D6C3B6 !important;
-	background: #181512 !important;
+	color: #D7D0C7 !important;
+	background: #141414 !important;
 	border-bottom: 0px none !important;
 	box-shadow: none !important;
 }
@@ -174,7 +174,7 @@ max-width: 4px;
 }
 #nav-bar {
 	background-image: none !important;
-	background-color: #1c1c1c !important;
+	background-color: #141414 !important;
 	border: none !important;
 	margin-bottom: 0 !important;
 	padding: 0 !important;
