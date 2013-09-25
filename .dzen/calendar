@@ -2,13 +2,15 @@
 
     TODAY=$(expr `date +'%d'` + 0)
     MONTH=`date +'%m'`
+    echo "^p(_CENTER)$(date +'%k:%M')" 
     YEAR=`date +'%Y'`
+         cal | sed -r -e "1,2 s/.*/^fg(white)&^fg()/" -e "s/(^| )($TODAY)($| )/\1^bg(red)^fg(#111)\2^fg()^bg()\3/"   
+sleep 30 
 while true 
     do 
     
-         date +'%k:%M' 
-         cal | sed -r -e "1,2 s/.*/^fg(white)&^fg()/" -e "s/(^| )($TODAY)($| )/\1^bg(red)^fg(#111)\2^fg()^bg()\3/"
-         sleep 60
+         echo "^tw()^p(_CENTER)$(date +'%k:%M')" 
+         sleep 30
      
     done 
 

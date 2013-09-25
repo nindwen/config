@@ -1,12 +1,12 @@
 #! /bin/zsh
 
-hsetroot -fill /home/lumolk/Kuvat/Wallpapers/current
+hsetroot -fill /home/lumo/Kuvat/Taustat/current
 dunst&
 compton&
 urxvtd&
 pa-applet&
 unclutter&
-sxhkd -c /home/lumolk/bspwm/sxhkdrc &
+sxhkd -c /home/lumo/.config/bspwm/sxhkdrc &
 
 FIRST_DESK=1
 REMAINING_DESKS="$(seq 2 9) 0"
@@ -20,8 +20,8 @@ bspc config top_padding 16
 bspc rule -a Gimp -d Eight --floating
 
 bspc config split_ratio             0.50
-bspc config border_width            4
-bspc config window_gap              24
+bspc config border_width            1
+bspc config window_gap              40
 bspc config borderless_monocle      true
 bspc config gapless_monocle         true
 bspc config focused_border_color    "#AA6644"
@@ -29,4 +29,4 @@ bspc config normal_border_color     "#A7884F"
 
 
 
-exec /home/lumolk/.dzen/bar
+exec /home/lumo/.config/dzen/bar

@@ -11,7 +11,7 @@ setxkbmap fi
 xinput set-button-map "Microsoft Microsoft® Comfort Mouse 4500" 1 2 3 5 4 6 7 8 9 10 11 12 13 14 15 16    
 xinput set-button-map "SynPS/2 Synaptics TouchPad" 1 2 3 5 4 6 7 8 9 10 11 12 13 14 15 16    
 
-[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xdefaults
+xrdb ~/.config/Xresources
 redshift -l 61.475514:23.774414 &
 xsetroot -cursor_name left_ptr&
 
@@ -26,7 +26,7 @@ xcape&
 
 case $1 in
 bspwm)
-	exec bspwm -c /home/lumolk/bspwm/bspwmrc 
+	exec bspwm -c /home/lumo/.config/bspwm/bspwmrc 
 	;;
 xfce)
 	exec startxfce4
@@ -46,7 +46,7 @@ xmonad)
 	exec xmonad
 	;;
 *)
-	exec bspwm -c /home/lumolk/bspwm/bspwmrc 
+	exec bspwm -c /home/lumo/.config/bspwm/bspwmrc 
 	;;
 esac
 

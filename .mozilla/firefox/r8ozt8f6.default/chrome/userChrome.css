@@ -36,7 +36,7 @@ tabs#tabbrowser-tabs, tabs#tabbrowser-tabs * {
 }
 
 tabs#tabbrowser-tabs {
-	background: #141414 !important;
+	background: #181512 !important;
 	padding-top: 0px !important;
 	margin-left: 0px !important;
 	padding-top: 0px !important;
@@ -52,14 +52,14 @@ tabs#tabbrowser-tabs {
 	padding-top: 2px !important;
 	color: #A7884F !important;
 	border-bottom: 0px none !important;
-	background: #141414 !important;
+	background: #181512 !important;
 	/*box-shadow: inset 0px -4px 2px rgba(0,0,0,0.1) !important;*/
 
 }
 
 .tabbrowser-tab[selected=true] {
 	color: #D7D0C7 !important;
-	background: #141414 !important;
+	background: #181512 !important;
 	border-bottom: 0px none !important;
 	box-shadow: none !important;
 }
@@ -69,7 +69,7 @@ tabs#tabbrowser-tabs {
 	margin-right: 3px !important;
 	margin-top: 2px !important;
 	font-size: 11px !important;
-	font-family: lemon !important;
+	font-family: Terminus !important;
 }
 
 #urlbar dropmarker,
@@ -174,7 +174,7 @@ max-width: 4px;
 }
 #nav-bar {
 	background-image: none !important;
-	background-color: #141414 !important;
+	background-color: #181512 !important;
 	border: none !important;
 	margin-bottom: 0 !important;
 	padding: 0 !important;

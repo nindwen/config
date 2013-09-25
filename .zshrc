@@ -1,4 +1,3 @@
-setxkbmap fi
 alias update="yaourt -Suya"
 #setxkbmap -option ctrl:nocaps
 #xcape -e 'Caps_Lock=Escape'
@@ -11,7 +10,7 @@ export EDITOR="vim"
 alias vim="vim '+set encoding=utf-8'"
 #alias pacman="pacmatic"
 alias nukkumaan="systemctl poweroff"
-alias dropbox="python2.7 ~/bin/dropbox.py"
+#alias dropbox="python2.7 ~/bin/dropbox.py"
 alias ls='ls --color=auto'
 export _JAVA_AWT_WM_NONREPARENTING=1 
 
