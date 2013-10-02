@@ -1,0 +1,142 @@
+sw_volume: 31
+audio_device_state:1:My Pulse Output
+audio_device_state:1:my_fifo
+state: pause
+current: 21
+time: 4
+random: 1
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: nan
+playlist_begin
+0:Ben Prunty Music - FTL/01 Space Cruise (Title).mp3
+1:Ben Prunty Music - FTL/02 MilkyWay (Explore).mp3
+2:Ben Prunty Music - FTL/03 Civil (Explore).mp3
+3:Ben Prunty Music - FTL/04 Cosmos (Explore).mp3
+4:Ben Prunty Music - FTL/05 Deepspace (Explore).mp3
+5:Ben Prunty Music - FTL/06 Debris (Explore).mp3
+6:Ben Prunty Music - FTL/07 Mantis (Explore).mp3
+7:Ben Prunty Music - FTL/08 Engi (Explore).mp3
+8:Ben Prunty Music - FTL/09 Colonial (Explore).mp3
+9:Ben Prunty Music - FTL/10 Wasteland (Explore).mp3
+10:Ben Prunty Music - FTL/11 Rockmen (Explore).mp3
+11:Ben Prunty Music - FTL/12 Void (Explore).mp3
+12:Ben Prunty Music - FTL/13 Zoltan (Explore).mp3
+13:Ben Prunty Music - FTL/14 BONUS Federation.mp3
+14:Ben Prunty Music - FTL/15 MilkyWay (Battle).mp3
+15:Ben Prunty Music - FTL/16 Civil (Battle).mp3
+16:Ben Prunty Music - FTL/17 Cosmos (Battle).mp3
+17:Ben Prunty Music - FTL/18 Deepspace (Battle).mp3
+18:Ben Prunty Music - FTL/19 Debris (Battle).mp3
+19:Ben Prunty Music - FTL/20 Mantis (Battle).mp3
+20:Ben Prunty Music - FTL/21 Engi (Battle).mp3
+21:Ben Prunty Music - FTL/22 Colonial (Battle).mp3
+22:Ben Prunty Music - FTL/23 Wasteland (Battle).mp3
+23:Ben Prunty Music - FTL/24 Rockmen (Battle).mp3
+24:Ben Prunty Music - FTL/25 Void (Battle).mp3
+25:Ben Prunty Music - FTL/26 Zoltan (Battle).mp3
+26:Ben Prunty Music - FTL/27 Last Stand.mp3
+27:Ben Prunty Music - FTL/28 Victory.mp3
+28:Ben Prunty Music - FTL/29 BONUS Horror.mp3
+29:gaijin_games_bit.trip_runner_official_soundtrack_mp3/02 - Impetus.mp3
+30:gaijin_games_bit.trip_runner_official_soundtrack_mp3/03 - Strength.mp3
+31:gaijin_games_bit.trip_runner_official_soundtrack_mp3/04 - Tenacity.mp3
+32:gaijin_games_bit.trip_runner_official_soundtrack_mp3/05 - Conviction.mp3
+33:gaijin_games_bit.trip_runner_official_soundtrack_mp3/06 - Triumph.mp3
+34:gaijin_games_bit.trip_runner_official_soundtrack_mp3/07 - Fortitude.mp3
+35:gaijin_games_bit.trip_runner_official_soundtrack_mp3/09 - Inspiration.mp3
+36:gaijin_games_bit.trip_runner_official_soundtrack_mp3/10 - Bravery.mp3
+37:gaijin_games_bit.trip_runner_official_soundtrack_mp3/11 - Anticipation.mp3
+38:gaijin_games_bit.trip_runner_official_soundtrack_mp3/12 - Admiration.mp3
+39:gaijin_games_bit.trip_runner_official_soundtrack_mp3/13 - Support.mp3
+40:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 02 I Have Begun my Ascent.mp3
+41:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 03 Remember (Donnelly).mp3
+42:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 04 Twenty One.mp3
+43:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 05 Golden Ratio.mp3
+44:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 06 Remember (Paul).mp3
+45:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 07 On the Motorway.mp3
+46:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 08 Standing Stones.mp3
+47:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 09 Always (Hebridean mix).mp3
+48:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 10 The Bones of Jakobson.mp3
+49:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 11 Remember (Jakobson).mp3
+50:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 12 This Godforsaken Aerial.mp3
+51:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 13 Moon in my Palm.mp3
+52:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 14 Remember (Esther).mp3
+53:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 15 Always (Sanford Mix).mp3
+54:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 16 The Very Air.mp3
+55:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 17 Ascension.mp3
+56:Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 01 Dear Esther.mp3
+57:Little Inferno Original Soundtrack/01 - Little Inferno Titles.mp3
+58:Little Inferno Original Soundtrack/02 - Miss Nancy Welcomes You.mp3
+59:Little Inferno Original Soundtrack/03 - Your New Friend Sugar Plumps.mp3
+60:Little Inferno Original Soundtrack/04 - Reporting From the Weather Balloon.mp3
+61:Little Inferno Original Soundtrack/05 - Just Like You.mp3
+62:Little Inferno Original Soundtrack/06 - 8 Bit Inferno.mp3
+63:Little Inferno Original Soundtrack/07 - Something to Tell You.mp3
+64:Little Inferno Original Soundtrack/08 - Inferno Beta.mp3
+65:Little Inferno Original Soundtrack/09 - Cardboard Sword.mp3
+66:Little Inferno Original Soundtrack/10 - Up Up Up the Chimney.mp3
+67:Little Inferno Original Soundtrack/11 - Incident on the Other Side of the Wall.mp3
+68:Little Inferno Original Soundtrack/12 - Transhumanist Connects.mp3
+69:Little Inferno Original Soundtrack/13 - Ooo It's so Bright!.mp3
+70:Little Inferno Original Soundtrack/14 - The City.mp3
+71:Little Inferno Original Soundtrack/15 - Gate Operator, Open the Gates!.mp3
+72:Little Inferno Original Soundtrack/16 - Productivity Tango.mp3
+73:Little Inferno Original Soundtrack/17 - Miss Nancy Remembers.mp3
+74:Little Inferno Original Soundtrack/18 - The City Limits.mp3
+75:Little Inferno Original Soundtrack/19 - Breaking Weather Report.mp3
+76:Little Inferno Original Soundtrack/20 - Over the Smokestacks, Over the City.mp3
+77:Little Inferno Original Soundtrack/21 - Little Inferno Just For Me.mp3
+78:Little Inferno Original Soundtrack/22 - Tomorrow Corporation, the Future is Tomorrow!.mp3
+79:Limbo Soundtrack MP3/01_Menu.mp3
+80:Limbo Soundtrack MP3/02_Boys' fort.mp3
+81:Limbo Soundtrack MP3/03_City.mp3
+82:Limbo Soundtrack MP3/04_Rotating room.mp3
+83:Limbo Soundtrack MP3/05_Sister.mp3
+84:Limbo Soundtrack MP3/06_Gravity jump.mp3
+85:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 10 - Grunt's Appearance.mp3
+86:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 19 - The End.mp3
+87:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 18 - Bridges.mp3
+88:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 17 - Ending Alexander (Alternative Version).mp3
+89:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 16 - Hub.mp3
+90:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 14 - Brennenburg Theme.mp3
+91:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 14 - Basement Storage.mp3
+92:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 13 - Suitor Attacks.mp3
+93:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 12 - Ending Agrippa.mp3
+94:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 11 - Back Hall.mp3
+95:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 01 - Menu Theme.mp3
+96:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 09 - Daniel's Room.mp3
+97:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 08 - Dark Water.mp3
+98:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 07 - Theme For Unknown.mp3
+99:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 06 - Next To The Guardian.mp3
+100:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 05 - Ending Alexander.mp3
+101:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 04 - Grand Hall.mp3
+102:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 03 - Lux Tenebras.mp3
+103:Amnesia The Dark Descent OST (MP3)/Amnesia OST - 02 - Darkness.mp3
+104:gaijin_games_bit.trip_runner_official_soundtrack_mp3/01 - Blackout City.mp3
+105:gaijin_games_bit.trip_runner_official_soundtrack_mp3/08 - Mermaid.mp3
+106:Trine 2 Soundtrack/01 Trine 2 Main Theme.mp3
+107:Trine 2 Soundtrack/02 The Story Begins.mp3
+108:Trine 2 Soundtrack/03 The Mighty Warrior Pontius.mp3
+109:Trine 2 Soundtrack/04 The Mighty Warrior Pontius Part II.mp3
+110:Trine 2 Soundtrack/05 Thieves Guild.mp3
+111:Trine 2 Soundtrack/06 Mudwater Dale.mp3
+112:Trine 2 Soundtrack/08 Goblins!.mp3
+113:Trine 2 Soundtrack/09 Mosslight Marsh.mp3
+114:Trine 2 Soundtrack/10 Snake, Oh Its A Snake!.mp3
+115:Trine 2 Soundtrack/11 Petrified Tree.mp3
+116:Trine 2 Soundtrack/12 Goblins! Part II.mp3
+117:Trine 2 Soundtrack/13 Shadowed Halls.mp3
+118:Trine 2 Soundtrack/14 The Lost Court Of Mushroom Caves.mp3
+119:Trine 2 Soundtrack/15 Hushing Grove.mp3
+120:Trine 2 Soundtrack/16 For The Kingdom!.mp3
+121:Trine 2 Soundtrack/18 Eldritch Passages.mp3
+122:Trine 2 Soundtrack/19 Icewarden Keep.mp3
+123:Trine 2 Soundtrack/20 The Giant Dragon.mp3
+124:Trine 2 Soundtrack/21 Trine 2 Main Theme Storybook Version.mp3
+125:Trine 2 Soundtrack/07 Waltz Of The Temple Forest Elves.mp3
+126:Trine 2 Soundtrack/17 Searock Castle.mp3
+playlist_end

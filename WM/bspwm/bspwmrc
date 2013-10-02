@@ -2,7 +2,7 @@
 
 hsetroot -fill /home/lumo/Kuvat/Taustat/current
 dunst&
-compton&
+compton --config ~/.config/compton.conf &
 urxvtd&
 pa-applet&
 unclutter&

@@ -1,0 +1,1420 @@
+info_begin
+format: 1
+mpd_version: 0.17.5
+fs_charset: UTF-8
+tag: Artist
+tag: ArtistSort
+tag: Album
+tag: AlbumArtist
+tag: AlbumArtistSort
+tag: Title
+tag: Track
+tag: Name
+tag: Genre
+tag: Date
+tag: Composer
+tag: Performer
+tag: Disc
+tag: MUSICBRAINZ_ARTISTID
+tag: MUSICBRAINZ_ALBUMID
+tag: MUSICBRAINZ_ALBUMARTISTID
+tag: MUSICBRAINZ_TRACKID
+info_end
+directory: Amnesia The Dark Descent OST (MP3)
+mtime: 1338034256
+begin: Amnesia The Dark Descent OST (MP3)
+song_begin: Amnesia OST - 01 - Menu Theme.mp3
+Time: 76
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031279
+song_end
+song_begin: Amnesia OST - 02 - Darkness.mp3
+Time: 76
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031287
+song_end
+song_begin: Amnesia OST - 03 - Lux Tenebras.mp3
+Time: 202
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031289
+song_end
+song_begin: Amnesia OST - 04 - Grand Hall.mp3
+Time: 87
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031290
+song_end
+song_begin: Amnesia OST - 05 - Ending Alexander.mp3
+Time: 113
+Artist: Mikko Tarmia
+Title: Amnesia OST - 05 - Ending: Alexander
+Album: Amnesia: The Dark Descent OST
+mtime: 1338034163
+song_end
+song_begin: Amnesia OST - 06 - Next To The Guardian.mp3
+Time: 109
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031294
+song_end
+song_begin: Amnesia OST - 07 - Theme For Unknown.mp3
+Time: 184
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031295
+song_end
+song_begin: Amnesia OST - 08 - Dark Water.mp3
+Time: 78
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031297
+song_end
+song_begin: Amnesia OST - 09 - Daniel's Room.mp3
+Time: 68
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031300
+song_end
+song_begin: Amnesia OST - 10 - Grunt's Appearance.mp3
+Time: 74
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031303
+song_end
+song_begin: Amnesia OST - 11 - Back Hall.mp3
+Time: 82
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031305
+song_end
+song_begin: Amnesia OST - 12 - Ending Agrippa.mp3
+Time: 116
+Artist: Mikko Tarmia
+Title: Amnesia OST - 12 - Ending: Agrippa
+Album: Amnesia: The Dark Descent OST
+mtime: 1338034170
+song_end
+song_begin: Amnesia OST - 13 - Suitor Attacks.mp3
+Time: 75
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031308
+song_end
+song_begin: Amnesia OST - 14 - Basement Storage.mp3
+Time: 132
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031309
+song_end
+song_begin: Amnesia OST - 14 - Brennenburg Theme.mp3
+Time: 193
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031313
+song_end
+song_begin: Amnesia OST - 16 - Hub.mp3
+Time: 93
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031317
+song_end
+song_begin: Amnesia OST - 17 - Ending Alexander (Alternative Version).mp3
+Time: 133
+Artist: Mikko Tarmia
+Title: Amnesia OST - 17 - Ending: Alexander (Alternative Version)
+Album: Amnesia: The Dark Descent OST
+mtime: 1338034176
+song_end
+song_begin: Amnesia OST - 18 - Bridges.mp3
+Time: 66
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031321
+song_end
+song_begin: Amnesia OST - 19 - The End.mp3
+Time: 125
+Artist: Mikko Tarmia
+Album: Amnesia: The Dark Descent OST
+mtime: 1338031326
+song_end
+end: Amnesia The Dark Descent OST (MP3)
+directory: Ben Prunty Music - FTL
+mtime: 1378455960
+begin: Ben Prunty Music - FTL
+song_begin: 01 Space Cruise (Title).mp3
+Time: 240
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Space Cruise (Title)
+Album: FTL
+Track: 1
+Date: 2012
+mtime: 1378455880
+song_end
+song_begin: 02 MilkyWay (Explore).mp3
+Time: 160
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: MilkyWay (Explore)
+Album: FTL
+Track: 2
+Date: 2012
+mtime: 1378455878
+song_end
+song_begin: 03 Civil (Explore).mp3
+Time: 161
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Civil (Explore)
+Album: FTL
+Track: 3
+Date: 2012
+mtime: 1378455876
+song_end
+song_begin: 04 Cosmos (Explore).mp3
+Time: 262
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Cosmos (Explore)
+Album: FTL
+Track: 4
+Date: 2012
+mtime: 1378455878
+song_end
+song_begin: 05 Deepspace (Explore).mp3
+Time: 190
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Deepspace (Explore)
+Album: FTL
+Track: 5
+Date: 2012
+mtime: 1378455880
+song_end
+song_begin: 06 Debris (Explore).mp3
+Time: 173
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Debris (Explore)
+Album: FTL
+Track: 6
+Date: 2012
+mtime: 1378455882
+song_end
+song_begin: 07 Mantis (Explore).mp3
+Time: 183
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Mantis (Explore)
+Album: FTL
+Track: 7
+Date: 2012
+mtime: 1378455884
+song_end
+song_begin: 08 Engi (Explore).mp3
+Time: 168
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Engi (Explore)
+Album: FTL
+Track: 8
+Date: 2012
+mtime: 1378455884
+song_end
+song_begin: 09 Colonial (Explore).mp3
+Time: 222
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Colonial (Explore)
+Album: FTL
+Track: 9
+Date: 2012
+mtime: 1378455888
+song_end
+song_begin: 10 Wasteland (Explore).mp3
+Time: 185
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Wasteland (Explore)
+Album: FTL
+Track: 10
+Date: 2012
+mtime: 1378455886
+song_end
+song_begin: 11 Rockmen (Explore).mp3
+Time: 211
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Rockmen (Explore)
+Album: FTL
+Track: 11
+Date: 2012
+mtime: 1378455890
+song_end
+song_begin: 12 Void (Explore).mp3
+Time: 152
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Void (Explore)
+Album: FTL
+Track: 12
+Date: 2012
+mtime: 1378455888
+song_end
+song_begin: 13 Zoltan (Explore).mp3
+Time: 226
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Zoltan (Explore)
+Album: FTL
+Track: 13
+Date: 2012
+mtime: 1378455894
+song_end
+song_begin: 14 BONUS Federation.mp3
+Time: 247
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: BONUS Federation
+Album: FTL
+Track: 14
+Date: 2012
+mtime: 1378455894
+song_end
+song_begin: 15 MilkyWay (Battle).mp3
+Time: 160
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: MilkyWay (Battle)
+Album: FTL
+Track: 15
+Date: 2012
+mtime: 1378455894
+song_end
+song_begin: 16 Civil (Battle).mp3
+Time: 161
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Civil (Battle)
+Album: FTL
+Track: 16
+Date: 2012
+mtime: 1378455896
+song_end
+song_begin: 17 Cosmos (Battle).mp3
+Time: 262
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Cosmos (Battle)
+Album: FTL
+Track: 17
+Date: 2012
+mtime: 1378455902
+song_end
+song_begin: 18 Deepspace (Battle).mp3
+Time: 190
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Deepspace (Battle)
+Album: FTL
+Track: 18
+Date: 2012
+mtime: 1378455900
+song_end
+song_begin: 19 Debris (Battle).mp3
+Time: 173
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Debris (Battle)
+Album: FTL
+Track: 19
+Date: 2012
+mtime: 1378455900
+song_end
+song_begin: 20 Mantis (Battle).mp3
+Time: 183
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Mantis (Battle)
+Album: FTL
+Track: 20
+Date: 2012
+mtime: 1378455902
+song_end
+song_begin: 21 Engi (Battle).mp3
+Time: 168
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Engi (Battle)
+Album: FTL
+Track: 21
+Date: 2012
+mtime: 1378455904
+song_end
+song_begin: 22 Colonial (Battle).mp3
+Time: 222
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Colonial (Battle)
+Album: FTL
+Track: 22
+Date: 2012
+mtime: 1378455906
+song_end
+song_begin: 23 Wasteland (Battle).mp3
+Time: 185
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Wasteland (Battle)
+Album: FTL
+Track: 23
+Date: 2012
+mtime: 1378455908
+song_end
+song_begin: 24 Rockmen (Battle).mp3
+Time: 211
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Rockmen (Battle)
+Album: FTL
+Track: 24
+Date: 2012
+mtime: 1378455910
+song_end
+song_begin: 25 Void (Battle).mp3
+Time: 152
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Void (Battle)
+Album: FTL
+Track: 25
+Date: 2012
+mtime: 1378455910
+song_end
+song_begin: 26 Zoltan (Battle).mp3
+Time: 226
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Zoltan (Battle)
+Album: FTL
+Track: 26
+Date: 2012
+mtime: 1378455914
+song_end
+song_begin: 27 Last Stand.mp3
+Time: 320
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Last Stand
+Album: FTL
+Track: 27
+Date: 2012
+mtime: 1378455916
+song_end
+song_begin: 28 Victory.mp3
+Time: 16
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: Victory
+Album: FTL
+Track: 28
+Date: 2012
+mtime: 1378455910
+song_end
+song_begin: 29 BONUS Horror.mp3
+Time: 150
+Artist: Ben Prunty Music
+AlbumArtist: Ben Prunty Music
+Title: BONUS Horror
+Album: FTL
+Track: 29
+Date: 2012
+mtime: 1378455914
+song_end
+end: Ben Prunty Music - FTL
+directory: Jessica Curry - Dear Esther
+mtime: 1368614760
+begin: Jessica Curry - Dear Esther
+song_begin: Jessica Curry - Dear Esther - 01 Dear Esther.mp3
+Time: 73
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: Dear Esther
+Album: Dear Esther
+Track: 1
+Date: 2013
+mtime: 1368612260
+song_end
+song_begin: Jessica Curry - Dear Esther - 02 I Have Begun my Ascent.mp3
+Time: 259
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: I Have Begun my Ascent
+Album: Dear Esther
+Track: 2
+Date: 2012
+mtime: 1368612260
+song_end
+song_begin: Jessica Curry - Dear Esther - 03 Remember (Donnelly).mp3
+Time: 38
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: Remember (Donnelly)
+Album: Dear Esther
+Track: 3
+Date: 2012
+mtime: 1368612260
+song_end
+song_begin: Jessica Curry - Dear Esther - 04 Twenty One.mp3
+Time: 172
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: Twenty One
+Album: Dear Esther
+Track: 4
+Date: 2012
+mtime: 1368612260
+song_end
+song_begin: Jessica Curry - Dear Esther - 05 Golden Ratio.mp3
+Time: 128
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: Golden Ratio
+Album: Dear Esther
+Track: 5
+Date: 2012
+mtime: 1368612260
+song_end
+song_begin: Jessica Curry - Dear Esther - 06 Remember (Paul).mp3
+Time: 37
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: Remember (Paul)
+Album: Dear Esther
+Track: 6
+Date: 2012
+mtime: 1368612260
+song_end
+song_begin: Jessica Curry - Dear Esther - 07 On the Motorway.mp3
+Time: 120
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: On the Motorway
+Album: Dear Esther
+Track: 7
+Date: 2012
+mtime: 1368612260
+song_end
+song_begin: Jessica Curry - Dear Esther - 08 Standing Stones.mp3
+Time: 128
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: Standing Stones
+Album: Dear Esther
+Track: 8
+Date: 2012
+mtime: 1368612260
+song_end
+song_begin: Jessica Curry - Dear Esther - 09 Always (Hebridean mix).mp3
+Time: 544
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: Always (Hebridean mix)
+Album: Dear Esther
+Track: 9
+Date: 2012
+mtime: 1368612260
+song_end
+song_begin: Jessica Curry - Dear Esther - 10 The Bones of Jakobson.mp3
+Time: 222
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: The Bones of Jakobson
+Album: Dear Esther
+Track: 10
+Date: 2012
+mtime: 1368612260
+song_end
+song_begin: Jessica Curry - Dear Esther - 11 Remember (Jakobson).mp3
+Time: 48
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: Remember (Jakobson)
+Album: Dear Esther
+Track: 11
+Date: 2012
+mtime: 1368612262
+song_end
+song_begin: Jessica Curry - Dear Esther - 12 This Godforsaken Aerial.mp3
+Time: 206
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: This Godforsaken Aerial
+Album: Dear Esther
+Track: 12
+Date: 2012
+mtime: 1368612262
+song_end
+song_begin: Jessica Curry - Dear Esther - 13 Moon in my Palm.mp3
+Time: 162
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: Moon in my Palm
+Album: Dear Esther
+Track: 13
+Date: 2012
+mtime: 1368612262
+song_end
+song_begin: Jessica Curry - Dear Esther - 14 Remember (Esther).mp3
+Time: 36
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: Remember (Esther)
+Album: Dear Esther
+Track: 14
+Date: 2012
+mtime: 1368612262
+song_end
+song_begin: Jessica Curry - Dear Esther - 15 Always (Sanford Mix).mp3
+Time: 435
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: Always (Sanford Mix)
+Album: Dear Esther
+Track: 15
+Date: 2012
+mtime: 1368612262
+song_end
+song_begin: Jessica Curry - Dear Esther - 16 The Very Air.mp3
+Time: 78
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: The Very Air
+Album: Dear Esther
+Track: 16
+Date: 2012
+mtime: 1368612262
+song_end
+song_begin: Jessica Curry - Dear Esther - 17 Ascension.mp3
+Time: 180
+Artist: Jessica Curry
+AlbumArtist: Jessica Curry
+Title: Ascension
+Album: Dear Esther
+Track: 17
+Date: 2012
+mtime: 1368612264
+song_end
+end: Jessica Curry - Dear Esther
+directory: Limbo Soundtrack MP3
+mtime: 1335875000
+begin: Limbo Soundtrack MP3
+song_begin: 01_Menu.mp3
+Time: 190
+Artist: Martin Stig Andersen
+AlbumArtist: Martin Stig Andersen
+Title: Menu
+Album: Limbo (Original Videogame Soundtrack)
+Track: 1
+Date: 2012
+Genre: Soundtrack
+Composer: Martin Stig Andersen
+Disc: 1
+mtime: 1326298480
+song_end
+song_begin: 02_Boys' fort.mp3
+Time: 137
+Artist: Martin Stig Andersen
+AlbumArtist: Martin Stig Andersen
+Title: Boys' fort
+Album: Limbo (Original Videogame Soundtrack)
+Track: 2
+Date: 2012
+Genre: Soundtrack
+Composer: Martin Stig Andersen
+Disc: 1
+mtime: 1326298562
+song_end
+song_begin: 03_City.mp3
+Time: 218
+Artist: Martin Stig Andersen
+AlbumArtist: Martin Stig Andersen
+Title: City
+Album: Limbo (Original Videogame Soundtrack)
+Track: 3
+Date: 2012
+Genre: Soundtrack
+Composer: Martin Stig Andersen
+Disc: 1
+mtime: 1326298600
+song_end
+song_begin: 04_Rotating room.mp3
+Time: 183
+Artist: Martin Stig Andersen
+AlbumArtist: Martin Stig Andersen
+Title: Rotating room
+Album: Limbo (Original Videogame Soundtrack)
+Track: 4
+Date: 2012
+Genre: Soundtrack
+Composer: Martin Stig Andersen
+Disc: 1
+mtime: 1326298530
+song_end
+song_begin: 05_Sister.mp3
+Time: 202
+Artist: Martin Stig Andersen
+AlbumArtist: Martin Stig Andersen
+Title: Sister
+Album: Limbo (Original Videogame Soundtrack)
+Track: 5
+Date: 2012
+Genre: Soundtrack
+Composer: Martin Stig Andersen
+Disc: 1
+mtime: 1326298546
+song_end
+song_begin: 06_Gravity jump.mp3
+Time: 252
+Artist: Martin Stig Andersen
+AlbumArtist: Martin Stig Andersen
+Title: Gravity jump
+Album: Limbo (Original Videogame Soundtrack)
+Track: 6
+Date: 2012
+Genre: Soundtrack
+Composer: Martin Stig Andersen
+Disc: 1
+mtime: 1326298504
+song_end
+end: Limbo Soundtrack MP3
+directory: Little Inferno Original Soundtrack
+mtime: 1368614794
+begin: Little Inferno Original Soundtrack
+song_begin: 01 - Little Inferno Titles.mp3
+Time: 91
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Little Inferno Titles
+Album: Little Inferno Original Soundtrack
+Track: 01
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 02 - Miss Nancy Welcomes You.mp3
+Time: 56
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Miss Nancy Welcomes You
+Album: Little Inferno Original Soundtrack
+Track: 02
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 03 - Your New Friend Sugar Plumps.mp3
+Time: 29
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Your New Friend Sugar Plumps
+Album: Little Inferno Original Soundtrack
+Track: 03
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 04 - Reporting From the Weather Balloon.mp3
+Time: 198
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Reporting From the Weather Balloon
+Album: Little Inferno Original Soundtrack
+Track: 04
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 05 - Just Like You.mp3
+Time: 37
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Just Like You
+Album: Little Inferno Original Soundtrack
+Track: 05
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 06 - 8 Bit Inferno.mp3
+Time: 11
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: 8 Bit Inferno
+Album: Little Inferno Original Soundtrack
+Track: 06
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 07 - Something to Tell You.mp3
+Time: 82
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Something to Tell You
+Album: Little Inferno Original Soundtrack
+Track: 07
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 08 - Inferno Beta.mp3
+Time: 19
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Inferno Beta
+Album: Little Inferno Original Soundtrack
+Track: 08
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 09 - Cardboard Sword.mp3
+Time: 7
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Cardboard Sword
+Album: Little Inferno Original Soundtrack
+Track: 09
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 10 - Up Up Up the Chimney.mp3
+Time: 67
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Up Up Up the Chimney
+Album: Little Inferno Original Soundtrack
+Track: 10
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 11 - Incident on the Other Side of the Wall.mp3
+Time: 66
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Incident on the Other Side of the Wall
+Album: Little Inferno Original Soundtrack
+Track: 11
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 12 - Transhumanist Connects.mp3
+Time: 20
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Transhumanist Connects
+Album: Little Inferno Original Soundtrack
+Track: 12
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 13 - Ooo It's so Bright!.mp3
+Time: 55
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Ooo It's so Bright!
+Album: Little Inferno Original Soundtrack
+Track: 13
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 14 - The City.mp3
+Time: 212
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: The City
+Album: Little Inferno Original Soundtrack
+Track: 14
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 15 - Gate Operator, Open the Gates!.mp3
+Time: 83
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Gate Operator, Open the Gates!
+Album: Little Inferno Original Soundtrack
+Track: 15
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 16 - Productivity Tango.mp3
+Time: 62
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Productivity Tango
+Album: Little Inferno Original Soundtrack
+Track: 16
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 17 - Miss Nancy Remembers.mp3
+Time: 75
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Miss Nancy Remembers
+Album: Little Inferno Original Soundtrack
+Track: 17
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 18 - The City Limits.mp3
+Time: 84
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: The City Limits
+Album: Little Inferno Original Soundtrack
+Track: 18
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 19 - Breaking Weather Report.mp3
+Time: 72
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Breaking Weather Report
+Album: Little Inferno Original Soundtrack
+Track: 19
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 20 - Over the Smokestacks, Over the City.mp3
+Time: 96
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Over the Smokestacks, Over the City
+Album: Little Inferno Original Soundtrack
+Track: 20
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 21 - Little Inferno Just For Me.mp3
+Time: 118
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Little Inferno Just For Me
+Album: Little Inferno Original Soundtrack
+Track: 21
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+song_begin: 22 - Tomorrow Corporation, the Future is Tomorrow!.mp3
+Time: 5
+Artist: Kyle Gabler
+AlbumArtist: Kyle Gabler
+Title: Tomorrow Corporation, the Future is Tomorrow!
+Album: Little Inferno Original Soundtrack
+Track: 22
+Date: 2012
+Genre: Other
+mtime: 1368615808
+song_end
+end: Little Inferno Original Soundtrack
+directory: Thomas Was Alone Original Soundtrack
+mtime: 1369142688
+begin: Thomas Was Alone Original Soundtrack
+song_begin: 01 Where Are You.mp3
+Time: 181
+Artist: David Housden
+AlbumArtist: David Housden
+Title: Where Are You
+Album: Thomas Was Alone - Original Soundtrack (Deluxe Edition)
+Track: 1
+Genre: Soundtrack
+mtime: 1369142954
+song_end
+song_begin: 02 Inertia.mp3
+Time: 108
+Artist: David Housden
+AlbumArtist: David Housden
+Title: Inertia
+Album: Thomas Was Alone - Original Soundtrack (Deluxe Edition)
+Track: 2
+Genre: Soundtrack
+mtime: 1369142954
+song_end
+song_begin: 03 Hope.mp3
+Time: 172
+Artist: David Housden
+AlbumArtist: David Housden
+Title: Hope
+Album: Thomas Was Alone - Original Soundtrack (Deluxe Edition)
+Track: 3
+Genre: Soundtrack
+mtime: 1369142954
+song_end
+song_begin: 04 United We Stand.mp3
+Time: 83
+Artist: David Housden
+AlbumArtist: David Housden
+Title: United We Stand
+Album: Thomas Was Alone - Original Soundtrack (Deluxe Edition)
+Track: 4
+Genre: Soundtrack
+mtime: 1369142954
+song_end
+song_begin: 05 Divided We Fall.mp3
+Time: 92
+Artist: David Housden
+AlbumArtist: David Housden
+Title: Divided We Fall
+Album: Thomas Was Alone - Original Soundtrack (Deluxe Edition)
+Track: 5
+Genre: Soundtrack
+mtime: 1369142956
+song_end
+song_begin: 06 Ghosts Of The Past.mp3
+Time: 153
+Artist: David Housden
+AlbumArtist: David Housden
+Title: Ghosts Of The Past
+Album: Thomas Was Alone - Original Soundtrack (Deluxe Edition)
+Track: 6
+Genre: Soundtrack
+mtime: 1369142956
+song_end
+song_begin: 07 Alone Again.mp3
+Time: 92
+Artist: David Housden
+AlbumArtist: David Housden
+Title: Alone Again
+Album: Thomas Was Alone - Original Soundtrack (Deluxe Edition)
+Track: 7
+Genre: Soundtrack
+mtime: 1369142956
+song_end
+song_begin: 08 Lost.mp3
+Time: 143
+Artist: David Housden
+AlbumArtist: David Housden
+Title: Lost
+Album: Thomas Was Alone - Original Soundtrack (Deluxe Edition)
+Track: 8
+Genre: Soundtrack
+mtime: 1369142956
+song_end
+song_begin: 09 A Time For Change.mp3
+Time: 218
+Artist: David Housden
+AlbumArtist: David Housden
+Title: A Time For Change
+Album: Thomas Was Alone - Original Soundtrack (Deluxe Edition)
+Track: 9
+Genre: Soundtrack
+mtime: 1369142956
+song_end
+song_begin: 10 Escape.mp3
+Time: 141
+Artist: David Housden
+AlbumArtist: David Housden
+Title: Escape
+Album: Thomas Was Alone - Original Soundtrack (Deluxe Edition)
+Track: 10
+Genre: Soundtrack
+mtime: 1369142956
+song_end
+song_begin: 11 Freedom.mp3
+Time: 246
+Artist: David Housden
+AlbumArtist: David Housden
+Title: Freedom
+Album: Thomas Was Alone - Original Soundtrack (Deluxe Edition)
+Track: 11
+Genre: Soundtrack
+mtime: 1369142956
+song_end
+end: Thomas Was Alone Original Soundtrack
+directory: Trine 2 Soundtrack
+mtime: 1378715462
+begin: Trine 2 Soundtrack
+song_begin: 01 Trine 2 Main Theme.mp3
+Time: 154
+Artist: Ari Pulkkinen
+Title: Trine 2 Main Theme
+Album: Trine 2 OST
+Track: 01
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 02 The Story Begins.mp3
+Time: 177
+Artist: Ari Pulkkinen
+Title: The Story Begins
+Album: Trine 2 OST
+Track: 02
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 03 The Mighty Warrior Pontius.mp3
+Time: 99
+Artist: Ari Pulkkinen
+Title: The Mighty Warrior Pontius
+Album: Trine 2 OST
+Track: 03
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 04 The Mighty Warrior Pontius Part II.mp3
+Time: 99
+Artist: Ari Pulkkinen
+Title: The Mighty Warrior Pontius Part II
+Album: Trine 2 OST
+Track: 04
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 05 Thieves Guild.mp3
+Time: 106
+Artist: Ari Pulkkinen
+Title: Thieves Guild
+Album: Trine 2 OST
+Track: 05
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 06 Mudwater Dale.mp3
+Time: 182
+Artist: Ari Pulkkinen
+Title: Mudwater Dale
+Album: Trine 2 OST
+Track: 06
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 07 Waltz Of The Temple Forest Elves.mp3
+Time: 225
+Artist: Ari Pulkkinen
+Title: Waltz Of The Temple Forest Elves
+Album: Trine 2 OST
+Track: 07
+Date: 2011-00-00
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 08 Goblins!.mp3
+Time: 73
+Artist: Ari Pulkkinen
+Title: Goblins!
+Album: Trine 2 OST
+Track: 08
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 09 Mosslight Marsh.mp3
+Time: 211
+Artist: Ari Pulkkinen
+Title: Mosslight Marsh
+Album: Trine 2 OST
+Track: 09
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 10 Snake, Oh Its A Snake!.mp3
+Time: 89
+Artist: Ari Pulkkinen
+Title: Snake, Oh Its A Snake!
+Album: Trine 2 OST
+Track: 10
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 11 Petrified Tree.mp3
+Time: 220
+Artist: Ari Pulkkinen
+Title: Petrified Tree
+Album: Trine 2 OST
+Track: 11
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 12 Goblins! Part II.mp3
+Time: 80
+Artist: Ari Pulkkinen
+Title: Goblins! Part II
+Album: Trine 2 OST
+Track: 12
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 13 Shadowed Halls.mp3
+Time: 225
+Artist: Ari Pulkkinen
+Title: Shadowed Halls
+Album: Trine 2 OST
+Track: 13
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 14 The Lost Court Of Mushroom Caves.mp3
+Time: 193
+Artist: Ari Pulkkinen
+Title: The Lost Court Of Mushroom Caves
+Album: Trine 2 OST
+Track: 14
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 15 Hushing Grove.mp3
+Time: 224
+Artist: Ari Pulkkinen
+Title: Hushing Grove
+Album: Trine 2 OST
+Track: 15
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 16 For The Kingdom!.mp3
+Time: 90
+Artist: Ari Pulkkinen
+Title: For The Kingdom!
+Album: Trine 2 OST
+Track: 16
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715368
+song_end
+song_begin: 17 Searock Castle.mp3
+Time: 290
+Artist: Ari Pulkkinen
+Title: Searock Castle
+Album: Trine 2 OST
+Track: 17
+Date: 2011-00-00
+Genre: Soundtrack
+mtime: 1378715370
+song_end
+song_begin: 18 Eldritch Passages.mp3
+Time: 227
+Artist: Ari Pulkkinen
+Title: Eldritch Passages
+Album: Trine 2 OST
+Track: 18
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715370
+song_end
+song_begin: 19 Icewarden Keep.mp3
+Time: 241
+Artist: Ari Pulkkinen
+Title: Icewarden Keep
+Album: Trine 2 OST
+Track: 19
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715370
+song_end
+song_begin: 20 The Giant Dragon.mp3
+Time: 176
+Artist: Ari Pulkkinen
+Title: The Giant Dragon
+Album: Trine 2 OST
+Track: 20
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715370
+song_end
+song_begin: 21 Trine 2 Main Theme Storybook Version.mp3
+Time: 90
+Artist: Ari Pulkkinen
+Title: Trine 2 Main Theme Storybook Version
+Album: Trine 2 OST
+Track: 21
+Date: 2011
+Date: 2011
+Genre: Soundtrack
+mtime: 1378715370
+song_end
+end: Trine 2 Soundtrack
+directory: gaijin_games_bit.trip_runner_official_soundtrack_mp3
+mtime: 1348231054
+begin: gaijin_games_bit.trip_runner_official_soundtrack_mp3
+song_begin: 01 - Blackout City.mp3
+Time: 205
+Artist: Anamanaguchi
+AlbumArtist: Gaijin Games
+Title: Blackout City
+Album: Bit.Trip Runner Official Soundtrack
+Track: 01
+Genre: Soundtrack
+mtime: 1348231068
+song_end
+song_begin: 02 - Impetus.mp3
+Time: 138
+Artist: Gaijin Games
+AlbumArtist: Gaijin Games
+Title: Impetus
+Album: Bit.Trip Runner Official Soundtrack
+Track: 02
+Genre: Soundtrack
+mtime: 1348231068
+song_end
+song_begin: 03 - Strength.mp3
+Time: 178
+Artist: Gaijin Games
+AlbumArtist: Gaijin Games
+Title: Strength
+Album: Bit.Trip Runner Official Soundtrack
+Track: 03
+Genre: Soundtrack
+mtime: 1348231068
+song_end
+song_begin: 04 - Tenacity.mp3
+Time: 189
+Artist: Gaijin Games
+AlbumArtist: Gaijin Games
+Title: Tenacity
+Album: Bit.Trip Runner Official Soundtrack
+Track: 04
+Genre: Soundtrack
+mtime: 1348231068
+song_end
+song_begin: 05 - Conviction.mp3
+Time: 209
+Artist: Gaijin Games
+AlbumArtist: Gaijin Games
+Title: Conviction
+Album: Bit.Trip Runner Official Soundtrack
+Track: 05
+Genre: Soundtrack
+mtime: 1348231068
+song_end
+song_begin: 06 - Triumph.mp3
+Time: 218
+Artist: Gaijin Games
+AlbumArtist: Gaijin Games
+Title: Triumph
+Album: Bit.Trip Runner Official Soundtrack
+Track: 06
+Genre: Soundtrack
+mtime: 1348231068
+song_end
+song_begin: 07 - Fortitude.mp3
+Time: 243
+Artist: Gaijin Games
+AlbumArtist: Gaijin Games
+Title: Fortitude
+Album: Bit.Trip Runner Official Soundtrack
+Track: 07
+Genre: Soundtrack
+mtime: 1348231068
+song_end
+song_begin: 08 - Mermaid.mp3
+Time: 471
+Artist: Anamanaguchi
+AlbumArtist: Gaijin Games
+Title: Mermaid
+Album: Bit.Trip Runner Official Soundtrack
+Track: 08
+Genre: Soundtrack
+mtime: 1348231068
+song_end
+song_begin: 09 - Inspiration.mp3
+Time: 15
+Artist: Gaijin Games
+AlbumArtist: Gaijin Games
+Title: Inspiration
+Album: Bit.Trip Runner Official Soundtrack
+Track: 09
+Genre: Soundtrack
+mtime: 1348231068
+song_end
+song_begin: 10 - Bravery.mp3
+Time: 20
+Artist: Gaijin Games
+AlbumArtist: Gaijin Games
+Title: Bravery
+Album: Bit.Trip Runner Official Soundtrack
+Track: 10
+Genre: Soundtrack
+mtime: 1348231068
+song_end
+song_begin: 11 - Anticipation.mp3
+Time: 20
+Artist: Gaijin Games
+AlbumArtist: Gaijin Games
+Title: Anticipation
+Album: Bit.Trip Runner Official Soundtrack
+Track: 11
+Genre: Soundtrack
+mtime: 1348231068
+song_end
+song_begin: 12 - Admiration.mp3
+Time: 15
+Artist: Gaijin Games
+AlbumArtist: Gaijin Games
+Title: Admiration
+Album: Bit.Trip Runner Official Soundtrack
+Track: 12
+Genre: Soundtrack
+mtime: 1348231068
+song_end
+song_begin: 13 - Support.mp3
+Time: 30
+Artist: Gaijin Games
+AlbumArtist: Gaijin Games
+Title: Support
+Album: Bit.Trip Runner Official Soundtrack
+Track: 13
+Genre: Soundtrack
+mtime: 1348231068
+song_end
+end: gaijin_games_bit.trip_runner_official_soundtrack_mp3
