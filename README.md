@@ -1,4 +1,5 @@
-== Some Arch Linux configs ==
+Arch Linux config-files
+=================
 
 Some software:
  * bspwm - the wm
@@ -11,6 +12,6 @@ Some software:
  * irssi - irc-client
  * dunst - notification-daemon
  * hsetroot - wallpaper
- * unclutter - hide cursor when not needed
+ * unclutter - hiding cursor
 
 ![Alt text](https://raw.github.com/lumolk/config/master/screenshot.png "bspwm")
