@@ -5,13 +5,6 @@
 super + shift + q 
     bspc quit
 
-super + {minus,plus}
-    bspc config window_gap $(print "$(($(bspc config window_gap)+{-5,5}))")
-super + shift + {minus,plus}
-    bspc config split_ratio $(print "$(($(bspc config split_ratio)+{-0.05,0.05}))")
-
-
-
 super + w
     bspc window -c
 
@@ -23,9 +16,6 @@ super + b
 
 super + {s,f}
     bspc window -t {floating,fullscreen}
-
-super + {grave,Tab}
-    bspc {window,desktop} -f last
 
 super + apostrophe
     bspc window -s last
@@ -48,7 +38,7 @@ super + {_,shift + }c
 super + {comma,period}
     bspc desktop -C {backward,forward}
 
-super + bracket{left,right}
+super + {Left,Right}
     bspc desktop -f {prev,next}
 
 super + ctrl + {h,j,k,l}
@@ -118,3 +108,8 @@ F12
 
 ctrl + space
     {bspc config window_gap 0;bspc config border_width 1,bspc config window_gap 40;bspc config border_width 1}
+
+super + Tab
+    {~/.config/dzen/infobar ,\
+    pkill -f infodzen; pkill -f infobar}
+

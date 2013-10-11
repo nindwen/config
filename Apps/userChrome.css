@@ -50,7 +50,7 @@ tabs#tabbrowser-tabs {
 	max-height: 12px !important;
 	margin-left: 0px !important;
 	padding-top: 2px !important;
-	color: #A7884F !important;
+	color: #C8CACC !important;
 	border-bottom: 0px none !important;
 	background: #181512 !important;
 	/*box-shadow: inset 0px -4px 2px rgba(0,0,0,0.1) !important;*/
@@ -58,7 +58,7 @@ tabs#tabbrowser-tabs {
 }
 
 .tabbrowser-tab[selected=true] {
-	color: #D7D0C7 !important;
+	color: #8292B2 !important;
 	background: #181512 !important;
 	border-bottom: 0px none !important;
 	box-shadow: none !important;

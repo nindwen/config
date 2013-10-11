@@ -1,0 +1,2 @@
+( echo "Load: $(cat /proc/loadavg | cut -d " " -f 1) ^p(_CENTER)^p(-90)$(mpc current)^p(_RIGHT)^p(-70)Mem: $(free -mh | grep '+' | awk {'print $3'})" ) | dzen2 -ta l -fn Terminus-8 -fg "#8292B2" -bg "#181512" -h 16 -w 1366 -p -title-name infodzen
+

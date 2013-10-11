@@ -537,3 +537,581 @@ Sep 30 18:39 : player_thread: played "Little Inferno Original Soundtrack/05 - Ju
 Oct 01 16:09 : failed to connect the stream: Connection terminated
 Oct 01 16:14 : avahi: Client Disconnected, will reconnect shortly
 Oct 01 16:14 : avahi: Could not reconnect: An unexpected D-Bus error occured
+Oct 03 19:37 : player_thread: played "Ben Prunty Music - FTL/22 Colonial (Battle).mp3"
+Oct 03 19:38 : player_thread: played "Trine 2 Soundtrack/05 Thieves Guild.mp3"
+Oct 03 19:40 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 06 - Next To The Guardian.mp3"
+Oct 03 19:41 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 01 - Menu Theme.mp3"
+Oct 03 19:43 : player_thread: played "Little Inferno Original Soundtrack/10 - Up Up Up the Chimney.mp3"
+Oct 03 19:46 : player_thread: played "Ben Prunty Music - FTL/05 Deepspace (Explore).mp3"
+Oct 03 19:50 : player_thread: played "Ben Prunty Music - FTL/26 Zoltan (Battle).mp3"
+Oct 03 19:51 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 11 - Back Hall.mp3"
+Oct 03 19:52 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 01 - Menu Theme.mp3"
+Oct 03 19:53 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 09 - Daniel's Room.mp3"
+Oct 03 19:55 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 08 - Dark Water.mp3"
+Oct 03 19:58 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 07 - Theme For Unknown.mp3"
+Oct 03 19:59 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 06 - Next To The Guardian.mp3"
+Oct 03 20:01 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 05 - Ending Alexander.mp3"
+Oct 03 20:03 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 04 - Grand Hall.mp3"
+Oct 03 20:06 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 03 - Lux Tenebras.mp3"
+Oct 03 20:07 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 02 - Darkness.mp3"
+Oct 03 20:11 : player_thread: played "Trine 2 Soundtrack/01 Trine 2 Main Theme.mp3"
+Oct 03 20:13 : player_thread: played "Trine 2 Soundtrack/02 The Story Begins.mp3"
+Oct 03 20:15 : player_thread: played "Trine 2 Soundtrack/03 The Mighty Warrior Pontius.mp3"
+Oct 03 20:17 : player_thread: played "Trine 2 Soundtrack/04 The Mighty Warrior Pontius Part II.mp3"
+Oct 03 20:19 : player_thread: played "Trine 2 Soundtrack/05 Thieves Guild.mp3"
+Oct 03 20:22 : player_thread: played "Trine 2 Soundtrack/06 Mudwater Dale.mp3"
+Oct 03 20:23 : player_thread: played "Trine 2 Soundtrack/08 Goblins!.mp3"
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/01.Tilman_Sillescu-Project_Earth.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/21.Tilman_Sillescu-Distant_shore.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/13.Tilman_Sillescu-Lifelines.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/30.Tilman_Sillescu-God_smiles_(Italian_vocals).mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/02.Alexander_Roeder-Untamed.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/17.Tilman_Sillescu-Power_nap.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/16.Tilman_Sillescu-We_will_carry_you.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/05.Tilman_Sillescu-Walking_barefoot.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/03.Tilman_Sillescu-A_first_bridgehead.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/08.Tilman_Sillescu-Earth_sleeps.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/22.Tilman_Sillescu-Slumbering_hillside.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/19.Alexander_Roeder-Sheltered.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/29.Tilman_Sillescu-What_a_glorius_view.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/04.Tilman_Sillescu-Cascading_colours.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/20.Tilman_Sillescu-A_future_named_hope.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/11.Tilman_Sillescu-The_diva_performs_tonight.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/15.Tilman_Sillescu-Closer_to_God.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/18.Alexander_Roeder-Our_borrowed_time.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/12.Markus_Schmidt-The_last_sanctuary.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/09.Alexander_Roeder-Daydreaming_in_a_parking_lot.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/28.Markus_Schmidt-World_beneath_the_surface.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/23.Tilman_Sillescu-There_is_light_below.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/07.Jochen_Flach-A_new_beginning.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/06.Alexander_Roeder-Forces_of_nature.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/24.Jochen_Flach-Victorious.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/25.Alexander_Roeder-Tumbling_raindrops.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/10.Tilman_Sillescu-Every_ending_needs_a_beginning.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/14.Tilman_Sillescu-Seamus_and_the_Secret_of_live.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/27.Tilman_Sillescu-A_helping_hand.mp3
+Oct 03 20:35 : added Anno2070/Various-Anno_2070_Soundtrack_Eco/26.Tilman_Sillescu-An_elderly_woman_speaks.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/34.Where_are_my_sleeping_Pills.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/01.Grinding_Teeth.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/22.Drowning_Memories.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/11.Faceless_Fear.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/32.The_Signal.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/17.Global_Cure.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/20.Industrial_Landscapes.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/02.Wasted_Soil.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/07.Her_Headache_is_gone.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/04.Collateral_Damage.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/26.Sweating_Bullets.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/19.Follow_the_Stream.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/23.The_City_never_sleeps.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/09.Modern_Times.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/05.Barracudas.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/28.Skylars_master_Plan.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/10.Observe_your_Neighbour.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/27.Programmed_to_rejoice.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/14.Monolith.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/16.Fluid_Gold.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/15.Asymmetric_Warfare.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/29.Scorched_Earth.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/12.Worlds_End.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/03.Avoiding_Morality.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/30.The_old_World_Order.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/33.Civilian_Casualties.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/08.Desolation_Waltz.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/31.There_is_blood_on_her_Hands.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/25.Phoenix_rising.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/06.Defeated.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/21.The_Ebashi_Trench_Mystery.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/13.The_black_Tide.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/24.Drone_Predators.mp3
+Oct 03 20:58 : added Anno2070/Anno_2070-Tycoon/18.Confidence.mp3
+Oct 03 21:01 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/29.Tilman_Sillescu-What_a_glorius_view.mp3"
+Oct 03 21:56 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/23.Tilman_Sillescu-There_is_light_below.mp3"
+Oct 03 21:59 : player_thread: played "Anno2070/Anno_2070-Tycoon/18.Confidence.mp3"
+Oct 03 22:01 : player_thread: played "Anno2070/Anno_2070-Tycoon/10.Observe_your_Neighbour.mp3"
+Oct 03 22:03 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/07.Jochen_Flach-A_new_beginning.mp3"
+Oct 03 22:04 : player_thread: played "Anno2070/Anno_2070-Tycoon/28.Skylars_master_Plan.mp3"
+Oct 03 22:07 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/28.Markus_Schmidt-World_beneath_the_surface.mp3"
+Oct 03 22:09 : player_thread: played "Anno2070/Anno_2070-Tycoon/23.The_City_never_sleeps.mp3"
+Oct 03 22:11 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/10.Tilman_Sillescu-Every_ending_needs_a_beginning.mp3"
+Oct 03 22:14 : player_thread: played "Anno2070/Anno_2070-Tycoon/25.Phoenix_rising.mp3"
+Oct 03 22:17 : player_thread: played "Anno2070/Anno_2070-Tycoon/20.Industrial_Landscapes.mp3"
+Oct 03 22:19 : player_thread: played "Anno2070/Anno_2070-Tycoon/08.Desolation_Waltz.mp3"
+Oct 03 22:21 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/30.Tilman_Sillescu-God_smiles_(Italian_vocals).mp3"
+Oct 03 22:41 : added Valve/Half-Life/18 Steam in the Pipes.mp3
+Oct 03 22:41 : added Valve/Half-Life/06 Apprehensive Short.mp3
+Oct 03 22:41 : added Valve/Half-Life/26 Dark Piano Short.mp3
+Oct 03 22:41 : added Valve/Half-Life/08 Hurricane Strings.mp3
+Oct 03 22:41 : added Valve/Half-Life/21 Military Precision.mp3
+Oct 03 22:41 : added Valve/Half-Life/01 Adrenaline Horror.mp3
+Oct 03 22:41 : added Valve/Half-Life/12 Alien Shock.mp3
+Oct 03 22:41 : added Valve/Half-Life/25 Threatening Short.mp3
+Oct 03 22:41 : added Valve/Half-Life/13 Sirens in the Distance.mp3
+Oct 03 22:41 : added Valve/Half-Life/30 Prospero1b.mp3
+Oct 03 22:41 : added Valve/Half-Life/03 Klaxon Beat.mp3
+Oct 03 22:41 : added Valve/Half-Life/07 Bass String Short.mp3
+Oct 03 22:41 : added Valve/Half-Life/05 Cavern Ambience.mp3
+Oct 03 22:41 : added Valve/Half-Life/22 Jungle Drums.mp3
+Oct 03 22:41 : added Valve/Half-Life/23 Traveling Through Limbo.mp3
+Oct 03 22:41 : added Valve/Half-Life/04 Space Ocean.mp3
+Oct 03 22:41 : added Valve/Half-Life/10 Valve Theme - Long Version.mp3
+Oct 03 22:41 : added Valve/Half-Life/15 Scared Confusion Short.mp3
+Oct 03 22:41 : added Valve/Half-Life/19 Electric Guitar Ambience.mp3
+Oct 03 22:41 : added Valve/Half-Life/20 Dimensionless Deepness.mp3
+Oct 03 22:41 : added Valve/Half-Life/11 Nepal Monastery.mp3
+Oct 03 22:41 : added Valve/Half-Life/16 Drums and Riffs.mp3
+Oct 03 22:41 : added Valve/Half-Life/32 Prospero1d.mp3
+Oct 03 22:41 : added Valve/Half-Life/27 Sharp Fear Short.mp3
+Oct 03 22:41 : added Valve/Half-Life/14 Nuclear Mission Jam.mp3
+Oct 03 22:41 : added Valve/Half-Life/29 Prospero1a.mp3
+Oct 03 22:41 : added Valve/Half-Life/17 Hard Technology Rock.mp3
+Oct 03 22:41 : added Valve/Half-Life/09 Diabolical Adrenaline Guitar.mp3
+Oct 03 22:41 : added Valve/Half-Life/28 Prospero1.mp3
+Oct 03 22:41 : added Valve/Half-Life/31 Prospero1c.mp3
+Oct 03 22:41 : added Valve/Half-Life/24 Credits.mp3
+Oct 03 22:41 : added Valve/Half-Life/02 Vague Voices.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/17 Triage at Dawn.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/42 Biozeminade Fragment.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/34 Tracking Device.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/11 Slow Light.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/36 Dirac Shore.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/19 Lab Practicum.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/29 Neutrino Trap.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/33 Xen Relay.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/04 Brane Scan.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/09 Probably Not a Problem.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/01 Hazardous Environments.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/16 Headhumper.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/27 Particle Ghost.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/40 Something Secret Steers Us.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/08 Ravenholm Reprise.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/10 Calabi-Yau Model.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/43 Lambda Core.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/05 Dark Energy.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/23 Kaon.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/26 Hard Fought.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/32 Black Mesa Inbound.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/12 Apprehension and Evasion.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/28 Shadows Fore and Aft.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/06 Requiem For Ravenholm.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/22 LG Orbifold.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/35 Singularity.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/30 Zero Point Energy Field.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/03 The Innsbruck Experiment.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/31 Echoes of a Resonance Cascade.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/39 Tau-9.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/18 Combine Harvester.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/13 Hunter Down.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/38 Negative Pressure.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/02 CP Violation.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/37 Escape Array.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/07 Pulse Phase.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/24 You're Not Supposed to Be Here.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/21 Broken Symmetry.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/14 Our Resurrected Teleport.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/25 Suppression Field.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/15 Miscount Detected.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/41 Triple Entanglement.mp3
+Oct 03 22:41 : added Valve/Half-Life 2/20 Nova Prospekt.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/19 Self Destruction.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/15 Shu'ulathoi.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/06 Hunting Party.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/16 Nectarium.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/05 Eine Kleiner Elevatormuzik.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/02 Last Legs.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/01 Vortal Combat.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/11 What Kind Of Hospital Is This.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/08 Darkness At Noon.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/18 Decay Mode.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/13 Extinction Event Horizon.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/03 Eon Trap.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/14 No One Rides For Free.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/04 Sector Sweep.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/07 Abandoned In Place.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/12 Infraradiant.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/17 Combine Advisory.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/09 Disrupted Original.mp3
+Oct 03 22:41 : added Valve/Half-Life 2 Episodes 1 & 2/10 Guard Down.mp3
+Oct 03 22:41 : added Valve/Portal/12 Still Alive.mp3
+Oct 03 22:41 : added Valve/Portal/03 Android Hell.mp3
+Oct 03 22:41 : added Valve/Portal/01 Subject Name Here.mp3
+Oct 03 22:41 : added Valve/Portal/05 Procedural Jiggle Bone.mp3
+Oct 03 22:41 : added Valve/Portal/10 No Cake For You.mp3
+Oct 03 22:41 : added Valve/Portal/02 Taste of Blood.mp3
+Oct 03 22:41 : added Valve/Portal/06 4000 Degrees Kelvin.mp3
+Oct 03 22:41 : added Valve/Portal/04 Self Esteem Fund.mp3
+Oct 03 22:41 : added Valve/Portal/08 Party Escort.mp3
+Oct 03 22:41 : added Valve/Portal/11 You Can't Escape, You Know.mp3
+Oct 03 22:41 : added Valve/Portal/07 Stop What You Are Doing.mp3
+Oct 03 22:41 : added Valve/Portal/09 You're Not A Good Person.mp3
+Oct 03 22:41 : added Valve/The Orange Box/05 Disrupted Original.mp3
+Oct 03 22:41 : added Valve/The Orange Box/02 Team Fortress 2.mp3
+Oct 03 22:41 : added Valve/The Orange Box/04 Rocket Jump Waltz.mp3
+Oct 03 22:41 : added Valve/The Orange Box/17 You're Not A Good Person.mp3
+Oct 03 22:41 : added Valve/The Orange Box/09 Guard Down.mp3
+Oct 03 22:41 : added Valve/The Orange Box/12 Vortal Combat.mp3
+Oct 03 22:41 : added Valve/The Orange Box/18 You Can't Escape, You Know.mp3
+Oct 03 22:41 : added Valve/The Orange Box/08 Last Legs.mp3
+Oct 03 22:41 : added Valve/The Orange Box/19 Still Alive (JC Mix).mp3
+Oct 03 22:41 : added Valve/The Orange Box/16 Stop What You Are Doing.mp3
+Oct 03 22:41 : added Valve/The Orange Box/13 Subject Name Here.mp3
+Oct 03 22:41 : added Valve/The Orange Box/01 Still Alive.mp3
+Oct 03 22:41 : added Valve/The Orange Box/06 Abandoned In Place.mp3
+Oct 03 22:41 : added Valve/The Orange Box/10 Sector Sweep.mp3
+Oct 03 22:41 : added Valve/The Orange Box/03 Playing With Danger.mp3
+Oct 03 22:41 : added Valve/The Orange Box/11 Dark Interval.mp3
+Oct 03 22:41 : added Valve/The Orange Box/14 Self Esteem Fund.mp3
+Oct 03 22:41 : added Valve/The Orange Box/07 Combine Advisory.mp3
+Oct 03 22:41 : added Valve/The Orange Box/15 4000 Degrees Kelvin.mp3
+Oct 03 22:45 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/01 Vortal Combat.mp3"
+Oct 03 22:47 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/14.Tilman_Sillescu-Seamus_and_the_Secret_of_live.mp3"
+Oct 03 22:49 : player_thread: played "Anno2070/Anno_2070-Tycoon/04.Collateral_Damage.mp3"
+Oct 03 22:50 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/27.Tilman_Sillescu-A_helping_hand.mp3"
+Oct 03 22:52 : player_thread: played "Anno2070/Anno_2070-Tycoon/15.Asymmetric_Warfare.mp3"
+Oct 03 22:54 : player_thread: played "Anno2070/Anno_2070-Tycoon/27.Programmed_to_rejoice.mp3"
+Oct 03 23:03 : player_thread: played "Anno2070/Anno_2070-Tycoon/27.Programmed_to_rejoice.mp3"
+Oct 03 23:05 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/12.Markus_Schmidt-The_last_sanctuary.mp3"
+Oct 03 23:08 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/21.Tilman_Sillescu-Distant_shore.mp3"
+Oct 03 23:10 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/07 Abandoned In Place.mp3"
+Oct 03 23:29 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/20.Tilman_Sillescu-A_future_named_hope.mp3"
+Oct 03 23:32 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/01.Tilman_Sillescu-Project_Earth.mp3"
+Oct 03 23:34 : player_thread: played "Anno2070/Anno_2070-Tycoon/10.Observe_your_Neighbour.mp3"
+Oct 03 23:35 : player_thread: played "Anno2070/Anno_2070-Tycoon/28.Skylars_master_Plan.mp3"
+Oct 03 23:38 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/15 Shu'ulathoi.mp3"
+Oct 03 23:40 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/17 Combine Advisory.mp3"
+Oct 03 23:42 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/04.Tilman_Sillescu-Cascading_colours.mp3"
+Oct 03 23:43 : player_thread: played "Anno2070/Anno_2070-Tycoon/21.The_Ebashi_Trench_Mystery.mp3"
+Oct 03 23:45 : player_thread: played "Anno2070/Anno_2070-Tycoon/15.Asymmetric_Warfare.mp3"
+Oct 03 23:46 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/24.Jochen_Flach-Victorious.mp3"
+Oct 03 23:54 : avahi: Client Disconnected, will reconnect shortly
+Oct 03 23:54 : avahi: Could not reconnect: An unexpected D-Bus error occured
+Oct 03 23:54 : failed to connect the stream: Connection terminated
+Oct 04 15:05 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/26.Tilman_Sillescu-An_elderly_woman_speaks.mp3"
+Oct 04 15:07 : player_thread: played "Anno2070/Anno_2070-Tycoon/08.Desolation_Waltz.mp3"
+Oct 04 15:09 : player_thread: played "Anno2070/Anno_2070-Tycoon/14.Monolith.mp3"
+Oct 04 15:12 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/30.Tilman_Sillescu-God_smiles_(Italian_vocals).mp3"
+Oct 04 15:14 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/07 Abandoned In Place.mp3"
+Oct 04 15:16 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/05 Eine Kleiner Elevatormuzik.mp3"
+Oct 04 15:17 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/13.Tilman_Sillescu-Lifelines.mp3"
+Oct 04 15:18 : player_thread: played "Anno2070/Anno_2070-Tycoon/16.Fluid_Gold.mp3"
+Oct 04 15:34 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/09 Disrupted Original.mp3"
+Oct 04 15:36 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/21.Tilman_Sillescu-Distant_shore.mp3"
+Oct 04 15:39 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/23.Tilman_Sillescu-There_is_light_below.mp3"
+Oct 04 15:41 : player_thread: played "Anno2070/Anno_2070-Tycoon/23.The_City_never_sleeps.mp3"
+Oct 04 15:43 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/02 Last Legs.mp3"
+Oct 04 15:45 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/08.Tilman_Sillescu-Earth_sleeps.mp3"
+Oct 04 15:46 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/27.Tilman_Sillescu-A_helping_hand.mp3"
+Oct 04 15:49 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/18 Decay Mode.mp3"
+Oct 04 15:51 : player_thread: played "Anno2070/Anno_2070-Tycoon/10.Observe_your_Neighbour.mp3"
+Oct 04 15:55 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/02 Last Legs.mp3"
+Oct 04 15:58 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/15 Shu'ulathoi.mp3"
+Oct 04 16:00 : player_thread: played "Anno2070/Anno_2070-Tycoon/02.Wasted_Soil.mp3"
+Oct 04 16:02 : player_thread: played "Anno2070/Anno_2070-Tycoon/34.Where_are_my_sleeping_Pills.mp3"
+Oct 04 16:05 : player_thread: played "Anno2070/Anno_2070-Tycoon/30.The_old_World_Order.mp3"
+Oct 04 16:06 : player_thread: played "Anno2070/Anno_2070-Tycoon/31.There_is_blood_on_her_Hands.mp3"
+Oct 04 16:08 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/15.Tilman_Sillescu-Closer_to_God.mp3"
+Oct 04 16:09 : player_thread: played "Anno2070/Anno_2070-Tycoon/16.Fluid_Gold.mp3"
+Oct 04 16:11 : player_thread: played "Anno2070/Anno_2070-Tycoon/13.The_black_Tide.mp3"
+Oct 04 16:12 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/13.Tilman_Sillescu-Lifelines.mp3"
+Oct 04 16:14 : player_thread: played "Anno2070/Anno_2070-Tycoon/27.Programmed_to_rejoice.mp3"
+Oct 04 16:15 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/24.Jochen_Flach-Victorious.mp3"
+Oct 04 16:18 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/03 Eon Trap.mp3"
+Oct 04 16:21 : player_thread: played "Anno2070/Anno_2070-Tycoon/11.Faceless_Fear.mp3"
+Oct 04 16:23 : player_thread: played "Anno2070/Anno_2070-Tycoon/03.Avoiding_Morality.mp3"
+Oct 04 16:25 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/04 Sector Sweep.mp3"
+Oct 04 16:27 : player_thread: played "Anno2070/Anno_2070-Tycoon/05.Barracudas.mp3"
+Oct 04 16:29 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/07.Jochen_Flach-A_new_beginning.mp3"
+Oct 04 16:29 : output: "My Pulse Output" [pulse] failed to play: suspended
+Oct 04 16:30 : output: "My Pulse Output" [pulse] failed to play: suspended
+Oct 04 16:30 : output: "My Pulse Output" [pulse] failed to play: disconnected
+Oct 04 16:31 : player_thread: played "Anno2070/Anno_2070-Tycoon/18.Confidence.mp3"
+Oct 04 16:33 : output: "My Pulse Output" [pulse] failed to play: disconnected
+Oct 04 16:33 : player_thread: played "Anno2070/Anno_2070-Tycoon/29.Scorched_Earth.mp3"
+Oct 04 16:35 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/26.Tilman_Sillescu-An_elderly_woman_speaks.mp3"
+Oct 04 16:38 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/04.Tilman_Sillescu-Cascading_colours.mp3"
+Oct 04 16:40 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/19 Self Destruction.mp3"
+Oct 04 16:42 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/07 Abandoned In Place.mp3"
+Oct 04 16:45 : player_thread: played "Anno2070/Anno_2070-Tycoon/07.Her_Headache_is_gone.mp3"
+Oct 04 17:08 : failed to connect the stream: Connection terminated
+Oct 04 17:27 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/03.Tilman_Sillescu-A_first_bridgehead.mp3"
+Oct 04 18:43 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/01.Tilman_Sillescu-Project_Earth.mp3"
+Oct 04 18:45 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/02.Alexander_Roeder-Untamed.mp3"
+Oct 04 18:47 : player_thread: played "Valve/The Orange Box/04 Rocket Jump Waltz.mp3"
+Oct 04 18:47 : player_thread: played "Valve/Half-Life 2/11 Slow Light.mp3"
+Oct 04 18:56 : player_thread: played "Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 09 Always (Hebridean mix).mp3"
+Oct 04 19:01 : player_thread: played "Valve/Portal/08 Party Escort.mp3"
+Oct 04 19:02 : player_thread: played "Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 07 On the Motorway.mp3"
+Oct 04 19:03 : player_thread: played "Valve/Half-Life 2/15 Miscount Detected.mp3"
+Oct 04 19:07 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/06 Hunting Party.mp3"
+Oct 04 19:08 : player_thread: played "Valve/Half-Life 2/02 CP Violation.mp3"
+Oct 04 19:11 : player_thread: played "Valve/The Orange Box/06 Abandoned In Place.mp3"
+Oct 04 19:13 : player_thread: played "Anno2070/Anno_2070-Tycoon/13.The_black_Tide.mp3"
+Oct 04 19:15 : player_thread: played "Anno2070/Anno_2070-Tycoon/14.Monolith.mp3"
+Oct 04 19:17 : player_thread: played "Anno2070/Anno_2070-Tycoon/15.Asymmetric_Warfare.mp3"
+Oct 04 19:18 : player_thread: played "Anno2070/Anno_2070-Tycoon/16.Fluid_Gold.mp3"
+Oct 04 19:20 : player_thread: played "Anno2070/Anno_2070-Tycoon/17.Global_Cure.mp3"
+Oct 04 19:22 : player_thread: played "Anno2070/Anno_2070-Tycoon/18.Confidence.mp3"
+Oct 04 19:25 : player_thread: played "Anno2070/Anno_2070-Tycoon/19.Follow_the_Stream.mp3"
+Oct 04 19:28 : player_thread: played "Anno2070/Anno_2070-Tycoon/20.Industrial_Landscapes.mp3"
+Oct 04 19:29 : player_thread: played "Anno2070/Anno_2070-Tycoon/21.The_Ebashi_Trench_Mystery.mp3"
+Oct 04 19:31 : player_thread: played "Anno2070/Anno_2070-Tycoon/22.Drowning_Memories.mp3"
+Oct 04 19:33 : player_thread: played "Anno2070/Anno_2070-Tycoon/23.The_City_never_sleeps.mp3"
+Oct 04 19:35 : player_thread: played "Anno2070/Anno_2070-Tycoon/24.Drone_Predators.mp3"
+Oct 04 19:37 : player_thread: played "Anno2070/Anno_2070-Tycoon/25.Phoenix_rising.mp3"
+Oct 05 02:35 : avahi: Client Disconnected, will reconnect shortly
+Oct 05 02:35 : avahi: Could not reconnect: An unexpected D-Bus error occured
+Oct 05 02:35 : failed to connect the stream: Connection terminated
+Oct 06 21:14 : output: Failed to enable "My Pulse Output" [pulse]: pa_context_connect() has failed: Connection refused
+Oct 06 21:14 : output: Failed to enable "My Pulse Output" [pulse]: pa_context_connect() has failed: Connection refused
+Oct 06 21:14 : output: Failed to enable "My Pulse Output" [pulse]: pa_context_connect() has failed: Connection refused
+Oct 06 21:53 : failed to connect the stream: Connection terminated
+Oct 07 14:43 : player_thread: played "Ben Prunty Music - FTL/03 Civil (Explore).mp3"
+Oct 07 16:19 : player_thread: played "Ben Prunty Music - FTL/05 Deepspace (Explore).mp3"
+Oct 07 16:28 : player_thread: played "Valve/Half-Life 2/27 Particle Ghost.mp3"
+Oct 07 16:31 : player_thread: played "Trine 2 Soundtrack/02 The Story Begins.mp3"
+Oct 07 16:34 : player_thread: played "Ben Prunty Music - FTL/15 MilkyWay (Battle).mp3"
+Oct 07 16:38 : client: No such directory
+Oct 07 16:38 : player_thread: played "Trine 2 Soundtrack/09 Mosslight Marsh.mp3"
+Oct 07 16:41 : player_thread: played "Valve/Half-Life 2/19 Lab Practicum.mp3"
+Oct 07 16:41 : player_thread: played "Ben Prunty Music - FTL/28 Victory.mp3"
+Oct 07 16:42 : player_thread: played "Valve/Half-Life 2/21 Broken Symmetry.mp3"
+Oct 07 16:46 : player_thread: played "Ben Prunty Music - FTL/22 Colonial (Battle).mp3"
+Oct 07 16:47 : player_thread: played "Valve/Half-Life/22 Jungle Drums.mp3"
+Oct 07 16:49 : player_thread: played "Valve/Half-Life 2/01 Hazardous Environments.mp3"
+Oct 07 16:50 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 02 - Darkness.mp3"
+Oct 07 16:51 : player_thread: played "Trine 2 Soundtrack/21 Trine 2 Main Theme Storybook Version.mp3"
+Oct 07 16:53 : player_thread: played "Valve/Half-Life 2/03 The Innsbruck Experiment.mp3"
+Oct 07 16:54 : player_thread: played "Valve/Half-Life 2/30 Zero Point Energy Field.mp3"
+Oct 07 16:58 : player_thread: played "Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 14 Remember (Esther).mp3"
+Oct 07 17:23 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/02 Last Legs.mp3"
+Oct 07 17:25 : player_thread: played "Anno2070/Anno_2070-Tycoon/17.Global_Cure.mp3"
+Oct 07 17:28 : player_thread: played "Trine 2 Soundtrack/14 The Lost Court Of Mushroom Caves.mp3"
+Oct 07 17:30 : player_thread: played "Anno2070/Anno_2070-Tycoon/27.Programmed_to_rejoice.mp3"
+Oct 07 17:33 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/26.Tilman_Sillescu-An_elderly_woman_speaks.mp3"
+Oct 07 17:36 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/16.Tilman_Sillescu-We_will_carry_you.mp3"
+Oct 07 17:39 : player_thread: played "Ben Prunty Music - FTL/07 Mantis (Explore).mp3"
+Oct 07 17:41 : player_thread: played "Anno2070/Anno_2070-Tycoon/23.The_City_never_sleeps.mp3"
+Oct 07 17:42 : player_thread: played "Thomas Was Alone Original Soundtrack/02 Inertia.mp3"
+Oct 07 17:44 : player_thread: played "Anno2070/Anno_2070-Tycoon/10.Observe_your_Neighbour.mp3"
+Oct 07 17:48 : player_thread: played "Thomas Was Alone Original Soundtrack/11 Freedom.mp3"
+Oct 07 17:53 : player_thread: played "Ben Prunty Music - FTL/14 BONUS Federation.mp3"
+Oct 07 17:54 : player_thread: played "Trine 2 Soundtrack/21 Trine 2 Main Theme Storybook Version.mp3"
+Oct 07 17:55 : player_thread: played "Little Inferno Original Soundtrack/13 - Ooo It's so Bright!.mp3"
+Oct 07 17:58 : crossfade: audio_buffer_size too small for computed MixRamp overlap
+Oct 07 17:58 : player_thread: played "Trine 2 Soundtrack/14 The Lost Court Of Mushroom Caves.mp3"
+Oct 07 18:00 : player_thread: played "Trine 2 Soundtrack/05 Thieves Guild.mp3"
+Oct 07 18:01 : player_thread: played "Valve/Half-Life/30 Prospero1b.mp3"
+Oct 07 18:04 : player_thread: played "Ben Prunty Music - FTL/16 Civil (Battle).mp3"
+Oct 07 18:08 : player_thread: played "Valve/Half-Life/11 Nepal Monastery.mp3"
+Oct 07 18:12 : player_thread: played "Limbo Soundtrack MP3/04_Rotating room.mp3"
+Oct 07 18:13 : player_thread: played "Little Inferno Original Soundtrack/19 - Breaking Weather Report.mp3"
+Oct 07 18:17 : player_thread: played "Valve/Half-Life 2/12 Apprehension and Evasion.mp3"
+Oct 07 18:20 : player_thread: played "Trine 2 Soundtrack/02 The Story Begins.mp3"
+Oct 07 18:23 : player_thread: played "Ben Prunty Music - FTL/11 Rockmen (Explore).mp3"
+Oct 07 18:28 : player_thread: played "Valve/The Orange Box/16 Stop What You Are Doing.mp3"
+Oct 07 18:29 : player_thread: played "Little Inferno Original Soundtrack/20 - Over the Smokestacks, Over the City.mp3"
+Oct 07 19:43 : player_thread: played "Amnesia The Dark Descent OST (MP3)/Amnesia OST - 16 - Hub.mp3"
+Oct 07 19:45 : player_thread: played "Valve/Half-Life 2/29 Neutrino Trap.mp3"
+Oct 07 19:47 : player_thread: played "Valve/Half-Life 2/22 LG Orbifold.mp3"
+Oct 07 19:49 : player_thread: played "Valve/Half-Life/18 Steam in the Pipes.mp3"
+Oct 07 19:51 : player_thread: played "Trine 2 Soundtrack/08 Goblins!.mp3"
+Oct 07 19:52 : player_thread: played "Little Inferno Original Soundtrack/18 - The City Limits.mp3"
+Oct 07 19:55 : player_thread: played "Ben Prunty Music - FTL/10 Wasteland (Explore).mp3"
+Oct 07 19:59 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/09.Alexander_Roeder-Daydreaming_in_a_parking_lot.mp3"
+Oct 07 20:00 : player_thread: played "Valve/Half-Life/06 Apprehensive Short.mp3"
+Oct 07 20:01 : player_thread: played "Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 11 Remember (Jakobson).mp3"
+Oct 07 20:02 : player_thread: played "Anno2070/Anno_2070-Tycoon/18.Confidence.mp3"
+Oct 07 20:04 : player_thread: played "Valve/Half-Life 2/10 Calabi-Yau Model.mp3"
+Oct 07 23:12 : failed to connect the stream: Connection terminated
+Oct 08 00:42 : avahi: Client Disconnected, will reconnect shortly
+Oct 08 00:42 : avahi: Could not reconnect: An unexpected D-Bus error occured
+Oct 09 13:58 : player_thread: played "Valve/Half-Life 2/07 Pulse Phase.mp3"
+Oct 09 14:01 : player_thread: played "Ben Prunty Music - FTL/23 Wasteland (Battle).mp3"
+Oct 09 14:02 : player_thread: played "Valve/Half-Life 2/15 Miscount Detected.mp3"
+Oct 09 17:38 : player_thread: played "Anno2070/Anno_2070-Tycoon/13.The_black_Tide.mp3"
+Oct 09 17:39 : player_thread: played "Thomas Was Alone Original Soundtrack/07 Alone Again.mp3"
+Oct 09 17:40 : player_thread: played "Little Inferno Original Soundtrack/10 - Up Up Up the Chimney.mp3"
+Oct 09 17:42 : player_thread: played "Valve/Half-Life/10 Valve Theme - Long Version.mp3"
+Oct 09 17:42 : player_thread: played "Little Inferno Original Soundtrack/09 - Cardboard Sword.mp3"
+Oct 09 17:43 : player_thread: played "Valve/Half-Life 2/26 Hard Fought.mp3"
+Oct 09 17:45 : player_thread: played "Valve/Half-Life 2/38 Negative Pressure.mp3"
+Oct 09 17:47 : player_thread: played "Anno2070/Anno_2070-Tycoon/34.Where_are_my_sleeping_Pills.mp3"
+Oct 09 17:48 : player_thread: played "Trine 2 Soundtrack/21 Trine 2 Main Theme Storybook Version.mp3"
+Oct 09 17:50 : player_thread: played "Anno2070/Anno_2070-Tycoon/18.Confidence.mp3"
+Oct 09 17:53 : player_thread: played "Anno2070/Various-Anno_2070_Soundtrack_Eco/30.Tilman_Sillescu-God_smiles_(Italian_vocals).mp3"
+Oct 09 18:31 : player_thread: played "Valve/Portal/09 You're Not A Good Person.mp3"
+Oct 09 18:35 : player_thread: played "Ben Prunty Music - FTL/14 BONUS Federation.mp3"
+Oct 09 18:39 : player_thread: played "Jessica Curry - Dear Esther/Jessica Curry - Dear Esther - 10 The Bones of Jakobson.mp3"
+Oct 09 18:42 : player_thread: played "Ben Prunty Music - FTL/15 MilkyWay (Battle).mp3"
+Oct 09 18:43 : player_thread: played "Valve/Half-Life 2/03 The Innsbruck Experiment.mp3"
+Oct 09 18:43 : player_thread: played "Valve/Half-Life/25 Threatening Short.mp3"
+Oct 09 18:45 : player_thread: played "Anno2070/Anno_2070-Tycoon/29.Scorched_Earth.mp3"
+Oct 09 18:50 : player_thread: played "Valve/Half-Life 2 Episodes 1 & 2/12 Infraradiant.mp3"
+Oct 09 18:52 : player_thread: played "Ben Prunty Music - FTL/02 MilkyWay (Explore).mp3"
+Oct 09 18:55 : player_thread: played "Ben Prunty Music - FTL/02 MilkyWay (Explore).mp3"
+Oct 09 19:00 : player_thread: played "Ben Prunty Music - FTL/27 Last Stand.mp3"
+Oct 09 19:02 : player_thread: played "Valve/Half-Life 2/39 Tau-9.mp3"
+Oct 09 20:16 : failed to connect the stream: Connection terminated
+Oct 09 22:22 : added Hypno/BeSlut.mp3
+Oct 09 22:22 : output: Failed to open "My Pulse Output" [pulse]: pa_context_connect() has failed: Connection refused
+Oct 09 22:23 : output: Failed to open "My Pulse Output" [pulse]: pa_context_connect() has failed: Connection refused
+Oct 09 22:23 : output: Failed to open "My Pulse Output" [pulse]: pa_context_connect() has failed: Connection refused
+Oct 09 22:25 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:25 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:26 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:27 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:28 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:29 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:30 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:31 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:32 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:33 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:34 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:35 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:36 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:37 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:37 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:38 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:39 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:40 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:41 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:42 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:43 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:44 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:45 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:46 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:47 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:48 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:48 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:49 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:50 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:51 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:52 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:53 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:54 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:55 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:56 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:57 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:58 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 22:59 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:00 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:00 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:01 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:02 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:03 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:04 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:05 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:06 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:07 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:08 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:09 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:10 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:11 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:12 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:12 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:13 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:14 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:15 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:16 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:17 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:18 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:19 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:20 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:21 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:22 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:23 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:24 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:24 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:25 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:26 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:27 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:28 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:29 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:30 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:31 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:32 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:33 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:34 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:35 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:36 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:36 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:37 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:38 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:39 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:40 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:41 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:42 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:43 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:44 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:45 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:46 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:47 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:47 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:48 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:49 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:50 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:51 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:52 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:53 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:54 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:55 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:56 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:57 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:58 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:59 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 09 23:59 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:00 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:01 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:02 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:03 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:04 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:05 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:06 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:07 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:08 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:09 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:10 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:11 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:11 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:12 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:13 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:14 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:15 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:16 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:17 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:18 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:19 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:20 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:21 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:22 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:23 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:23 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:24 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:25 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:26 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:27 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:28 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:29 : player_thread: played "Hypno/BeSlut.mp3"
+Oct 10 00:37 : added Hypno/sissysluya.mp3
+Oct 10 01:03 : player_thread: played "Hypno/sissysluya.mp3"
+Oct 11 14:56 : player_thread: played "Little Inferno Original Soundtrack/01 - Little Inferno Titles.mp3"
+Oct 11 14:57 : player_thread: played "Little Inferno Original Soundtrack/11 - Incident on the Other Side of the Wall.mp3"
+Oct 11 14:58 : player_thread: played "Little Inferno Original Soundtrack/20 - Over the Smokestacks, Over the City.mp3"
+Oct 11 14:59 : player_thread: played "Little Inferno Original Soundtrack/08 - Inferno Beta.mp3"
+Oct 11 15:02 : player_thread: played "Little Inferno Original Soundtrack/14 - The City.mp3"
+Oct 11 15:03 : player_thread: played "Little Inferno Original Soundtrack/21 - Little Inferno Just For Me.mp3"
+Oct 11 15:04 : player_thread: played "Little Inferno Original Soundtrack/02 - Miss Nancy Welcomes You.mp3"
+Oct 11 15:05 : player_thread: played "Little Inferno Original Soundtrack/15 - Gate Operator, Open the Gates!.mp3"
+Oct 11 15:08 : player_thread: played "Little Inferno Original Soundtrack/04 - Reporting From the Weather Balloon.mp3"
+Oct 11 15:08 : player_thread: played "Little Inferno Original Soundtrack/09 - Cardboard Sword.mp3"
+Oct 11 15:08 : player_thread: played "Little Inferno Original Soundtrack/22 - Tomorrow Corporation, the Future is Tomorrow!.mp3"
+Oct 11 15:08 : player_thread: played "Little Inferno Original Soundtrack/05 - Just Like You.mp3"
+Oct 11 15:09 : player_thread: played "Little Inferno Original Soundtrack/16 - Productivity Tango.mp3"
+Oct 11 15:11 : player_thread: played "Little Inferno Original Soundtrack/18 - The City Limits.mp3"
+Oct 11 15:11 : player_thread: played "Little Inferno Original Soundtrack/12 - Transhumanist Connects.mp3"
+Oct 11 15:12 : player_thread: played "Little Inferno Original Soundtrack/07 - Something to Tell You.mp3"
+Oct 11 15:13 : player_thread: played "Little Inferno Original Soundtrack/10 - Up Up Up the Chimney.mp3"
+Oct 11 15:14 : player_thread: played "Little Inferno Original Soundtrack/13 - Ooo It's so Bright!.mp3"
+Oct 11 15:15 : player_thread: played "Little Inferno Original Soundtrack/17 - Miss Nancy Remembers.mp3"
+Oct 11 15:16 : player_thread: played "Little Inferno Original Soundtrack/03 - Your New Friend Sugar Plumps.mp3"
+Oct 11 15:17 : player_thread: played "Little Inferno Original Soundtrack/19 - Breaking Weather Report.mp3"
