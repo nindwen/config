@@ -1,8 +1,0 @@
-#!/bin/zsh
-ewmhstatus | dzen2 -ta l -fn Terminus-8 -fg "#8292B2" -bg "#181512" -h 16 -w 1250 -e mouse3:collapse &
-
-
-~/.config/dzen/calendar | dzen2 -ta m -fn Terminus-8 -fg "#8292B2" -bg "#181512" -h 16 -w 116 -x 1250 -l 8 -e button1=togglecollapse &
-
-#trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 3 --transparent true --alpha 0 --tint 0x141414 --height 16&
-

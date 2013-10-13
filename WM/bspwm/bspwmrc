@@ -1,5 +1,4 @@
 #! /bin/zsh
-
 hsetroot -fill /home/lumo/Kuvat/Taustat/current
 dunst&
 compton --config ~/.config/compton.conf &

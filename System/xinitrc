@@ -26,11 +26,11 @@ xcape&
 
 
 case $1 in
-bspwm)
+BSPWM)
 	dbus-launch bspwm -c /home/lumo/.config/bspwm/bspwmrc 
 	;;
-xfce)
-	exec startxfce4
+Cinnamon)
+	exec cinnamon-session-cinnamon
 	;;
 X)
 	exec xterm
@@ -43,11 +43,12 @@ xmonad)
 	hsetroot -center /home/lumolk/Kuvat/Wallpapers/current &
         #docky &
         #return 0;
-    unclutter&
+   unclutter&
 	exec xmonad
 	;;
 *)
 	exec bspwm -c /home/lumo/.config/bspwm/bspwmrc 
+    #exec cinnamon-session-cinnamon
 	;;
 esac
 
