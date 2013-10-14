@@ -26,10 +26,10 @@ xcape&
 
 
 case $1 in
-BSPWM)
-	dbus-launch bspwm -c /home/lumo/.config/bspwm/bspwmrc 
+bspwm)
+	exec bspwm -c /home/lumo/.config/bspwm/bspwmrc 
 	;;
-Cinnamon)
+cinnamon-session-cinnamon)
 	exec cinnamon-session-cinnamon
 	;;
 X)
