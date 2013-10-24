@@ -6,13 +6,13 @@ font_family='-lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1'
 font_size=11
 
 color1=#C8CACC
-color2=red
+color2=#3D3D3D
 
 adaptive_centering=0
 screen_width=$(sres -W)
 NORMIFS=$IFS
 FIELDIFS=':'
-PADDING=' '
+PADDING='  '
 
 while getopts 'af:s:' opt ; do
     case "$opt" in
@@ -74,7 +74,7 @@ while read -r line ; do
                                 ;;
                             f*)
                                 # free desktop
-                                FG=#181512
+                                FG=$color2
                                 BG=
                                 ;;
                             u*)
@@ -83,7 +83,8 @@ while read -r line ; do
                                 BG=
                                 ;;
                         esac
-                        wm_infos="${wm_infos}^fg(${FG})^bg(${BG})${name}${PADDING}"
+                        [ "${name}" != 'pad' ] && wm_infos="${wm_infos}^fg(${FG})^bg(${BG})l⬤${PADDING}"
+                        
                         ;;
                     L*)
                         # layout

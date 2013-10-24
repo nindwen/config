@@ -1,6 +1,6 @@
 #! /bin/zsh
 unset DBUS_SESSION_BUS_ADDRESS
-hsetroot -fill /home/lumo/Kuvat/Taustat/current&
+hsetroot -tile /home/lumo/Kuvat/Taustat/Kolmiot2.png&
 dunst&
 compton --config ~/.config/compton.conf &
 urxvtd&
@@ -8,8 +8,8 @@ pa-applet&
 unclutter&
 sxhkd -c /home/lumo/.config/bspwm/sxhkdrc &
 
-bspc desktop -n A
-bspc monitor -a B C D E F G H I J pad
+bspc desktop -n Α
+bspc monitor -a Β Γ Δ Ε Ζ Η Θ pad
 bspc desktop pad -l monocle 
 bspc desktop ^2 -l monocle 
 

@@ -114,7 +114,7 @@ XF86AudioPrev
     ncmpcpp prev
 
 super + ctrl + shift + q
-    pkill dzen2; ~/.config/dzen/bar
+    pkill dzen2; pkill bar; ~/.config/dzen/bar
 
 super + shift + Return
     /home/lumo/bin/create_frame
