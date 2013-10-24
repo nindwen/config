@@ -5,8 +5,7 @@ Some software:
  * bspwm - the wm
  * sxhkd - hotkey daemon
  * compton - compositor
- * dzen2 - bar
- * ewmhstatus - bar
+ * dzen2 + bar - bar
  * mpd - music daemon
  * ncmpcpp - music client
  * irssi - irc-client
