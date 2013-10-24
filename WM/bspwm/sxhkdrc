@@ -57,10 +57,10 @@ super + ctrl + {1-9}
     bspc window -r 0.{1-9}
 
 super + {_,shift + }{1-9,0}
-    bspc {desktop -f,window -d} {1-9,0}
+    bspc {desktop -f,window -d} ^{1-9,0}
 
 super + {1-9,0}
-    bspc desktop -f {1-9,0}
+    bspc desktop -f ^{1-9,0}
 
 ~button1
     bspc pointer -g focus
@@ -113,5 +113,8 @@ XF86AudioNext
 XF86AudioPrev
     ncmpcpp prev
 
-super + ctrl +shift + q
+super + ctrl + shift + q
     pkill dzen2; ~/.config/dzen/bar
+
+super + shift + Return
+    /home/lumo/bin/create_frame

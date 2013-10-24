@@ -1,6 +1,6 @@
 settings = {
   core = {
-    real_name = "";
+    real_name = "Unknown";
     user_name = "lumolk";
     nick = "nindwen";
     hostname = " ";
@@ -173,6 +173,11 @@ statusbar = {
   };
 };
 
-ignore -channels #archlinux,#archlinux-offtopic,#chan3 * JOINS PARTS QUITS NICKS
 
 
+ignores = (
+  {
+    level = "JOINS PARTS QUITS NICKS";
+    channels = ( "#archlinux", "#archlinux-offtopic", "#chan3" );
+  }
+);

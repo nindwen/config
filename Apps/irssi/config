@@ -24,7 +24,7 @@ servers = (
     autoconnect = "yes";
   },
   {
-    address = "irc.quakenet.net";
+    address = "irc.quakenet.org";
     chatnet = "qn";
     port = "6667";
     use_ssl = "no";

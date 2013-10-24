@@ -1,5 +1,6 @@
 #! /bin/zsh
-hsetroot -fill /home/lumo/Kuvat/Taustat/current
+unset DBUS_SESSION_BUS_ADDRESS
+hsetroot -fill /home/lumo/Kuvat/Taustat/current&
 dunst&
 compton --config ~/.config/compton.conf &
 urxvtd&
@@ -7,14 +8,20 @@ pa-applet&
 unclutter&
 sxhkd -c /home/lumo/.config/bspwm/sxhkdrc &
 
-bspc desktop -n 1
-bspc monitor -a 2 3 4 5 6 7 8 9 0 pad
+bspc desktop -n A
+bspc monitor -a B C D E F G H I J pad
 bspc desktop pad -l monocle 
+bspc desktop ^2 -l monocle 
 
 bspc config top_padding 16
 
 
-bspc rule -a Gimp -d Eight --floating
+bspc rule -a Gimp -d next.free --floating
+bspc rule -a Pavucontrol next.free
+bspc rule -a Steam -d ^4
+bspc rule -a Firefox -d ^2 --follow
+bspc rule -a BSPWM_FRAME --frame
+bspc config normal_frame_opacity 0
 
 bspc config split_ratio             0.50
 bspc config border_width            1
