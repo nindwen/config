@@ -84,6 +84,12 @@ super + Tab
     {~/.config/dzen/infobar ,\
     pkill -f "bar -p"}
 
+super + ctrl + shift + q
+    pkill dzen2; pkill bar; ~/.config/dzen/bar
+
+super + shift + Return
+    /home/lumo/bin/create_frame
+
 #
 # wm independent hotkeys
 #
@@ -103,7 +109,6 @@ super + q
 super + a
     pavucontrol
 
-# make sxhkd reload ijs configuration files:
 super + ctrl + q
     pkill -USR1 -x sxhkd
 
@@ -116,8 +121,3 @@ XF86AudioNext
 XF86AudioPrev
     ncmpcpp prev
 
-super + ctrl + shift + q
-    pkill dzen2; pkill bar; ~/.config/dzen/bar
-
-super + shift + Return
-    /home/lumo/bin/create_frame
