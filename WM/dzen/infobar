@@ -1,2 +1,9 @@
-( echo " ^i(/home/lumo/.gitconf/master/WM/dzen/icons/cpu.xbm) $(cat /proc/loadavg | cut -d " " -f 1)   ^i(/home/lumo/.gitconf/master/WM/dzen/icons/mem.xbm) $(free -mh | grep '+' | awk {'print $3'})^p(_CENTER)^p(-120) ^i(/home/lumo/.gitconf/master/WM/dzen/icons/note.xbm) $(mpc current)^p(_RIGHT)^p(-140)^i(/home/lumo/.gitconf/master/WM/dzen/icons/volume.xbm) $(amixer get Master | awk 'END{gsub(/\[|\]|%/,""); print $5}')  ^i(/home/lumo/.gitconf/master/WM/dzen/icons/net.xbm) $(netctl list | grep "*" | awk {'print $2'})" ) | dzen2 -ta c -fn -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1 -fg "#8292B2" -bg "#181512" -h 16 -w 1366 -p -ta c -title-name infodzen
+#!/bin/sh
+memused=$(free -m | awk 'NR == 3 {gsub(/%/,""); print $3}')
+mem=$((($memused)*100/3822))
+left="⭥ $(mpstat -P ALL 0 | awk '{gsub(//,""); print $4}' | awk '{printf "%.0f\n", $1}' | sed -n "4"p)%  ⭦ $mem%  ▤ $(df -h | grep "sda5" | awk '{print $5}')"
+middle="♪ $(mpc current)"
+day=$(date +%A)
+right="❰ $(pacman -Qu | wc -l)  ❐ ${day^} $(date +"%e.%m")"
 
+printf "%s\n" "\\l $left\\c$middle\\r$right " | bar -p

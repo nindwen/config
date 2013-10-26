@@ -1,0 +1,48 @@
+!Colors
+*background: #1c1c1c
+*foreground: #C0C0C0
+ 
+!=  Default colors  =! 
+
+!0;30 Black
+!0;31 Red
+!0;32 Green
+!0;33 Brown
+!0;34 Blue
+!0;35 Purple
+!0;36 Cyan
+!0;37 Light Gray
+!1;30 Dark Gray
+!1;31 Light Red
+!1;32 Light Green
+!1;33 Yellow
+!1;34 Light Blue
+!1;35 Pink
+!1;36 Light Cyan
+!1;37 White 
+
+!= sider = ! 
+! Black
+*color0:                            #1c1c1c
+*color8:                            #333333
+! Red
+*color1:                            #B28284
+*color9:                            #BD8A8C
+! Green
+*color2:                            #82B284
+*color10:                           #8ABD8C
+! Yellow
+*color3:                            #B2B282
+*color11:                           #BDBD8A
+! Blue
+*color4:                            #8292B2
+*color12:                           #8A9BBD
+! Magenta
+*color5:                            #A082B2
+*color13:                           #A082B2
+! Cyan
+*color6:                            #82B2A6
+*color14:                           #8ABDB0
+! White
+*color7:                            #B2B2B2
+*color15:                           #BDBDBD

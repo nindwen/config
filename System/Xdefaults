@@ -1,4 +1,5 @@
 ! Xdefaults file
+*background:    #1b1b1b
 #include "/home/lumo/.gitconf/master/System/colors/kasugano"
 urxvt*internalBorder: 12
 urxvt*termName:         rxvt

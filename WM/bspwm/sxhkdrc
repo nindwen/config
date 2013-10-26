@@ -78,18 +78,21 @@ F12
     {bspc desktop -f pad,bspc desktop -f last}
 
 ctrl + space
-    {bspc config -d focused window_gap 0,bspc config -d focused window_gap 40}
+    {bspc config -d focused window_gap -1,bspc config -d focused window_gap 40}
 
 super + Tab
     {~/.config/dzen/infobar ,\
-    pkill -f infodzen; pkill -f infobar}
+    pkill -f "bar -p"}
 
 #
 # wm independent hotkeys
 #
 
+Print
+    scrot /home/lumo/Dropbox/Public/$(date +%F-%S).png
+
 super + Return
-    urxvt
+    urxvtc
 
 super + p
     dmenu_run

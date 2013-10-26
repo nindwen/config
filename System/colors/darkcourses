@@ -1,0 +1,33 @@
+! vim:ft=xdefaults
+! darkcourses by bohoomil
+
+*foreground:  #999999
+*background:  #020202
+
+! black + red
+*color0:      #1A1A1A
+*color1:      #803333
+! green + yellow
+*color2:      #336633
+*color3:      #80800D
+! blue + magenta
+*color4:      #335A80
+!*color5:      #663366
+*color5:      #66284B
+! cyan + white
+*color6:      #408080
+*color7:      #808080
+! bright-black + bright-red
+*color8:      #4C4C4C
+*color9:      #B23535
+! bright-green + bright-yellow
+*color10:     #4C994C
+*color11:     #CCBB66
+! bright-blue + bright-magenta
+*color12:     #487DB3
+!*color13:     #B248B2
+*color13:     #B34784
+! bright-cyan + bright-white
+*color14:     #47B3B3
+*color15:     #B3B3B3
+

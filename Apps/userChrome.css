@@ -36,7 +36,7 @@ tabs#tabbrowser-tabs, tabs#tabbrowser-tabs * {
 }
 
 tabs#tabbrowser-tabs {
-	background: #181512 !important;
+	background: #1b1b1b !important;
 	padding-top: 0px !important;
 	margin-left: 0px !important;
 	padding-top: 0px !important;
@@ -52,14 +52,14 @@ tabs#tabbrowser-tabs {
 	padding-top: 2px !important;
 	color: #8292B2 !important;
 	border-bottom: 0px none !important;
-	background: #181512 !important;
+	background: #1b1b1b !important;
 	/*box-shadow: inset 0px -4px 2px rgba(0,0,0,0.1) !important;*/
 
 }
 
 .tabbrowser-tab[selected=true] {
 	color: #C8CACC !important;
-	background: #181512 !important;
+	background: #1b1b1b !important;
 	border-bottom: 0px none !important;
 	box-shadow: none !important;
 }
@@ -99,6 +99,13 @@ notificationbox {
 notificationbox {
 	overflow-x: hidden;
 }
+
+#sidebar {
+    max-width: 1px !important;
+    min-width: none !important;
+    width: 1px !important;
+}
+
 
 /*browser[type="content-primary"], browser[type="content-targetable"] {
 overflow-y: scroll;

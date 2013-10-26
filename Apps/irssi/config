@@ -181,3 +181,9 @@ ignores = (
     channels = ( "#archlinux", "#archlinux-offtopic", "#chan3" );
   }
 );
+hilights = (
+  { text = "bspwm"; nick = "yes"; word = "yes"; },
+  { text = "lumolk"; nick = "yes"; word = "yes"; },
+  { text = "nindwen"; nick = "yes"; word = "yes"; },
+  { text = "earsplit"; nick = "yes"; word = "yes"; }
+);

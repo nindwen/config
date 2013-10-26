@@ -1,0 +1,22 @@
+!Technicolor-Variant
+
+urxvt*background: #222222
+urxvt*foreground: #b4b4b4
+urxvt*cursorColor: #94bff3
+
+urxvt*color0:         #333333
+urxvt*color1:         #ba8b8b
+urxvt*color2:         #86af80
+urxvt*color3:         #c6d01e
+urxvt*color4:         #3c8ec4
+urxvt*color5:         #9a70b2
+urxvt*color6:         #9fc1cc
+urxvt*color7:         #e9e9e9
+urxvt*color8:         #666666
+urxvt*color9:         #e5505f
+urxvt*color10:        #8cba87
+urxvt*color11:        #e0d95c
+urxvt*color12:        #5899c4
+urxvt*color13:        #ad73ba
+urxvt*color14:        #338eaa
+urxvt*color15:        #c3c2c5

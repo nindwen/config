@@ -1,0 +1,36 @@
+URxvt*foreground: #b4b4b4
+URxvt*background: #121212
+urxvt*cursorColor: #ff8939
+
+! -- black
+URxvt*color0: #000000
+! -- red
+URxvt*color1: #ff8888
+! -- green
+URxvt*color2:  #80852d
+! -- yellow
+URxvt*color3: #ffaa55
+! -- blue
+URxvt*color4: #82b8f2
+! -- purple
+URxvt*color5: #ad7fa8
+! -- cyan
+URxvt*color6: #6b9b8b
+! -- white
+URxvt*color7: #babdb6
+! -- bright-black
+URxvt*color8: #555753
+! -- bright-red
+URxvt*color9: #e5505f
+! -- bright-green
+URxvt*color10: #b7e234
+! -- bright-yellow
+URxvt*color11: #e8621d
+! -- bright-blue
+URxvt*color12:  #0088cc
+! -- bright-purple
+URxvt*color13: #cb99e1
+! -- bright-cyan
+URxvt*color14: #34E2E2
+! -- bright-white
+URxvt*color15: #e9e9e9

@@ -1,0 +1,31 @@
+! vim:nu:ai:si:et:ts=4:sts=4:sw=4:ft=xdefaults:
+
+/*  garbeam - a colorcheme inspired by anselm garbe's dwm screenshots */
+
+*background:    #1a1a1a
+*foreground:    #888888
+
+! Black
+*color0:        #333333
+*color8:        #444542
+! Red
+*color1:        #cc2e29
+*color9:        #e66b67
+! Green
+*color2:        #769c4e
+*color10:       #a0b886
+! Yellow
+*color3:        #cc9a1c
+*color11:       #e6c267
+! Blue
+*color4:        #193b6c
+*color12:       #295083
+! Mangenta
+*color5:        #aa4d90
+*color13:       #d69cc5
+! Cyan 
+*color6:        #3883cc
+*color14:       #90b6dc
+! White
+*color7:        #a3a3a3
+*color15:       #ffffff

@@ -1,0 +1,38 @@
+! dc2, a.k.a. darkcourses v. 2
+! vim:ft=xdefaults
+
+*foreground: #999999
+*background: #020202
+
+! black
+*color0:     #1A1A1A
+*color8:     #4C4C4C
+
+! red
+*color1:     #802635
+*color9:     #B3354C
+
+! green
+*color2:     #608040
+*color10:    #4BA65A
+
+! yellow
+*color3:     #877C43
+*color11:    #BF9F5F
+
+! blue
+*color4:     #1C678C
+*color12:    #3995BF
+
+! magenta
+*color5:     #684D80
+*color13:    #A64286
+
+! cyan
+*color6:     #337373
+*color14:    #6C98A6
+
+! white
+*color7:     #808080
+*color15:    #B3B3B3
+

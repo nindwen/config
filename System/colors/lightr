@@ -1,0 +1,33 @@
+! Xdefaults color scheme
+! Thayer Williams - http://cinderwick.ca/
+! vim:nu:ai:si:et:ts=4:sts=4:sw=4:ft=xdefaults:
+
+! terminal colours
+*foreground:#555555
+*background:#ffffff
+
+!black
+*color0:    #555555
+*color8:    #222222
+!red
+*color1:    #ff005f
+*color9:    #ff00af
+!green
+*color2:    #008700
+*color10:   #00af00
+!yellow
+*color3:    #ff8700
+*color11:   #ffaf00
+!blue
+*color4:    #000087
+*color12:   #0000ff
+!magenta
+*color5:    #870087
+*color13:   #af00d7
+!cyan
+*color6:    #0087af
+*color14:   #00afd7
+!white
+*color7:    #afafaf
+*color15:   #ffffff
+
