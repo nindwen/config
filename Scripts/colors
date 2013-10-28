@@ -1,5 +1,12 @@
 #!/bin/zsh
 
+#This script generates all colors for my system from given wallpaper
+#Many paths require manual changing if someone else wants to try :D
+#
+#Uses following scripts to do the hard parts:
+#http://charlesleifer.com/blog/using-python-and-k-means-to-find-the-dominant-colors-in-images/
+#https://gist.github.com/radiosilence/3946121
+
 rm ~/.gitconf/master/System/colors/$1
 active=$(python ~/scripts/generatecolors.py $1 $3)
 bspc config normal_border_color $active
