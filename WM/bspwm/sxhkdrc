@@ -3,7 +3,7 @@
 #
 
 super + shift + q 
-    bspc quit
+    pkill bar; bspc quit 
 
 super + w
     bspc window -c
@@ -118,6 +118,11 @@ XF86AudioPlay
 XF86AudioNext
     ncmpcpp next
 
+super + ctrl + shift + q
+    pkill dzen2; pkill bar; ~/.config/dzen/bar
+
+super + shift + Return
+    /home/lumo/bin/create_frame
 XF86AudioPrev
     ncmpcpp prev
 

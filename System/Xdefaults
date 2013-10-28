@@ -1,6 +1,8 @@
 ! Xdefaults file
-*background:    #1b1b1b
-#include "/home/lumo/.gitconf/master/System/colors/kasugano"
+*background:    [95]#1b1b1b
+*foreground:    #edeff2
+*cursorColor:   #edeff2
+#include "/home/lumo/.gitconf/master/System/colors/current"
 urxvt*internalBorder: 12
 urxvt*termName:         rxvt
 urxvt*scrollBar:        false

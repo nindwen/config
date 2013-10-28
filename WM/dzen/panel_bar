@@ -5,7 +5,7 @@
 while read -r line ; do
     case $line in
         S*)
-            sys_infos="\\r\\f5${line#?}\\fr"
+            sys_infos="\\r\\f1⭧ ${line#?}\\fr "
             ;;
         T*)
             title="\\c${line#?}"
@@ -22,18 +22,18 @@ while read -r line ; do
                     case $item in
                         [OU]*)
                             # active desktop
-                            wm_infos="$wm_infos\\u0\\f0 ${name} \\fr\\br\\ur"
+                            wm_infos="$wm_infos\\u1\\f1 ${name} \\fr\\br\\ur"
                             ;;
                         F*)
-                            wm_infos="$wm_infos\\u0\\f2 ${name} \\fr\\br\\ur"
+                            wm_infos="$wm_infos\\u1\\f0 ${name} \\fr\\br\\ur"
                             ;;
                         o*)
                             # inactive but occupied desktop
-                            wm_infos="$wm_infos\\f0 ${name} \\fr"
+                            wm_infos="$wm_infos\\f1 ${name} \\fr"
                             ;;
                         f*)
                             # inactive desktop
-                            wm_infos="$wm_infos\\f2 ${name} \\fr"
+                            wm_infos="$wm_infos\\f0 ${name} \\fr"
                             ;;
                         u*)
                             # urgent desktop
