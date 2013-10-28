@@ -1,9 +1,13 @@
-Arch Linux config-files
-=================
+My configs
+----------  
 
-Some software:
+Paths.md has some of the paths to be symlinked - I'm far too lazy to provide script :D
+
+Some of the software used:
+ * Arch Linux
  * bspwm - the wm
  * sxhkd - hotkey daemon
+ * tmux - terminal multiplexer
  * compton - compositor
  * dzen2 + bar - bar
  * mpd - music daemon
