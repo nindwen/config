@@ -10,6 +10,7 @@ urxvt*perl-lib:         /usr/lib/urxvt/perl/
 urxvt*perl-ext:  default,url-select
 urxvt*url-select.launcher:      /usr/bin/firefox -new-tab
 URxvt.url-select.underline: true
+Xft.dpi:    102
 
 URxvt.keysym.C-u:    perl:url-select:select_next
 
@@ -44,9 +45,9 @@ URxvt.iso14755 : false
 !Xft.rgba: rgb
 !Xft.antialias: true
 Xft.hinting: true
-!Xft.autohint: false
-!Xft.hintstyle: hintslight
-!Xft.lcdfilter: lcddefault
+Xft.autohint: false
+!Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
 
 
 URxvt.transparent:   false

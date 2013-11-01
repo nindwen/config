@@ -1,9 +1,11 @@
-#!/bin/sh
+#!/bin/zsh
 memused=$(free -m | awk 'NR == 3 {gsub(/%/,""); print $3}')
 mem=$((($memused)*100/3822))
-left="⭥ $(mpstat -P ALL 0 | awk '{gsub(//,""); print $4}'  | sed -n "4"p)%  ⭦ $mem%  ▤ $(df -h | grep "sda5" | awk '{print $5}')"
+proc=$(cat /proc/loadavg | cut -d " " -f 1)
+((proc = 100*$proc))
+left="⭥ $(($proc))%  ⭦ $mem%  ▤ $(df -h | grep "sda5" | awk '{print $5}')"
 middle="♪ $(mpc current)"
 day=$(date +%A)
-right="❰ $(pacman -Qu | wc -l)  ❐ ${day^} $(date +"%e.%m")"
+right="❰ $(pacman -Qu | wc -l)  ❐ ${(C)day[1]}$day[2,-1] $(date +"%e.%m")"
 
 printf "%s\n" "\\l $left\\c$middle\\r$right " | bar -p

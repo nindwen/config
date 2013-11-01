@@ -16,7 +16,6 @@ bspc desktop ^2 -l monocle
 bspc config top_padding 16
 
 
-bspc rule -a Gimp -d next.free --floating
 bspc rule -a Gimp --floating
 bspc rule -a Pavucontrol next.free
 bspc rule -a Steam -d ^4
