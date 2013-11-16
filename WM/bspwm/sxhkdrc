@@ -3,7 +3,7 @@
 #
 
 super + shift + q 
-    pkill bar; bspc quit 
+    pkill bar; pkill dunst; bspc quit 
 
 super + w
     bspc window -c
@@ -78,7 +78,7 @@ F12
     {bspc desktop -f pad,bspc desktop -f last}
 
 ctrl + space
-    {bspc config -d focused window_gap -1,bspc config -d focused window_gap 40}
+    bspc config -d focused window_gap {-1,20,65}
 
 super + Tab
     {~/.config/dzen/infobar ,\
@@ -117,6 +117,12 @@ XF86AudioPlay
 
 XF86AudioNext
     ncmpcpp next
+
+XF86AudioRaiseVolume
+    /home/lumo/scripts/dvol2 -i 1 ; notify-send $(amixer get Master | awk 'END{gsub(/\[|\]|%/,""); print $4}')
+
+XF86AudioLowerVolume
+    /home/lumo/scripts/dvol2 -d 1
 
 super + ctrl + shift + q
     pkill dzen2; pkill bar; ~/.config/dzen/bar

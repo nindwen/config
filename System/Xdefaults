@@ -1,8 +1,9 @@
 ! Xdefaults file
-*background:    [95]#1b1b1b
-*foreground:    #edeff2
-*cursorColor:   #edeff2
+*background:    #2c2e2f
+urxvt*background:    [95]#2c2e2f
 #include "/home/lumo/.gitconf/master/System/colors/current"
+urxvt*foreground:    #edeff2
+*cursorColor:   #edeff2
 urxvt*internalBorder: 12
 urxvt*termName:         rxvt
 urxvt*scrollBar:        false
@@ -24,6 +25,7 @@ URxvt*font: \
 xft:Loli Gothic:pixelsize=10:antialias=false,\
 xft:WenQuanYi Bitmap Song:size=8:antialias=false,\
 xft:Fixed:antialias=false
+
 
 URxvt*boldFont: \
 -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1, \

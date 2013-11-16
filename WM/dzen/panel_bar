@@ -5,27 +5,27 @@
 while read -r line ; do
     case $line in
         S*)
-            sys_infos="\\r\\f1⭧ ${line#?}\\fr "
+            sys_infos="\\r\\f3⭧ \\f1${line#?}\\fr "
             ;;
         T*)
-            title="\\c${line#?}"
+            title="\\l \\f3❤ \\f1${line#?} "
             ;;
         W*)
-            wm_infos=""
+            wm_infos="\\c"
             IFS=':'
             set -- ${line#?}
             while [ $# -gt 0 ] ; do
                 item=$1
                 name=${item#?}
                 if [[ $name != "pad" ]]; then
-                    name="•"
+                    name=" • "
                     case $item in
                         [OU]*)
                             # active desktop
-                            wm_infos="$wm_infos\\u1\\f1 ${name} \\fr\\br\\ur"
+                            wm_infos="$wm_infos\\u3\\f1 ${name} \\fr\\br\\ur"
                             ;;
                         F*)
-                            wm_infos="$wm_infos\\u1\\f0 ${name} \\fr\\br\\ur"
+                            wm_infos="$wm_infos\\u3\\f0 ${name} \\fr\\br\\ur"
                             ;;
                         o*)
                             # inactive but occupied desktop
@@ -51,5 +51,5 @@ while read -r line ; do
             done
             ;;
     esac
-    printf "%s\n" "$wm_infos $title $sys_infos"
+    printf "%s\n" "$title $wm_infos $sys_infos"
 done

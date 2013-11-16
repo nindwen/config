@@ -8,8 +8,8 @@ pa-applet&
 unclutter&
 sxhkd -c /home/lumo/.config/bspwm/sxhkdrc &
 
-bspc desktop -n Α
-bspc monitor -a Β Γ Δ Ε Ζ Η Θ pad
+bspc desktop -n 1
+bspc monitor -a 2 3 4 5 pad
 bspc desktop pad -l monocle 
 bspc desktop ^2 -l monocle 
 
@@ -24,7 +24,7 @@ bspc rule -a BSPWM_FRAME --frame
 
 bspc config split_ratio             0.50
 bspc config border_width            1
-bspc config window_gap              40
+bspc config window_gap              60
 bspc config borderless_monocle      true
 bspc config gapless_monocle         true
 bspc config focused_border_color    "#EDEFF2"
