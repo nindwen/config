@@ -5,10 +5,10 @@
 while read -r line ; do
     case $line in
         S*)
-            sys_infos="\\r\\f3⭧ \\f1${line#?}\\fr "
+            sys_infos="\\r\\f3⭧ \\f1${line#?}\\fr  "
             ;;
         T*)
-            title="\\l \\f3❤ \\f1${line#?} "
+            title="\\l  \\f3❤ \\f1$(echo ${line#?}|cut -c -90) "
             ;;
         W*)
             wm_infos="\\c"

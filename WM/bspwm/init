@@ -1,0 +1,22 @@
+ 
+setxkbmap fi
+
+xinput set-button-map "Microsoft Microsoft® Comfort Mouse 4500" 1 2 3 5 4 6 7 8 9 10 11 12 13 14 15 16    
+xinput set-button-map "SynPS/2 Synaptics TouchPad" 1 2 3 5 4 6 7 8 9 10 11 12 13 14 15 16    
+
+xset +fp /usr/share/fonts/misc
+xrdb ~/.config/Xresources
+redshift -l 61.475514:23.774414 &
+xsetroot -cursor_name left_ptr&
+
+xmodmap -e 'keycode 66 = Control_L'
+xmodmap -e 'clear Lock'
+
+xmodmap -e 'add Control = Control_L'
+xcape&
+
+export PANEL_FIFO=/home/lumo/.tmp/bspwm-fifo
+
+[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+mkfifo "$PANEL_FIFO"
+exec bspwm -c /home/lumo/.config/bspwm/bspwmrc 

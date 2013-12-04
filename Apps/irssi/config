@@ -24,23 +24,15 @@ servers = (
     autoconnect = "yes";
   },
   {
+    address = "irc.unixhub.net";
+    chatnet = "uh";
+    port = "6667";
+    use_ssl = "no";
+    ssl_verify = "no";
+    autoconnect = "yes";
+  },
+  {
     address = "irc.quakenet.org";
-    chatnet = "qn";
-    port = "6667";
-    use_ssl = "no";
-    ssl_verify = "no";
-    autoconnect = "yes";
-  },
-  {
-    address = "fi.quakenet.net";
-    chatnet = "qn";
-    port = "6667";
-    use_ssl = "no";
-    ssl_verify = "no";
-    autoconnect = "yes";
-  },
-  {
-    address = "fi.quakenet.org";
     chatnet = "qn";
     port = "6667";
     use_ssl = "no";
@@ -48,7 +40,11 @@ servers = (
     autoconnect = "yes";
   }
 );
-chatnets = { fn = { type = "IRC"; }; qn = { type = "IRC"; }; };
+chatnets = {
+  fn = { type = "IRC"; };
+  qn = { type = "IRC"; };
+  uh = { type = "IRC"; };
+};
 
 statusbar = {
   # formats:

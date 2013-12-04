@@ -6,6 +6,6 @@ proc=$(cat /proc/loadavg | cut -d " " -f 1)
 left="\\f3⭥\\f1 $(($proc))%  \\f3⭦\\f1 $mem%  \\f3▤\\f1 $(df -h | grep "sda5" | awk '{print $5}')"
 middle="\\f3♪\\f1 $(mpc current)"
 day=$(date +%A)
-right="\\f3❐\\f2 ${(C)day[1]}$day[2,-1] $(date +"%e.%m")"
+right="\\f3❐\\f1 ${(C)day[1]}$day[2,-1] $(date +"%e.%m")"
 
 printf "%s\n" "\\l $left\\c$middle\\r$right " | bar -p

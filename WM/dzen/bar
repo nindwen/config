@@ -5,7 +5,7 @@
 #trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
 
 
-bspc control --put-status
+bspc control --subscribe > $PANEL_FIFO &
 xtitle -sf 'T%s' > "$PANEL_FIFO" &
 clock -sf 'S%H:%M' > "$PANEL_FIFO" &
 

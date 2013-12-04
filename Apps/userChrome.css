@@ -31,8 +31,8 @@ tabs#tabbrowser-tabs, tabs#tabbrowser-tabs * {
 	border-bottom: 0px none !important;
 	background-image: none !important;
 	margin-top: 0px !important;
-	max-height: 14px !important;
-	min-height: 14px !important;        
+	max-height: 18px !important;
+	min-height: 18px !important;        
 }
 
 tabs#tabbrowser-tabs {
@@ -50,7 +50,7 @@ tabs#tabbrowser-tabs {
 	max-height: 12px !important;
 	margin-left: 0px !important;
 	padding-top: 2px !important;
-color: #97b3b6 !important;
+color: #c1a488 !important;
 	border-bottom: 0px none !important;
 	background: #2c2e2f !important;
 	/*box-shadow: inset 0px -4px 2px rgba(0,0,0,0.1) !important;*/
@@ -131,8 +131,6 @@ scrollbar thumb {
 
 scrollbar[orient="vertical"] {
 -moz-margin-start: -4px;
-min-width: 4px;
-max-width: 4px;
 	}	
 
 	scrollbar[orient="horizontal"] {

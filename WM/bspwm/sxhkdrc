@@ -3,7 +3,7 @@
 #
 
 super + shift + q 
-    pkill bar; pkill dunst; bspc quit 
+    pkill bar; pkill dunst; pkill lua; pkill clock; pkill red; pkill xtitle; bspc quit 
 
 super + w
     bspc window -c
@@ -100,6 +100,9 @@ Print
 super + Return
     urxvtc
 
+super + ctrl + Return
+    rulc -a 'class=="URxvt"' 'floating=on, center=on' 'duration=1' && urxvtc -geometry 60x10
+
 super + p
     dmenu_run
 
@@ -129,6 +132,9 @@ super + ctrl + shift + q
 
 super + shift + Return
     /home/lumo/bin/create_frame
+
 XF86AudioPrev
     ncmpcpp prev
 
+super + r
+    slimlock
