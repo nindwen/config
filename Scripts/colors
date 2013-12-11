@@ -7,6 +7,7 @@
 #http://charlesleifer.com/blog/using-python-and-k-means-to-find-the-dominant-colors-in-images/
 #https://gist.github.com/radiosilence/3946121
 
+cd ¨/scripts
 rm ~/.gitconf/master/System/colors/$1
 active=$(python ~/scripts/generatecolors.py $1 $3)
 bspc config normal_border_color $active
