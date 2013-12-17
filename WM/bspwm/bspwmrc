@@ -1,13 +1,14 @@
 #! /bin/zsh
 unset DBUS_SESSION_BUS_ADDRESS
 ruld &
+rulc -l > /dev/null
 hsetroot -fill /home/lumo/Kuvat/Taustat/current&
 dunst&
 compton --config ~/.config/compton.conf &
 urxvtd&
 pa-applet&
 unclutter&
-sxhkd -c /home/lumo/.config/bspwm/sxhkdrc &
+sxhkd &
 
 bspc desktop -n 1
 bspc monitor -a 2 3 4 5 6 pad

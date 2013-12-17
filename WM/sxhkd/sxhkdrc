@@ -1,0 +1,140 @@
+#
+# bspwm hotkeys
+#
+
+super + shift + x 
+    pkill bar; pkill dunst; pkill lua; pkill clock; pkill red; pkill xtitle; bspc quit 
+
+super + x
+    bspc window -c
+
+super + t
+    bspc desktop -l next
+
+super + b
+    bspc desktop -B
+
+super + {s,f}
+    bspc window -t {floating,fullscreen}
+
+super + apostrophe
+    bspc window -s last
+
+super + y
+    bspc window -w last.manual
+
+super + m
+    bspc window -s biggest
+
+super + control + shift + {h,j,k,l}
+    bspc window -w {left,down,up,right}
+
+super + {_,shift + }{h,j,k,l}
+    bspc window -{f,s} {left,down,up,right}
+
+super + {_,shift + }c
+    bspc window -f {next,prev}
+
+super + {comma,period}
+    bspc desktop -C {backward,forward}
+
+super + {Left,Right}
+    bspc desktop -f {prev,next}
+
+super + ctrl + {h,j,k,l}
+    bspc window -p {left,down,up,right}
+
+super + ctrl + {_,shift + }space
+    bspc {window -p cancel,desktop -c}
+
+super + alt + {h,j,k,l}
+    bspc window -e {left,down,up,right} push
+
+super + alt + shift + {h,j,k,l}
+    bspc window -e {right,up,down,left} pull
+
+super + ctrl + {1-9}
+    bspc window -r 0.{1-9}
+
+super + {_,shift + }{1-9,0}
+    bspc {desktop -f,window -d} ^{1-9,0}
+
+super + {1-9,0}
+    bspc desktop -f ^{1-9,0}
+
+~button1
+    bspc pointer -g focus
+
+super + button{1-3}
+    bspc pointer -g {move,resize_side,resize_corner}
+
+super + !button{1-3}
+    bspc pointer -t %i %i
+
+super + space
+    bspc desktop -l next
+
+F12
+    {bspc desktop -f pad,bspc desktop -f last}
+
+ctrl + space
+    bspc config -d focused window_gap {-1,20,65}
+
+super + Tab
+    {~/.config/dzen/infobar ,\
+    pkill -f "bar -p"}
+
+super + ctrl + shift + q
+    pkill dzen2; pkill bar; ~/.config/dzen/bar
+
+super + shift + Return
+    /home/lumo/bin/create_frame
+
+super + z
+    bspc window focused -t private
+
+# wm independent hotkeys
+#
+
+Print
+    scrot /home/lumo/Dropbox/Public/$(date +%F-%S).png
+
+super + Return
+    urxvtc
+
+super + ctrl + Return
+    rulc -a 'class=="URxvt"' 'floating=on, center=on' 'duration=1' && urxvtc -geometry 60x10
+
+super + w
+    dmenu_run
+
+super + q
+    firefox
+
+super + a
+    pavucontrol
+
+super + ctrl + q
+    pkill -USR1 -x sxhkd
+
+XF86AudioPlay
+    ncmpcpp toggle
+
+XF86AudioNext
+    ncmpcpp next
+
+XF86AudioRaiseVolume
+    /home/lumo/scripts/dvol2 -i 1 ; notify-send $(amixer get Master | awk 'END{gsub(/\[|\]|%/,""); print $4}')
+
+XF86AudioLowerVolume
+    /home/lumo/scripts/dvol2 -d 1
+
+super + ctrl + shift + q
+    pkill dzen2; pkill bar; ~/.config/dzen/bar
+
+super + shift + Return
+    /home/lumo/bin/create_frame
+
+XF86AudioPrev
+    ncmpcpp prev
+

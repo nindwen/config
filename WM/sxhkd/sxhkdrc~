@@ -2,10 +2,10 @@
 # bspwm hotkeys
 #
 
-super + shift + q 
+super + shift + backspace 
     pkill bar; pkill dunst; pkill lua; pkill clock; pkill red; pkill xtitle; bspc quit 
 
-super + w
+super + x
     bspc window -c
 
 super + t
@@ -90,7 +90,9 @@ super + ctrl + shift + q
 super + shift + Return
     /home/lumo/bin/create_frame
 
-#
+super + z
+    bspc window focused -t private
+
 # wm independent hotkeys
 #
 
@@ -103,7 +105,7 @@ super + Return
 super + ctrl + Return
     rulc -a 'class=="URxvt"' 'floating=on, center=on' 'duration=1' && urxvtc -geometry 60x10
 
-super + p
+super + w
     dmenu_run
 
 super + q
@@ -136,5 +138,3 @@ super + shift + Return
 XF86AudioPrev
     ncmpcpp prev
 
-super + r
-    slimlock

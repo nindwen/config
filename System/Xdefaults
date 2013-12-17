@@ -4,6 +4,8 @@ urxvt*background:    [95]#2c2e2f
 #include "/home/lumo/.gitconf/master/System/colors/current"
 *cursorColor:   #edeff2
 *foreground:    #edeff2
+urxvt*color7:    #edeff2
+*color15:    #edeff2
 urxvt*internalBorder: 12
 urxvt*termName:         rxvt
 urxvt*scrollBar:        false
@@ -15,15 +17,13 @@ Xft.dpi:    102
 
 URxvt.keysym.C-u:    perl:url-select:select_next
 
-!urxvt*font: xft:terminus:size=9
+!urxvt*font: xft:Erebor:size=9
 !urxvt*boldFont: xft:terminus_bold:size=9
 !urxvt*italicFont: xft:terminus_italic:size=9
 !urxvt*bolditalicFont: xft:terminus_italic:size=9
 
 URxvt*font: \
 -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1,\
-xft:Loli Gothic:pixelsize=10:antialias=false,\
-xft:WenQuanYi Bitmap Song:size=8:antialias=false,\
 xft:Fixed:antialias=false
 
 !urxvt*font: -*-tewi-*-*-*-*-*-*-*-*-*-*-*-*
