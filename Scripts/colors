@@ -13,7 +13,7 @@ active=$(python ~/scripts/generatecolors.py $1 $3)
 bspc config normal_border_color $active
 echo "bspc config normal_border_color '$active'" > ~/.config/bspwm/maincolor
 
-sed "53s/.*/color: $active !important;/" ~/.mozilla/firefox/9xl5fsa3.default/chrome/userChrome.css > ~/.mozilla/firefox/9xl5fsa3.default/chrome/userChrome2.css
+sed "60s/.*/color: $active !important;/" ~/.mozilla/firefox/9xl5fsa3.default/chrome/userChrome.css > ~/.mozilla/firefox/9xl5fsa3.default/chrome/userChrome2.css
 cp ~/.mozilla/firefox/9xl5fsa3.default/chrome/userChrome2.css ~/.mozilla/firefox/9xl5fsa3.default/chrome/userChrome.css
 
 cd ~/.gitconf/master/System/colors/
@@ -28,6 +28,7 @@ hsetroot -$2 $1
 
 ~/bin/bar/palette.pl ~/.gitconf/master/System/colors/current > ~/bin/bar/colors.h
 cd ~/bin/bar
+touch ~/bin/bar/bar.c
 make && sudo make install
 pkill bar
 ~/.config/dzen/bar&

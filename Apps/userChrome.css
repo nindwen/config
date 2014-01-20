@@ -1,7 +1,13 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+#content browser{margin-right:0px!important;overflow-y:scroll;overflow-x:hidden;}
+
 #appcontent,
 #appcontent > #content,
 #appcontent > #content > tabbox > tabpanels {
 	background: #fbfbfb !important;
+    text-align:center;
+    vertical-align:middle;
 }
 
 #main-window[stylish-url="about:blank"]:not([onclose^="PrintUtils"]):not([title^="Source Chart"]):not([chromehidden="menubar toolbar directories extrachrome "]) #content browser:not([src]) {
@@ -17,59 +23,66 @@ a:active {
 toolbarbutton#appmenu-toolbar-button,
 toolbarbutton#alltabs-button,
 toolbarbutton#new-tab-button,
-.tab-icon-image,
 .tabs-closebutton-box,
 .tabs-border-bottom,
 .tab-close-button {
 	display: none !important;
+}
+.tab-icon-image
+{
+    height:10px;
 }
 
 tabs#tabbrowser-tabs, tabs#tabbrowser-tabs * {
 	-moz-appearance: none !important;
 	border-radius: 0px !important;
 	border: none !important;
-	border-bottom: 0px none !important;
 	background-image: none !important;
 	margin-top: 0px !important;
-	max-height: 18px !important;
-	min-height: 18px !important;        
+	max-height: 22px !important;
+	min-height: 22px !important;        
+    vertical-align:middle;
 }
 
 tabs#tabbrowser-tabs {
-	background: #2c2e2f !important;
+	background: #1D1F21 !important;
 	padding-top: 0px !important;
 	margin-left: 0px !important;
 	padding-top: 0px !important;
 	padding-bottom: 0px !important;
-	border-bottom: 0px none !important;
 	text-align: center !important;
 	/*box-shadow: inset 0px -4px 2px rgba(0,0,0,0.1) !important;*/
+    vertical-align:middle;
 }
 
-.tabbrowser-tab {
-	max-height: 12px !important;
+.tabbrowser-tab
+{
+    color: #3ea089 !important;
+	max-height: 22px !important;
 	margin-left: 0px !important;
-	padding-top: 2px !important;
-color: #8c75b0 !important;
-	border-bottom: 0px none !important;
-	background: #2c2e2f !important;
+	padding-top: 4px !important;
+	border: 0px none !important;
+    padding-bottom:1px !important;
+	background: #1D1F21 !important;
+    vertical-align:middle;
 	/*box-shadow: inset 0px -4px 2px rgba(0,0,0,0.1) !important;*/
 
 }
 
 .tabbrowser-tab[selected=true] {
-	color: #C8CACC !important;
-	background: #2c2e2f !important;
-	border-bottom: 0px none !important;
+	color: #e0bf27 !important;
+	background: #1D1F21 !important;
 	box-shadow: none !important;
+    border-bottom: 0px solid #e0bf27 !important;
 }
 
 .tabbrowser-tab .tab-text {
 	margin-left: 3px !important;
 	margin-right: 3px !important;
-	margin-top: 2px !important;
+	margin-top: 4px !important;
 	font-size: 11px !important;
-	font-family: Terminus !important;
+	font-family: Tewi !important;
+    vertical-align:middle;
 }
 
 #urlbar dropmarker,
@@ -113,7 +126,7 @@ margin-right: 0px; /* 12px == width of my scrollbar */
     }
 
     browser[type="content-primary"], browser[type="content-targetable"] {
-	    overflow-y: scroll;
+	    overflow-y: hidden;
 	    margin-right: 0px;
     }*/
 

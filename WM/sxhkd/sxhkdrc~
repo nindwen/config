@@ -2,7 +2,7 @@
 # bspwm hotkeys
 #
 
-super + shift + backspace 
+super + shift + x 
     pkill bar; pkill dunst; pkill lua; pkill clock; pkill red; pkill xtitle; bspc quit 
 
 super + x
@@ -14,8 +14,8 @@ super + t
 super + b
     bspc desktop -B
 
-super + {s,f}
-    bspc window -t {floating,fullscreen}
+super + {s,f,e}
+    bspc window -t {floating,fullscreen,pseudo_tiled}
 
 super + apostrophe
     bspc window -s last
@@ -47,11 +47,18 @@ super + ctrl + {h,j,k,l}
 super + ctrl + {_,shift + }space
     bspc {window -p cancel,desktop -c}
 
+
 super + alt + {h,j,k,l}
-    bspc window -e {left,down,up,right} push
+    bspc window -e {left -10,down +10,up -10,right +10}
 
 super + alt + shift + {h,j,k,l}
-    bspc window -e {right,up,down,left} pull
+    bspc window -e {right -10,up +10,down -10,left +10}
+
+super + {Tab,§}
+    bspc {window,desktop} -f last
+
+super + o
+    bspc desktop focused -R 90
 
 super + ctrl + {1-9}
     bspc window -r 0.{1-9}
@@ -80,7 +87,10 @@ F12
 ctrl + space
     bspc config -d focused window_gap {-1,20,65}
 
-super + Tab
+ctrl + shift + space
+    bspc config -d focused left_padding {0,50} && bspc config -d focused right_padding {0,50}
+
+super + alt + space
     {~/.config/dzen/infobar ,\
     pkill -f "bar -p"}
 

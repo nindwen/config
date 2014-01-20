@@ -15,9 +15,9 @@ bspc monitor -a 2 3 4 5 6 pad
 bspc desktop pad -l monocle 
 bspc desktop ^2 -l monocle 
 
-bspc config top_padding 18
+bspc config top_padding 22
 
-bspc config rule_command "/home/lumo/scripts/rule_command"
+bspc config external_rules_command "/home/lumo/scripts/rule_command"
 
 rulc -a 'class=="Firefox"' 'desktop=^2, follow=off, floating=off'
 rulc -a 'class=="Steam"' 'desktop=^4'

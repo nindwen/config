@@ -5,6 +5,9 @@ xinput set-button-map "Microsoft Microsoft® Comfort Mouse 4500" 1 2 3 5 4 6 7 8
 xinput set-button-map "SynPS/2 Synaptics TouchPad" 1 2 3 5 4 6 7 8 9 10 11 12 13 14 15 16    
 
 xset +fp /usr/share/fonts/misc
+xset +fp /usr/share/fonts/local
+xset +fp /home/lumo/.fonts
+xset fp rehash
 xrdb ~/.config/Xresources
 redshift -l 61.475514:23.774414 &
 xsetroot -cursor_name left_ptr&

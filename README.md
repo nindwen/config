@@ -12,7 +12,7 @@ Some of the software used:
  * dzen2 + bar - bar
  * mpd - music daemon
  * ncmpcpp - music client
- * irssi - irc-client
+ * irssi - weechat
  * dunst - notification-daemon
  * hsetroot - wallpaper
  * unclutter - hiding cursor

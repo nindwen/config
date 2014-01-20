@@ -3,13 +3,13 @@
 " ==Darkness_Colorscheme_Settings==
 
 "StatusLine settings
-hi StatusLine           color: #777777; background: #eeeeee; "font-size: 8pt;
+hi StatusLine           color: #777777; background: #eeeeee; font-size: 8pt; height:0px !important; top:-50px; 
 "hi StatusLineBroken     color: #777777; background: #f9f9f9; "font-size: 8pt;
 "hi StatusLineSecure     color: #777777; background: #f9f9f9; "font-size: 8pt;
 
 "CmdLine settings excluding Gradient
-hi Normal               color: #777777; background: #eeeeee;
-hi CmdLine              background: #f9f9f9; color: #1c1c1c; font-size: 9pt;
+hi Normal               color: #444444; background: #eeeeee;
+hi CmdLine              background: #eeeeee; color: #1c1c1c; font-size: 9pt; height:0px;
 hi CompDesc             color: #777777; width: 50%; font-size: 9pt;
 hi CompIcon             width: 12px; min-width: 12px; display: inline-block; margin-right: 9px;
 hi CompItem[selected]   background: #dddddd; color: black; 
@@ -19,7 +19,7 @@ hi CompMsg              font-style: italic; margin-left: 12px;
 hi CompResult           width: 45%; overflow: hidden;font-size: 10pt; font-family: monospace; font-weight: normal;
 hi CompTitle            color: #777777; background: #eeeeee; font-weight: bold;
 hi CompTitle>*          padding: 0 .5ex;
-hi Filter               color: #afafaf;
+hi Filter               color: black;
 
 "When using tab complete in CmdLine, line separating Title from function and description
 "hi Gradient             height: 1px; margin-bottom: -1px; margin-top: -1px;
@@ -34,11 +34,11 @@ hi ErrorMsg             color: #1c1c1c; background: #eeeeee;
 
 
 "Hint section
-"hi Hint                 font-family: Sans; font-size: 10px; color: #f6e9e9; background-color: red; border-color: ButtonShadow; border-width: 0px; border-style: solid; padding 0px 1px 0px 1px;
-hi Hint               	font-family: Sans; font-size: 10px; color: white; background-color: rgba(0, 0, 0, 0.5); border: solid 1px LightGray; padding:2px; border-radius:5px;
+"hi Hint                 font-family: Sans; font-size: 12px; color: #f6e9e9; background-color: red; border-color: ButtonShadow; border-width: 0px; border-style: solid; padding 0px 1px 0px 1px;
+hi Hint               	font-family: Sans; font-size: 11px; color: white; background-color: rgba(0, 0, 0, 0.5); border: solid 1px white; padding:2px; border-radius:5px; font-weight:bold; letter-spacing:1px; text-transform:uppercase;
 hi Hint::after          content: attr(number);
-hi HintActive           background: #eeeeee; color: #777777;
-hi HintElem             background-color: #eeeeee; color: #777777;
+hi HintActive           color:blue;
+hi HintElem             "background-color: #eeeeee; color: #777777;
 hi HintImage            opacity: .5;
 
 "Other important stuff
