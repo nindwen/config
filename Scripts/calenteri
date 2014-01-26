@@ -1,0 +1,6 @@
+TODAY=$(expr `date +'%d'` + 0)
+MONTH=`date +'%m'`
+YEAR=`date +'%Y'`
+(cal -m | sed -r -e "1,2 s/.*/^fg(#d4ced9)&^fg()/"  -e "s/(^| )($TODAY)($| )/\1^bg(#ad6a72)^fg(#130f1c)\2^fg()^bg()\3/") | dzen2 -fn 'tewi' -bg '#1d1f21' -fg '#b39976' -x 1166 -y 22 -w 200 -h 17 -l 6 -sa c -p -e 'onstart=uncollapse,grabkeys,grabmouse;key_Escape=exit;button1=exit'
+)
+

@@ -116,10 +116,10 @@ super + ctrl + Return
     rulc -a 'class=="URxvt"' 'floating=on, center=on' 'duration=1' && urxvtc -geometry 60x10
 
 super + w
-    dmenu_run
-
+    $(cat ~/scripts/menu)
+    
 super + q
-    firefox
+    firefox-nightly
 
 super + a
     pavucontrol

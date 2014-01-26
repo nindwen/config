@@ -1,3 +1,4 @@
+
 " ==Vimperator_Color_Scheme==
 " name: Darkness
 " ==Darkness_Colorscheme_Settings==
@@ -16,7 +17,7 @@ hi CompItem[selected]   background: #dddddd; color: black;
 "hi CompLess             text-align: center; height: 0; line-height: .5ex; padding-top: 1ex;
 "hi CompMore             text-align: center; height: .5ex; line-height: .5ex; margin-bottom: -.5ex;
 hi CompMsg              font-style: italic; margin-left: 12px;
-hi CompResult           width: 45%; overflow: hidden;font-size: 10pt; font-family: monospace; font-weight: normal;
+hi CompResult           width: 45%; overflow: hidden;font-size: 10pt; font-family: tewi,monospace; font-weight: normal;
 hi CompTitle            color: #777777; background: #eeeeee; font-weight: bold;
 hi CompTitle>*          padding: 0 .5ex;
 hi Filter               color: black;
@@ -37,7 +38,7 @@ hi ErrorMsg             color: #1c1c1c; background: #eeeeee;
 "hi Hint                 font-family: Sans; font-size: 12px; color: #f6e9e9; background-color: red; border-color: ButtonShadow; border-width: 0px; border-style: solid; padding 0px 1px 0px 1px;
 hi Hint               	font-family: Sans; font-size: 11px; color: white; background-color: rgba(0, 0, 0, 0.5); border: solid 1px white; padding:2px; border-radius:5px; font-weight:bold; letter-spacing:1px; text-transform:uppercase;
 hi Hint::after          content: attr(number);
-hi HintActive           color:blue;
+hi HintActive           color:black;
 hi HintElem             "background-color: #eeeeee; color: #777777;
 hi HintImage            opacity: .5;
 
@@ -67,5 +68,3 @@ hi LineNr               color: #777777; background: #eeeeee;
 hi ContentSeparator border-top: 0px;
 
 "For other descriptions of each item, please see ``Styling'' section included with Vimperator
-
-

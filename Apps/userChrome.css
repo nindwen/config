@@ -18,7 +18,7 @@ a:active {
 	outline: none !important;
 }
 
-.tabbrowser-arrowscrollbox > .scrollbutton-up,
+/*.tabbrowser-arrowscrollbox > .scrollbutton-up,
 .tabbrowser-arrowscrollbox > .scrollbutton-down,
 toolbarbutton#appmenu-toolbar-button,
 toolbarbutton#alltabs-button,
@@ -30,7 +30,15 @@ toolbarbutton#new-tab-button,
 }
 .tab-icon-image
 {
-    height:10px;
+    height: 10px !important;
+    margin: 0px !important;
+    padding :0px !important;
+}
+.tab-icon-image img
+{
+    height: 10px !important;
+    margin: 0px !important;
+    padding :0px !important;
 }
 
 tabs#tabbrowser-tabs, tabs#tabbrowser-tabs * {
@@ -39,39 +47,39 @@ tabs#tabbrowser-tabs, tabs#tabbrowser-tabs * {
 	border: none !important;
 	background-image: none !important;
 	margin-top: 0px !important;
-	max-height: 22px !important;
-	min-height: 22px !important;        
+	max-height: 18px !important;
+	min-height: 18px !important;        
     vertical-align:middle;
 }
 
 tabs#tabbrowser-tabs {
-	background: #1D1F21 !important;
+	background: #eeeeee !important;
 	padding-top: 0px !important;
 	margin-left: 0px !important;
 	padding-top: 0px !important;
 	padding-bottom: 0px !important;
 	text-align: center !important;
-	/*box-shadow: inset 0px -4px 2px rgba(0,0,0,0.1) !important;*/
+	/*box-shadow: inset 0px -4px 2px rgba(0,0,0,0.1) !important;
     vertical-align:middle;
 }
 
 .tabbrowser-tab
 {
-    color: #3ea089 !important;
-	max-height: 22px !important;
+    color: #777777 !important;
+	max-height: 18px !important;
 	margin-left: 0px !important;
 	padding-top: 4px !important;
 	border: 0px none !important;
     padding-bottom:1px !important;
-	background: #1D1F21 !important;
+	background: #eeeeee !important;
     vertical-align:middle;
-	/*box-shadow: inset 0px -4px 2px rgba(0,0,0,0.1) !important;*/
+	/*box-shadow: inset 0px -4px 2px rgba(0,0,0,0.1) !important;
 
 }
 
 .tabbrowser-tab[selected=true] {
-	color: #e0bf27 !important;
-	background: #1D1F21 !important;
+	color: #444444 !important;
+	background: #eeeeee !important;
 	box-shadow: none !important;
     border-bottom: 0px solid #e0bf27 !important;
 }
@@ -81,9 +89,10 @@ tabs#tabbrowser-tabs {
 	margin-right: 3px !important;
 	margin-top: 4px !important;
 	font-size: 11px !important;
-	font-family: Tewi !important;
+	font-family: monospace !important;
     vertical-align:middle;
 }
+*/
 
 #urlbar dropmarker,
 #identity-box,
@@ -102,7 +111,7 @@ tabs#tabbrowser-tabs {
 .tabbrowser-tabs:not([drag=detach]) > .tabbrowser-tab:not([pinned])[fadein] {
 	min-width: 30px !important;
 	max-width: 130px !important;
-}
+}*/
 
 notificationbox {
 	overflow-x: hidden;

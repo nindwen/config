@@ -26,7 +26,7 @@ if has("vms")
 else
   set backup		" keep a backup file
 endif
-set history=50		" keep 50 lines of command line history
+set history=51		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
@@ -146,3 +146,6 @@ endif
  hi CursorLineNr ctermfg=none ctermbg=0
  hi CursorColumn ctermfg=none ctermbg=0
  "}
+ 
+ 
+hi Tb_Changed guibg=red ctermbg=red 

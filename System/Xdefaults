@@ -1,9 +1,9 @@
 ! Xdefaults file
 urxvt*background:    [99]#1D1F21
-#include "/home/lumo/.gitconf/master/System/colors/current"
+#include "/home/lumo/.gitconf/master/System/colors/twily"
 !*background:    #2c2e2f
 *cursorColor:   #edeff2
-*foreground:    #edeff2
+!*foreground:    #edeff2
 !urxvt*color7:    #edeff2
 !*color15:    #edeff2
 urxvt*internalBorder: 8
@@ -18,7 +18,7 @@ URxvt.url-select.underline: true
 URxvt.keysym.C-u:    perl:url-select:select_next
 
 urxvt*font: -*-tewi-medium-*-*--*-*-*-*-*-*-*-*
-urxvt*boldFont: -*-lemon-medium-*-*--10-*-*-*-*-*-*-*
+urxvt*boldFont: -*-tewi-medium-*-*--*-*-*-*-*-*-*-*
 !urxvt*boldFont: -*-tamzen-medium-*-*-*-*-*-*-*-*-*-*-*
 !urxvt*boldFont: -*-gohufont-*-*-*-*-*-*-*-*-*-*-*-*
 !urxvt*italicFont: xft:terminus_italic:size=9

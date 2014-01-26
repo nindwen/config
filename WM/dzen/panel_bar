@@ -5,10 +5,10 @@
 while read -r line ; do
     case $line in
         S*)
-            sys_infos="\\r\\f3⭧ \\f1${line#?}\\fr  "
+            sys_infos="\\r\\u1\\ab \\f3${line#?} \\fr\\f1\\b8 ⭧ \\br\\ur\\ac calenteri \\ae"
             ;;
         T*)
-            title="\\l\\f3\\ab   ❤  \\ac dmenu_run -y 22 -w 300 -l 6 \\ae\\f1$(echo ${line#?}|cut -c -90) "
+            title="\\l\\f1\\b8\\u1\\ab  \\br \\f3$(echo ${line#?}|cut -c -90) \\ac exec ~/scripts/menu \\ae \\ur\\br"
             ;;
         W*)
             wm_infos="\\c"
@@ -22,22 +22,22 @@ while read -r line ; do
                     case $item in
                         [OU]*)
                             # active desktop
-                            wm_infos="$wm_infos\\ab\\u3\\f1 • \\ac bspc desktop -f ${name}\\fr\\br\\ur\\ae"
+                            wm_infos="$wm_infos\\ab\\u1\\b8\\f3 ◼ \\ac bspc desktop -f ${name}\\fr\\br\\ur\\ae"
                             ;;
                         F*)
-                            wm_infos="$wm_infos\\u3\\f0\\ab • \\ac bspc desktop -f ${name} \\ae\\fr\\br\\ur"
+                            wm_infos="$wm_infos\\u1\\f0\\ab ◼ \\ac bspc desktop -f ${name} \\ae\\fr\\br\\ur"
                             ;;
                         o*)
                             # inactive but occupied desktop
-                            wm_infos="$wm_infos\\f1\\ab • \\ac bspc desktop -f ${name}\\ae\\fr"
+                            wm_infos="$wm_infos\\f3\\ab ◼ \\ac bspc desktop -f ${name}\\ae\\fr"
                             ;;
                         f*)
                             # inactive desktop
-                            wm_infos="$wm_infos\\f0\\ab • \\ac bspc desktop -f ${name}\\ae\\fr"
+                            wm_infos="$wm_infos\\f0\\ab ◼ \\ac bspc desktop -f ${name}\\ae\\fr"
                             ;;
                         u*)
                             # urgent desktop
-                            wm_infos="$wm_infos \\u3\\f6\\ab • \\ac bspc desktop -f ${name}\\ae \\ur\\fr "
+                            wm_infos="$wm_infos \\u1\\f6\\ab ◼ \\ac bspc desktop -f ${name}\\ae \\ur\\fr "
                             ;;
                         L*)
                             # layout
