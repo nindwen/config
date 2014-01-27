@@ -1,11 +1,8 @@
-! Xdefaults file
 urxvt*background:    [99]#1D1F21
 #include "/home/lumo/.gitconf/master/System/colors/twily"
-!*background:    #2c2e2f
 *cursorColor:   #edeff2
 !*foreground:    #edeff2
-!urxvt*color7:    #edeff2
-!*color15:    #edeff2
+
 urxvt*internalBorder: 8
 urxvt*termName:         rxvt
 urxvt*scrollBar:        false
@@ -13,45 +10,32 @@ urxvt*perl-lib:         /usr/lib/urxvt/perl/
 urxvt*perl-ext:  default,url-select
 urxvt*url-select.launcher:      /usr/bin/firefox -new-ta*
 URxvt.url-select.underline: true
-!Xft.dpi:    102
 
 URxvt.keysym.C-u:    perl:url-select:select_next
 
 urxvt*font: -*-tewi-medium-*-*--*-*-*-*-*-*-*-*
 urxvt*boldFont: -*-tewi-medium-*-*--*-*-*-*-*-*-*-*
+
 !urxvt*boldFont: -*-tamzen-medium-*-*-*-*-*-*-*-*-*-*-*
 !urxvt*boldFont: -*-gohufont-*-*-*-*-*-*-*-*-*-*-*-*
 !urxvt*italicFont: xft:terminus_italic:size=9
 !urxvt*bolditalicFont: xft:terminus_italic:size=9
-
 
 !urxvt*font: -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
 !urxvt*boldFont: -*-tewi-*-*-*-*-*-*-*-*-*-*-*-*
 !urxvt*italicFont: -*-tewi-*-*-*-*-*-*-*-*-*-*-*-*
 !urxvt*bolditalicFont: -*-tewi-*-*-*-*-*-*-*-*-*-*-*-*
 
-
-
-
 URxvt.iso14755 : false
-
-!Xft.rgba: rgb
-!Xft.antialias: true
-!Xft.hintstyle: hintfull
-
-
-Xft.dpi:        96
-Xft.rgba:        rgb
-Xft.antialias:         1
+Xft.dpi:             96
+Xft.rgba:            rgb
+Xft.antialias:       1
 Xft.hinting:         1
-Xft.autohint:         0
-Xft.hintstyle:         hintslight
-Xft.lcdfilter:         lcddefault
-
+Xft.autohint:        0
+Xft.hintstyle:       hintslight
+Xft.lcdfilter:       lcddefault
 
 URxvt.transparent:   false
 URxvt.tintColor:     white
-!URxvt.shading:       30
-URxvt.depth: 32
-
-
+!URxvt.shading:      30
+URxvt.depth:         32

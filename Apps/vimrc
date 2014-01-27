@@ -146,6 +146,3 @@ endif
  hi CursorLineNr ctermfg=none ctermbg=0
  hi CursorColumn ctermfg=none ctermbg=0
  "}
- 
- 
-hi Tb_Changed guibg=red ctermbg=red 
