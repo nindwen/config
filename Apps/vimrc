@@ -40,9 +40,9 @@ map Q gq
 
 set scrolloff=8
 set number
-set tabstop=4
-set shiftwidth=4
-set expandtab
+set tabstop=2
+set shiftwidth=2
+"set expandtab
 
 
 " CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
