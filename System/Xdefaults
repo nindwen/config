@@ -1,7 +1,7 @@
 urxvt*background:    [99]#1D1F21
 #include "/home/lumo/.gitconf/master/System/colors/twily"
 *cursorColor:   #edeff2
-!*foreground:    #edeff2
+*foreground:    #edeff2
 
 urxvt*internalBorder: 8
 urxvt*termName:         rxvt
@@ -38,4 +38,4 @@ Xft.lcdfilter:       lcddefault
 URxvt.transparent:   false
 URxvt.tintColor:     white
 !URxvt.shading:      30
-URxvt.depth:         32
+!URxvt.depth:         32
