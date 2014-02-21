@@ -8,6 +8,7 @@ fi
 exec /home/lumo/.config/bspwm/init
 #exec gnome-session
 
+#exec urxvt
 
 #gsettings-data-convert &
 #xdg-user-dirs-gtk-update &

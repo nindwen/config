@@ -1,7 +1,7 @@
 urxvt*background:    [99]#1D1F21
-#include "/home/lumo/.gitconf/master/System/colors/twily"
 *cursorColor:   #edeff2
 *foreground:    #edeff2
+#include "/home/lumo/.gitconf/master/System/colors/bluely"
 
 urxvt*internalBorder: 8
 urxvt*termName:         rxvt
@@ -13,8 +13,10 @@ URxvt.url-select.underline: true
 
 URxvt.keysym.C-u:    perl:url-select:select_next
 
-urxvt*font: -*-tewi-medium-*-*--*-*-*-*-*-*-*-*
-urxvt*boldFont: -*-tewi-medium-*-*--*-*-*-*-*-*-*-*
+urxvt*font: xft:inconsolata:size=8
+
+!urxvt*font: -*-tewi-medium-*-*--*-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-tewi-medium-*-*--*-*-*-*-*-*-*-*
 
 !urxvt*boldFont: -*-tamzen-medium-*-*-*-*-*-*-*-*-*-*-*
 !urxvt*boldFont: -*-gohufont-*-*-*-*-*-*-*-*-*-*-*-*

@@ -16,6 +16,10 @@ bspc desktop pad -l monocle
 bspc desktop ^2 -l monocle 
 
 bspc config top_padding 22
+bspc config -d ^1 top_padding 42
+bspc config -d ^1 left_padding 20
+bspc config -d ^1 right_padding 20
+bspc config -d ^1 bottom_padding 20
 
 bspc config external_rules_command "/home/lumo/scripts/rule_command"
 
