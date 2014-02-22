@@ -118,7 +118,7 @@ super + ctrl + Return
 super + w
     menu 
 super + q
-    firefox-nightly
+    firefox-aurora
 
 super + a
     pavucontrol
