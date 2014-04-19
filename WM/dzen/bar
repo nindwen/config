@@ -8,6 +8,7 @@
 bspc control --subscribe > $PANEL_FIFO &
 xtitle -sf 'T%s' > "$PANEL_FIFO" &
 clock -sf 'S%H:%M' > "$PANEL_FIFO" &
+panel_battery > "$PANEL_FIFO" &
 
 
 cat "$PANEL_FIFO" | /home/lumo/.config/dzen/panel_bar | bar&

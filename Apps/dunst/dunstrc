@@ -1,12 +1,12 @@
 [global]
-    font = Open Sans 11
+    font = Inconsolata 10
     allow_markup = yes
     format = "%s %p\n%b"
     sort = yes
     indicate_hidden = true
     # geometry = "x5"
     idle_threshold = 0
-    geometry = "300x5-30+30"
+    geometry = "300x5-533+0"
     alignment = center
     show_age_threshold = 60
     sticky_history = yes
@@ -20,7 +20,7 @@
 
 [frame]
     width = 2
-    color = "#39a0a0"
+    color = "#8fa1b3"
 
 [shortcuts]
     close = space
@@ -28,13 +28,13 @@
     context = ctrl+shift+period
 
 [urgency_low]
-   background = "#0f0f0f"
-   foreground = "#3EA290"
+   background = "#2b303b"
+   foreground = "#ffffff"
    timeout = 10
 
 [urgency_normal]
-    background = "0d2018"
-    foreground = "#39a0a0"
+    background = "2b303b"
+    foreground = "#ffffff"
     timeout = 15
 
 [urgency_critical]

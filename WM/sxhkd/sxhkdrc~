@@ -54,8 +54,8 @@ super + alt + {h,j,k,l}
 super + alt + shift + {h,j,k,l}
     bspc window -e {right -10,up +10,down -10,left +10}
 
-super + {Tab,§}
-    bspc {window,desktop} -f last
+super + {Tab}
+    bspc {window} -f last
 
 super + o
     bspc desktop focused -R 90
@@ -85,7 +85,7 @@ F12
     {bspc desktop -f pad,bspc desktop -f last}
 
 ctrl + space
-    bspc config -d focused window_gap {-1,20,65}
+    bspc config -d focused window_gap {-1,14,65}
 
 ctrl + shift + space
     bspc config -d focused left_padding {0,50} && bspc config -d focused right_padding {0,50}
@@ -103,6 +103,9 @@ super + shift + Return
 super + z
     bspc window focused -t private
 
+super + i
+		bspc config -d focused right_padding {683,20,0}
+
 # wm independent hotkeys
 #
 
@@ -117,8 +120,9 @@ super + ctrl + Return
 
 super + w
     menu 
+
 super + q
-    firefox-nightly
+    firefox-beta-bin
 
 super + a
     pavucontrol

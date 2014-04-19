@@ -1,6 +1,6 @@
 #!/bin/sh
 cachedir=${XDG_CACHE_HOME:-"$HOME/.cache"}
-args='-l 6 -w 300 -y 22 -nb "#1d1f21" -nf "#b39975" -sb "#1d1f21" -sf "#ad6a72" -p ? -fn -*-tewi-medium-*-*--*-*-*-*-*-*-*-* -i'
+args='-l 6 -w 300 -y 22 -nb "#2b303b" -nf "#888888" -sb "2b303b" -sf "#ffffff" -p ? -fn -*-tewi-medium-*-*--*-*-*-*-*-*-*-* -i'
 if [ -d "$cachedir" ]; then
     cache=$cachedir/dmenu_run
 else
@@ -11,6 +11,6 @@ exec $(
     if stest -dqr -n $cache /usr/bin/; then
         stest -flx /usr/bin/ | sort -u | tee $cache | dmenu -l 6 -w 300 -y 22 -nb "#1d1f21" -nf "#b39975" -sb "#1d1f21" -sf "#ad6a72" -p ? -fn -*-tewi-medium-*-*--*-*-*-*-*-*-*-* -i
     else
-        dmenu -l 6 -w 300 -y 22 -nb "#1d1f21" -nf "#b39975" -sb "#1d1f21" -sf "#ad6a72" -p ? -fn -*-tewi-medium-*-*--*-*-*-*-*-*-*-* -i < $cache
+        dmenu -l 6 -w 300 -y 22 -nb "#2b303b" -nf "#888888" -sb "#2b303b" -sf "#ffffff" -p ? -fn -*-tewi-medium-*-*--*-*-*-*-*-*-*-* -i < $cache
     fi
 )

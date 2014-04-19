@@ -1,14 +1,15 @@
-urxvt*background:    [99]#1D1F21
-*cursorColor:   #edeff2
-*foreground:    #edeff2
-#include "/home/lumo/.gitconf/master/System/colors/bluely"
+!*cursorColor:   #edeff2
+*foreground:    #444444 
+!edeff2
+#include "/home/lumo/.gitconf/master/System/colors/base16-ocean"
+rxvt*background:    [99]#2d2d2d
 
-urxvt*internalBorder: 8
+urxvt*internalBorder: 6
 urxvt*termName:         rxvt
 urxvt*scrollBar:        false
 urxvt*perl-lib:         /usr/lib/urxvt/perl/
 urxvt*perl-ext:  default,url-select
-urxvt*url-select.launcher:      /usr/bin/firefox -new-ta*
+urxvt*url-select.launcher:      /usr/bin/firefox -new-tab
 URxvt.url-select.underline: true
 
 URxvt.keysym.C-u:    perl:url-select:select_next

@@ -1,14 +1,13 @@
 #! /bin/zsh
 unset DBUS_SESSION_BUS_ADDRESS
-ruld &
-rulc -l > /dev/null
-hsetroot -fill /home/lumo/Kuvat/Taustat/current&
+hsetroot -fill ~/Kuvat/Taustat/current &
 dunst&
 compton --config ~/.config/compton.conf &
 urxvtd&
 pa-applet&
 unclutter&
 sxhkd &
+export PATH="$PATH:/home/lumo/scripts:/root/.gem/ruby/2.0.0/bin:/home/lumo/.gem/ruby/2.0.0/bin/"
 
 bspc desktop -n 1
 bspc monitor -d α β δ ε γ pad
@@ -16,28 +15,34 @@ bspc desktop pad -l monocle
 bspc desktop ^2 -l monocle 
 
 bspc config top_padding 22
-bspc config -d ^1 top_padding 42
+bspc config -d ^1 top_padding 20
 bspc config -d ^1 left_padding 20
 bspc config -d ^1 right_padding 20
 bspc config -d ^1 bottom_padding 20
 
+/home/lumo/scripts/ruld > /home/lumo/mormor &
+/home/lumo/scripts/rulc -l > /dev/null
+
 bspc config external_rules_command "/home/lumo/scripts/rule_command"
 
-rulc -a 'class=="Firefox"' 'desktop=^2, follow=off, floating=off'
-rulc -a 'class=="Steam"' 'desktop=^4'
-rulc -a 'class=="BSPWM_FRAME"' 'frame=on'
+/home/lumo/scripts/rulc -a 'class=="Firefox"' 'desktop=^2, follow=off, floating=off'
+/home/lumo/scripts/rulc -a 'class=="Steam"' 'desktop=^4'
+/home/lumo/scripts/rulc -a 'class=="BSPWM_FRAME"' 'frame=on'
+
+MAINCOLOR="#8fa1b3"
 
 bspc config split_ratio             0.50
 bspc config border_width            1
-bspc config window_gap              60
+bspc config window_gap              16
 bspc config borderless_monocle      true
 bspc config gapless_monocle         true
-bspc config focused_border_color    "#76b3b4"
+bspc config normal_border_color 		'#1d1f21'
+bspc config focused_border_color    "$MAINCOLOR"
 bspc config presel_border_color     "#8292B2"
+bspc config focused_private_border_color "$MAINCOLOR"
 bspc config normal_frame_opacity    0
 bspc config focused_frame_opacity   0.2  
 bspc config auto_cancel             true
-~/.config/bspwm/maincolor
 
 
 exec /home/lumo/.config/dzen/bar
