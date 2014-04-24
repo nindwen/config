@@ -5,10 +5,13 @@ Some help to navigate my configs:
 
 *	Apps
 	Quite obviously, there are configs for various single programs
+
 *	System
 	There are terminal configs, fonts, colors and such
+
 *	WM
 	Window manager, and other pieces for my personal DE. WM configs, compositor, hotkeys and panel
+
 *	Scripts
 	Few scripts I like to use, collected from various places.
 
