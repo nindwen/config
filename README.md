@@ -3,16 +3,16 @@ My configs
 
 Some help to navigate my configs:
 
-*	Apps
+*	Apps   
 	Quite obviously, there are configs for various single programs
 
-*	System
+*	System   
 	There are terminal configs, fonts, colors and such
 
-*	WM
+*	WM   
 	Window manager, and other pieces for my personal DE. WM configs, compositor, hotkeys and panel
 
-*	Scripts
+*	Scripts   
 	Few scripts I like to use, collected from various places.
 
 Paths.md has some of the paths to be symlinked - I'm far too lazy to provide script or something like it. 
