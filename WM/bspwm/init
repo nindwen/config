@@ -1,4 +1,5 @@
 #!/usr/bin/zsh
+export PATH="$PATH:/home/lumo/scripts:/root/.gem/ruby/2.0.0/bin:/home/lumo/.gem/ruby/2.0.0/bin/"
  
 setxkbmap fi
 
@@ -15,7 +16,6 @@ xsetroot -cursor_name left_ptr&
 
 xmodmap -e 'keycode 66 = Control_L'
 xmodmap -e 'clear Lock'
-export PATH="$PATH:/home/lumo/scripts:/root/.gem/ruby/2.0.0/bin:/home/lumo/.gem/ruby/2.0.0/bin/"
 
 xmodmap -e 'add Control = Control_L'
 xcape&
