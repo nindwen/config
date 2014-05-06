@@ -25,6 +25,7 @@ http://twily.info/firefox/firefox-css
  * Arch Linux
  * bspwm		-		the wm
  * sxhkd		-		hotkey daemon
+ * termite	- 	terminal emulator
  * tmux			- 	terminal multiplexer
  * compton 	- 	compositor
  * bar 			- 	bar
