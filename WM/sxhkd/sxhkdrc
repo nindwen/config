@@ -87,9 +87,6 @@ F12
 ctrl + space
     bspc config -d focused window_gap {-1,14,65}
 
-ctrl + shift + space
-    bspc config -d focused left_padding {0,50} && bspc config -d focused right_padding {0,50}
-
 super + alt + space
     {~/.config/dzen/infobar ,\
     pkill -f "bar -p"}
@@ -113,7 +110,7 @@ Print
     scrot /home/lumo/Dropbox/Public/$(date +%F-%S).png
 
 super + Return
-    urxvtc
+    termite
 
 super + ctrl + Return
     rulc -a 'class=="URxvt"' 'floating=on, center=on' 'duration=1' && urxvtc -geometry 60x10

@@ -25,10 +25,10 @@ while read -r line ; do
                     case $item in
                         [OU]*)
                             # active desktop
-                            wm_infos="$wm_infos\\f3\\u1\\b4   $name   \\br\\ur\\fr"
+                            wm_infos="$wm_infos\\f3\\u2\\b4   $name   \\br\\ur\\fr"
                             ;;
                         F*)
-                            wm_infos="$wm_infos\\f2\\u1\\b4   $name   \\br\\ur\\fr"
+                            wm_infos="$wm_infos\\f2\\u2\\b4   $name   \\br\\ur\\fr"
                             ;;
                         o*)
                             # inactive but occupied desktop

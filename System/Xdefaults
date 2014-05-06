@@ -1,8 +1,7 @@
 !*cursorColor:   #edeff2
 *foreground:    #444444 
 !edeff2
-#include "/home/lumo/.gitconf/master/System/colors/base16-ocean"
-rxvt*background:    [99]#2d2d2d
+#include "/home/lumo/.gitconf/master/System/colors/erosion_nindwen"
 
 urxvt*internalBorder: 6
 urxvt*termName:         rxvt

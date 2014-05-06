@@ -1,0 +1,88 @@
+[options]
+resize_grip =false
+scroll_on_output =false
+scroll_on_keystroke =true
+audible_bell =false
+visible_bell =false
+mouse_autohide =false
+allow_bold =true
+dynamic_title =true
+urgent_on_bell =true
+clickable_url =true
+font = Inconsolata 9
+scrollback_lines =1000
+search_wrap =true
+#icon_name =terminal
+#geometry =640x480
+
+# 0.0=opaque, 1.0= transparent
+transparency =0.0
+pseudo_transparency =false
+
+# "system", "on" or "off"
+cursor_blink =on
+
+# "block", "underline" or "ibeam"
+cursor_shape =ibeam
+padding=10
+
+#font =Monospace 12
+#foreground =#dcdccc
+#background =#3f3f3f
+border=#3181512
+border_width=5
+#roundness =2.0
+
+# vim=ft=dosini
+# $BROWSER is used by default
+browser =firefox
+
+# word characters used for word selection
+# (default if unset=all graphic non-punctuation/space characters)
+#word_chars =-A-Za-z0-9,./?%&#=_=+@~
+
+# set size hints for the window
+#size_hints =false
+
+[colors]
+foreground_bold =#D7D0C7
+#foreground_dim =#888888
+#cursor =#dcdccc
+
+# if unset, will reverse foreground and background
+#highlight =#2f2f2f
+
+# colors from color0 to color254 can be set
+
+background= #161218
+foreground= #ad92be
+cursorColor= #9ea193
+colorIT= #714c8c
+colorUL= #686d64
+colorBD= #935f9a
+
+color0= #2f2933
+color8= #776781
+
+color1= #714c8c
+color9= #80559f
+
+color2=  #744873
+color10=  #855285
+
+color3=  #90668e
+color11=   #9c6e9a
+
+color4= #686d64
+color12= #757a71
+
+color5= #585560
+color13= #656565
+
+color6= #585e4b
+color14= #687055
+
+
+color7= #483950
+color15= #935f9a
+
