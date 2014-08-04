@@ -54,35 +54,35 @@ foreground_bold =#D7D0C7
 
 # colors from color0 to color254 can be set
 
-background= #161218
-foreground= #ad92be
-cursorColor= #9ea193
+background= #2b303b
+foreground= #c0c5ce
+cursorColor= #c0c5ce
 colorIT= #714c8c
 colorUL= #686d64
 colorBD= #935f9a
 
-color0= #2f2933
-color8= #776781
+color0= #2b303b
+color8= #65737e
 
-color1= #714c8c
-color9= #80559f
+color1= #bf616a
+color9= #d08770
 
-color2=  #744873
-color10=  #855285
+color2=  #a3be8c
+color10=  #343d46
 
-color3=  #90668e
-color11=   #9c6e9a
+color3=  #ebcb8b
+color11=   #4f5b66
 
-color4= #686d64
-color12= #757a71
+color4= #8fa1b3
+color12= #a7adba
 
-color5= #585560
-color13= #656565
+color5= #b48ead
+color13= #dfe1e8
 
-color6= #585e4b
-color14= #687055
+color6= #96b5b4
+color14= #ab7967
 
 
-color7= #483950
-color15= #935f9a
+color7= #c0c5ce
+color15= #eff1f5
 
