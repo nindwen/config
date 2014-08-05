@@ -4,7 +4,7 @@ hsetroot -fill ~/usr/wallpapers/current &
 dunst&
 compton --config ~/.config/compton.conf &
 pa-applet&
-unclutter&
+unclutter -root -idle 1 &
 sxhkd &
 export PATH="$PATH:/home/lumo/scripts:/root/.gem/ruby/2.0.0/bin:/home/lumo/.gem/ruby/2.0.0/bin/"
 
@@ -35,3 +35,5 @@ bspc config border_width            4
 bspc monitor -d α β δ ε γ pad
 bspc desktop pad -l monocle 
 bspc desktop ^2 -l monocle 
+
+~/etc/WM/panel/panel
