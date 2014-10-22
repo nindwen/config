@@ -1,6 +1,6 @@
 #! /bin/zsh
 unset DBUS_SESSION_BUS_ADDRESS
-hsetroot -fill ~/usr/wallpapers/current &
+hsetroot -tile ~/usr/wallpapers/kolmiot.png &
 dunst&
 compton --config ~/.config/compton.conf &
 pa-applet&
@@ -8,10 +8,10 @@ unclutter -root -idle 1 &
 sxhkd &
 export PATH="$PATH:/home/lumo/scripts:/root/.gem/ruby/2.0.0/bin:/home/lumo/.gem/ruby/2.0.0/bin/"
 
-bspc config top_padding 40
-bspc config left_padding 40
-bspc config right_padding 40
-bspc config bottom_padding 60
+bspc config top_padding 0
+bspc config left_padding 0
+bspc config right_padding 0
+bspc config bottom_padding 0
 
 bspc rule -a Firefox desktop=^2
 bspc rule -a Steam desktop=^4
@@ -30,10 +30,10 @@ bspc config focused_private_border_color "$MAINCOLOR"
 bspc config normal_frame_opacity    0
 bspc config focused_frame_opacity   0.2  
 bspc config auto_cancel             true
-bspc config border_width            4
+bspc config border_width            10
 
 bspc monitor -d α β δ ε γ pad
 bspc desktop pad -l monocle 
 bspc desktop ^2 -l monocle 
 
-~/etc/WM/panel/panel
+#~/etc/WM/panel/panel

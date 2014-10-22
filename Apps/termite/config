@@ -10,6 +10,7 @@ dynamic_title =true
 urgent_on_bell =true
 clickable_url =true
 font = Inconsolata 9
+font = Monospace 9
 scrollback_lines =1000
 search_wrap =true
 #icon_name =terminal
@@ -45,44 +46,42 @@ browser =firefox
 #size_hints =false
 
 [colors]
-foreground_bold =#D7D0C7
-#foreground_dim =#888888
-#cursor =#dcdccc
 
-# if unset, will reverse foreground and background
-#highlight =#2f2f2f
+# special
+foreground      = #d3d0c8
+foreground_bold = #d3d0c8
+cursor          = #d3d0c8
+background      = #2d2d2d
 
-# colors from color0 to color254 can be set
+# black
+color0  = #2d2d2d
+color8  = #747369
 
-background= #2b303b
-foreground= #c0c5ce
-cursorColor= #c0c5ce
-colorIT= #714c8c
-colorUL= #686d64
-colorBD= #935f9a
+# red
+color1  = #f2777a
+color9  = #f2777a
 
-color0= #2b303b
-color8= #65737e
+# green
+color2  = #99cc99
+color10 = #99cc99
 
-color1= #bf616a
-color9= #d08770
+# yellow
+color3  = #ffcc66
+color11 = #ffcc66
 
-color2=  #a3be8c
-color10=  #343d46
+# blue
+color4  = #6699cc
+color12 = #6699cc
 
-color3=  #ebcb8b
-color11=   #4f5b66
+# magenta
+color5  = #cc99cc
+color13 = #cc99cc
 
-color4= #8fa1b3
-color12= #a7adba
+# cyan
+color6  = #66cccc
+color14 = #66cccc
 
-color5= #b48ead
-color13= #dfe1e8
-
-color6= #96b5b4
-color14= #ab7967
-
-
-color7= #c0c5ce
-color15= #eff1f5
+# white
+color7  = #d3d0c8
+color15 = #f2f0ec
 
