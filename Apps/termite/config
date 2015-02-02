@@ -9,8 +9,10 @@ allow_bold =true
 dynamic_title =true
 urgent_on_bell =true
 clickable_url =true
-font = Inconsolata 9
+
+#font = Inconsolata 9
 font = Monospace 9
+
 scrollback_lines =1000
 search_wrap =true
 #icon_name =terminal
@@ -24,7 +26,7 @@ pseudo_transparency =false
 cursor_blink =on
 
 # "block", "underline" or "ibeam"
-cursor_shape =ibeam
+cursor_shape =underline
 padding=10
 
 #font =Monospace 12
@@ -48,40 +50,40 @@ browser =firefox
 [colors]
 
 # special
-foreground      = #d3d0c8
-foreground_bold = #d3d0c8
-cursor          = #d3d0c8
-background      = #2d2d2d
+foreground      = #c5c8c6
+foreground_bold = #c5c8c6
+cursor          = #8888ff
+background      = #1d1f21
 
 # black
-color0  = #2d2d2d
-color8  = #747369
+color0  = #282a2e
+color8  = #373b41
 
 # red
-color1  = #f2777a
-color9  = #f2777a
+color1  = #a54242
+color9  = #cc6666
 
 # green
-color2  = #99cc99
-color10 = #99cc99
+color2  = #8c9440
+color10 = #b5bd68
 
 # yellow
-color3  = #ffcc66
-color11 = #ffcc66
+color3  = #de935f
+color11 = #f0c674
 
 # blue
-color4  = #6699cc
-color12 = #6699cc
+color4  = #5f819d
+color12 = #81a2be
 
 # magenta
-color5  = #cc99cc
-color13 = #cc99cc
+color5  = #85678f
+color13 = #b294bb
 
 # cyan
-color6  = #66cccc
-color14 = #66cccc
+color6  = #5e8d87
+color14 = #8abeb7
 
 # white
-color7  = #d3d0c8
-color15 = #f2f0ec
+color7  = #707880
+color15 = #c5c8c6
 

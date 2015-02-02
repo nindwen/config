@@ -82,7 +82,7 @@ super + space
     bspc desktop -l next
 
 ctrl + space
-    bspc config -d focused window_gap {-1,14,65}
+    bspc config -d focused window_gap {-10,0,30,60}
 
 super + alt + space
     {~/.config/dzen/infobar ,\

@@ -33,6 +33,8 @@ set incsearch		" do incremental searching
 set ignorecase
 set smartcase
 set background=dark
+set breakindent
+setlocal cm=blowfish2
 
 " For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
 " let &guioptions = substitute(&guioptions, "t", "", "g")
@@ -42,11 +44,11 @@ map Q gq
 
 set scrolloff=999
 set number
-set tabstop=2
-set shiftwidth=2
+set tabstop=3
+set shiftwidth=3
 set hidden
 set confirm
-"set expandtab
+set expandtab
 
 
 " CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
@@ -98,17 +100,16 @@ if has("autocmd")
   au!
 
   " For all text files set 'textwidth' to 78 characters.
-  autocmd FileType text setlocal textwidth=78
 
   " When editing a file, always jump to the last known cursor position.
   " Don't do it when the position is invalid or when inside an event handler
   " (happens when dropping a file on gvim).
   " Also don't do it when the mark is in the first line, that is the default
   " position when opening a file.
-  autocmd BufReadPost *
-    \ if line("'\"") > 1 && line("'\"") <= line("$") |
-    \   exe "normal! g`\"" |
-    \ endif
+  autocmd BufReadPost * 
+           \ if line("'\"") > 1 && line("'\"") <= line("$") | 
+           \   exe "normal! g`\"" | 
+           \ endif
 
   augroup END
 
@@ -128,8 +129,7 @@ endif
 
 
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
-
-
+let delimitMate_matchpairs = "(:),[:],<:>"
 
 "COLORS {
  " syntax highlighting groups
