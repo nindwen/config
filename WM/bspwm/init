@@ -1,5 +1,4 @@
 #!/usr/bin/sh
-export PATH="$PATH:/home/lumo/scripts:/root/.gem/ruby/2.0.0/bin:/home/lumo/.gem/ruby/2.0.0/bin/"
 
 xasetukset
  

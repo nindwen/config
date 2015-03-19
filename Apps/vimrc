@@ -34,10 +34,9 @@ set ignorecase
 set smartcase
 set background=dark
 set breakindent
+set encoding=utf-8
+set path=.,,inc,src,/usr/include,/usr/local/include
 setlocal cm=blowfish2
-
-" For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
-" let &guioptions = substitute(&guioptions, "t", "", "g")
 
 " Don't use Ex mode, use Q for formatting
 map Q gq
@@ -161,4 +160,4 @@ let delimitMate_matchpairs = "(:),[:],<:>"
 " }
 
 set t_Co=256
-colorscheme gardener
+colorscheme atom-dark-256

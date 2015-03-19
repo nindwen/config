@@ -1,0 +1,25 @@
+#!/bin/sh
+
+export BW=3
+export ACTIVE="bb7e00"
+#export INACTIVE="111166"
+export INACTIVE="bb7e00"
+
+
+xasetukset
+ 
+xrdb ~/.config/Xresources
+redshift -l 61.475514:23.774414 &
+
+xcape&
+unset DBUS_SESSION_BUS_ADDRESS
+hsetroot -fill ~/usr/wallpapers/current &
+dunst&
+compton --config ~/.config/compton.conf &
+unclutter -root -idle 1 &
+sxhkd ~/.config/sxhkd/sxhkdrc_wmutils &
+
+#pulse &
+focus_watcher.sh &
+  
+tail -f /dev/null

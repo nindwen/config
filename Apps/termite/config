@@ -47,43 +47,44 @@ browser=terminaldl
 # set size hints for the window
 #size_hints =false
 
+
 [colors]
 
 # special
-foreground      = #c5c8c6
-foreground_bold = #c5c8c6
-cursor          = #8888ff
-background      = #1d1f21
+foreground      = #bb7e00
+foreground_bold = #bb7e00
+cursor          = #bb7e00
+background      = #110b00
 
 # black
-color0  = #282a2e
-color8  = #373b41
+color0  = #110b00
+color8  = #775000
 
 # red
-color1  = #a54242
-color9  = #cc6666
+color1  = #775000
+color9  = #775000
 
 # green
-color2  = #8c9440
-color10 = #b5bd68
+color2  = #bb7e00
+color10 = #bb7e00
 
 # yellow
-color3  = #de935f
-color11 = #f0c674
+color3  = #775000
+color11 = #775000
 
 # blue
-color4  = #5f819d
-color12 = #81a2be
+color4  = #996700
+color12 = #996700
 
 # magenta
-color5  = #85678f
-color13 = #b294bb
+color5  = #bb7b00
+color13 = #bb7e00
 
 # cyan
-color6  = #5e8d87
-color14 = #8abeb7
+color6  = #553900
+color14 = #553900
 
 # white
-color7  = #707880
-color15 = #c5c8c6
+color7  = #bb7e00
+color15 = #ffac00
 

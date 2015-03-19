@@ -5,8 +5,7 @@ dunst&
 compton --config ~/.config/compton.conf &
 pa-applet&
 unclutter -root -idle 1 &
-sxhkd &
-export PATH="$PATH:/home/lumo/scripts:/root/.gem/ruby/2.0.0/bin:/home/lumo/.gem/ruby/2.0.0/bin/"
+sxhkd ~/.config/sxhkd/sxhkdrc_bspwm &
 
 bspc config top_padding 22
 bspc config left_padding 0
