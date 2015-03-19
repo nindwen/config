@@ -10,8 +10,8 @@ dynamic_title =true
 urgent_on_bell =true
 clickable_url =true
 
-#font = Inconsolata 9
 font = Monospace 9
+font = Inconsolata 10
 
 scrollback_lines =1000
 search_wrap =true
@@ -26,19 +26,19 @@ pseudo_transparency =false
 cursor_blink =on
 
 # "block", "underline" or "ibeam"
-cursor_shape =underline
+cursor_shape =block
 padding=10
 
 #font =Monospace 12
 #foreground =#dcdccc
 #background =#3f3f3f
-border=#3181512
+#border=#3181512
 border_width=5
 #roundness =2.0
 
 # vim=ft=dosini
 # $BROWSER is used by default
-browser =firefox
+browser=terminaldl
 
 # word characters used for word selection
 # (default if unset=all graphic non-punctuation/space characters)
