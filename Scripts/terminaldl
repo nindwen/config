@@ -1,0 +1,25 @@
+#!/bin/sh
+exec 2>/tmp/open_err
+
+URI_LOWER=`echo $1 | tr '[:upper:]' '[:lower:]'`
+
+case "$URI_LOWER" in
+	*jpg|*png)
+		curl -sL $1 > /tmp/dlimg && sxiv -b /tmp/dlimg
+		;;
+	*.mkv|*.avi|*.webm)
+		curl -sL $1 | mplayer -cache 512 -
+		;;
+	*youtube.com/watch*|*youtu.be/watch*)
+		youtube-dl -q -o - $1 | mplayer -cache 1024 -quiet -
+		;;
+	http*)
+      firefox $1
+		;;
+   gopher://*) 
+      termite -e "go $1"
+      ;;
+	*)
+		echo unknown format
+		;;
+esac

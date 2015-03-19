@@ -1,0 +1,18 @@
+#!/bin/sh
+
+FREQ=${FREQ:-0.05}
+
+# pulsing red
+COLORS="443232 553232 664444 774444 885656 aa5656 bb6464 cc6464 dd7272 ff7272 dd7272 cc6464 bb6464 aa5656 885656 774444 664444 553232 443232"
+
+# fast blinking
+COLORS="ffffff eeeeee dddddd cccccc bbbbbb aaaaaa 888888 777777 666666 555555 444444 555555 666666 777777 888888 aaaaaa bbbbbb cccccc dddddd eeeeee"
+
+while :; do
+    for c in $COLORS; do
+        CUR=$(pfw)
+        test "`wattr wh $CUR`" != "`wattr wh $(lsw -r)`" && chwb -s 3 -c $c $CUR
+        chwb -s 3 -c $INACTIVE $(lsw | grep -v $(pfw) | sed '$ p;d')
+        sleep $FREQ
+    done
+done

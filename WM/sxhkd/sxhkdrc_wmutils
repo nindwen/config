@@ -1,0 +1,29 @@
+super + {1-6}
+   groaw -t {1-6}
+
+super + shift + {1-6}
+   groaw -a {1-6}
+
+super + ctrl + shift + {1-6}
+   groaw -d {1-6}
+
+super + f 
+   fullscreen.sh `pfw`
+
+super + s 
+   tile.sh
+
+super + {_,shift} + Tab
+   focus.sh {next,prev}
+
+super + {_,shift} + {h,j,k,l}
+   {wmv,wrs} {-20 0, 0 20, 0 -20, 20 0} `pfw`
+
+super + {y,u,b,n,m}
+   corner { ,tr,bl,br,md}
+
+super + x
+   killw `pfw`
+
+super + shift + x
+   pkill tail

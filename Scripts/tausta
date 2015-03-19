@@ -1,0 +1,6 @@
+#!/usr/bin/sh
+
+cd ~/usr/wallpapers/
+rm current
+ln -s $1 current
+hsetroot -fill current
