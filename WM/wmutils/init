@@ -3,7 +3,7 @@
 export BW=3
 export ACTIVE="bb7e00"
 #export INACTIVE="111166"
-export INACTIVE="bb7e00"
+export INACTIVE="aaaaaa"
 
 
 xasetukset
@@ -19,7 +19,7 @@ compton --config ~/.config/compton.conf &
 unclutter -root -idle 1 &
 sxhkd ~/.config/sxhkd/sxhkdrc_wmutils &
 
-#pulse &
+pulse &
 focus_watcher.sh &
   
 tail -f /dev/null

@@ -5,14 +5,14 @@
 Print
    kaappaus $(date +%F) >> ~/tmp/kaappauksia
 
-super + Return
-    termite
+#super + Return
+    #termite
 
 super + w
     menu
 
 super + q
-    firefox
+    qutebrowser
 
 super + a
     pavucontrol
@@ -33,4 +33,10 @@ XF86AudioPrev
     ncmpcpp prev
 
 super + ctrl + i
-		xrandr --output DP-0 --rotate {left,normal}
+		xrandr --output DP-0 --rotate {left,normal}; sleep 3;hsetroot -fill ~/usr/wallpapers/{current_vert,current} > ~/aaa
+
+super + ctrl + k
+      termite -e "watch -t date +%R"
+
+super + y
+      ~/bin/videoi

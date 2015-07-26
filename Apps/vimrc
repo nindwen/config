@@ -36,15 +36,15 @@ set background=dark
 set breakindent
 set encoding=utf-8
 set path=.,,inc,src,/usr/include,/usr/local/include
-setlocal cm=blowfish2
+"setlocal cm=blowfish2
 
 " Don't use Ex mode, use Q for formatting
 map Q gq
 
-set scrolloff=999
+"set scrolloff=999
 set number
-set tabstop=3
-set shiftwidth=3
+set tabstop=6
+set shiftwidth=6
 set hidden
 set confirm
 set expandtab
@@ -54,9 +54,12 @@ set expandtab
 " so that you can undo CTRL-U after inserting a line break.
 inoremap <C-U> <C-G>u<C-U>
 map - <Nop>
-:nmap j gj
-:nmap k gk
+nmap j gj
+nmap k gk
 let mapleader="-"
+nmap <Leader><Space> :noh<CR>
+nmap <Space> :bnext<CR>
+nmap <BS> :bprevious<CR>
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
@@ -161,3 +164,12 @@ let delimitMate_matchpairs = "(:),[:],<:>"
 
 set t_Co=256
 colorscheme atom-dark-256
+
+noremap  <Up> <NOP>
+noremap! <Up> <NOP>
+noremap  <Down> <NOP>
+noremap! <Down> <NOP>
+noremap  <Left> <NOP>
+noremap! <Left> <NOP>
+noremap  <Right> <NOP>
+noremap! <Right> <NOP>

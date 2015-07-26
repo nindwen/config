@@ -8,13 +8,13 @@ case "$URI_LOWER" in
 		curl -sL $1 > /tmp/dlimg && sxiv -b /tmp/dlimg
 		;;
 	*.mkv|*.avi|*.webm)
-		curl -sL $1 | mplayer -cache 512 -
+		mpv --ytdl $1
 		;;
 	*youtube.com/watch*|*youtu.be/watch*)
-		youtube-dl -q -o - $1 | mplayer -cache 1024 -quiet -
+		mpv --ytdl $1
 		;;
 	http*)
-      firefox $1
+      qutebrowser $1
 		;;
    gopher://*) 
       termite -e "go $1"

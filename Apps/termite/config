@@ -12,6 +12,7 @@ clickable_url =true
 
 font = Monospace 9
 font = Inconsolata 10
+font = Source Code Pro 9
 
 scrollback_lines =1000
 search_wrap =true
@@ -47,44 +48,43 @@ browser=terminaldl
 # set size hints for the window
 #size_hints =false
 
-
 [colors]
 
 # special
-foreground      = #bb7e00
-foreground_bold = #bb7e00
-cursor          = #bb7e00
-background      = #110b00
+foreground      = #bbbbbb
+foreground_bold = #bbbbbb
+cursor          = #bbbbbb
+background      = #1b1b1b
 
 # black
-color0  = #110b00
-color8  = #775000
+color0  = #3b3b3b
+color8  = #3b3b3b
 
 # red
-color1  = #775000
-color9  = #775000
+color1  = #733222
+color9  = #733222
 
 # green
-color2  = #bb7e00
-color10 = #bb7e00
+color2  = #377222
+color10 = #377222
 
 # yellow
-color3  = #775000
-color11 = #775000
+color3  = #977333
+color11 = #977333
 
 # blue
-color4  = #996700
-color12 = #996700
+color4  = #955444
+color12 = #955444
 
 # magenta
-color5  = #bb7b00
-color13 = #bb7e00
+color5  = #577444
+color13 = #577444
 
 # cyan
-color6  = #553900
-color14 = #553900
+color6  = #a88444
+color14 = #a88444
 
 # white
-color7  = #bb7e00
-color15 = #ffac00
+color7  = #ffffff
+color15 = #ffffff
 
