@@ -10,6 +10,9 @@ fi
 session=${1:-dwm}
 
 case $session in
+   test)
+      exec xterm
+      ;;
    bspwm) 
       exec /home/nindwen/.config/bspwm/init
       ;;

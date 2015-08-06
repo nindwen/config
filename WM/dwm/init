@@ -2,9 +2,8 @@
 
 
 
-xasetukset
+~/bin/xasetukset
  
-xrdb ~/.config/Xresources
 redshift -l 61.475514:23.774414 &
 
 xcape&

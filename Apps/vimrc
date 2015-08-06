@@ -36,6 +36,8 @@ set background=dark
 set breakindent
 set encoding=utf-8
 set path=.,,inc,src,/usr/include,/usr/local/include
+set backupdir=~/.vimtmp,.
+set directory=~/.vimtmp,.
 "setlocal cm=blowfish2
 
 " Don't use Ex mode, use Q for formatting

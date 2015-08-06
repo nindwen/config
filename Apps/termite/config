@@ -10,9 +10,8 @@ dynamic_title =true
 urgent_on_bell =true
 clickable_url =true
 
-font = Monospace 9
-font = Inconsolata 10
 font = Source Code Pro 9
+font = Monospace 9
 
 scrollback_lines =1000
 search_wrap =true
