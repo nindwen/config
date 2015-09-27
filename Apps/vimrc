@@ -38,6 +38,15 @@ set encoding=utf-8
 set path=.,,inc,src,/usr/include,/usr/local/include
 set backupdir=~/.vimtmp,.
 set directory=~/.vimtmp,.
+set undofile
+set undodir=~/.vim/undo
+set undolevels=5000
+set laststatus=1
+
+set wrap
+set linebreak
+set nolist  " list disables linebreak
+
 "setlocal cm=blowfish2
 
 " Don't use Ex mode, use Q for formatting

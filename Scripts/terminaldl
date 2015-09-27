@@ -1,25 +1,27 @@
 #!/bin/sh
-exec 2>/tmp/open_err
 
 URI_LOWER=`echo $1 | tr '[:upper:]' '[:lower:]'`
 
 case "$URI_LOWER" in
-	*jpg|*png)
-		curl -sL $1 > /tmp/dlimg && sxiv -b /tmp/dlimg
-		;;
-	*.mkv|*.avi|*.webm)
-		mpv --ytdl $1
-		;;
-	*youtube.com/watch*|*youtu.be/watch*)
-		mpv --ytdl $1
-		;;
-	http*)
-      qutebrowser $1
-		;;
-   gopher://*) 
-      termite -e "go $1"
-      ;;
-	*)
-		echo unknown format
-		;;
+      *jpg|*png)
+            curl -sL $1 > /tmp/dlimg && sxiv -b /tmp/dlimg
+            ;;
+      *.mkv|*.avi|*.webm)
+            mpv --ytdl $1
+            ;;
+      *youtube.com/watch*|*youtu.be*|*vine.co*|*twitch.tv*|*gfycat*|*gif*)
+            echo $1
+            mpv --ytdl $1
+            ;;
+      http*)
+            qutebrowser $1
+            ;;
+      gopher://*) 
+            termite -e "go $1"
+            ;;
+      *)
+            echo unknown format
+            ;;
 esac
+
+return 0
