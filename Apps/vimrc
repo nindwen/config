@@ -71,6 +71,7 @@ let mapleader="-"
 nmap <Leader><Space> :noh<CR>
 nmap <Space> :bnext<CR>
 nmap <BS> :bprevious<CR>
+nnoremap K i<CR><Esc>
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')

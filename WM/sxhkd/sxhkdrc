@@ -5,8 +5,8 @@
 Print
    kaappaus $(date +%F) >> ~/tmp/kaappauksia
 
-#super + Return
-    #termite
+super + p
+    valikko
 
 super + w
     menu
