@@ -1,0 +1,48 @@
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt appendhistory autocd extendedglob
+unsetopt beep
+bindkey -v
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/nindwen/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+#
+
+# Add a 'proctection' on rm | mv | cp
+alias cp="cp -rvi"
+alias mv="mv -i"
+alias tmp="cd ~/tmp"
+
+# Make some output colorfull
+alias ls="ls -1 --color=auto"
+#alias grep="grep --color=auto"
+
+# some more ls aliases
+alias ll="ls -alhF --color=auto"
+alias l="ls -CF --color=auto"
+
+# command shortner
+alias g='grep'
+alias v="nvim"
+alias t='tmux'
+alias rss="newsbeuter"
+alias email="mutt"
+alias r="ranger"
+alias pas='kpcli --kdb ~/usr/database'
+
+PS1=$'\n\E[34m ⟶   \E[0m'
+export PS1 HISTFILE
+export PATH="$PATH:/home/nindwen/bin:/home/nindwen/.gem/ruby/2.2.0/bin"
+export EDITOR="nvim"
+export TERM="screen-256color"
+export BROWSER="terminaldl"
+export RTV_EDITOR=vim
+export DE=gnome
+
+set -k
