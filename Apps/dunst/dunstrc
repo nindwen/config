@@ -1,12 +1,12 @@
 [global]
-    font = Inconsolata 10
+    font = Inconsolata 12
     allow_markup = yes
     format = "%s %p\n%b"
     sort = yes
     indicate_hidden = true
     # geometry = "x5"
     idle_threshold = 0
-    geometry = "300x5-533+0"
+    geometry = "300x5-810+500"
     alignment = center
     show_age_threshold = 60
     sticky_history = yes
@@ -28,17 +28,17 @@
     context = ctrl+shift+period
 
 [urgency_low]
-   background = "#2b303b"
+   background = "#1b1b1b"
    foreground = "#ffffff"
    timeout = 10
 
 [urgency_normal]
-    background = "2b303b"
+    background = "#1b1b1b"
     foreground = "#ffffff"
     timeout = 15
 
 [urgency_critical]
-    background = "#0f0f0f"
+    background = "#1b1b1b"
     foreground = "#95A7CC"
     timeout = 25
 

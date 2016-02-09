@@ -1,0 +1,2 @@
+#!/bin/sh
+dmenu -z -p ">" -dim 0.2 -l 5 -fn Inconsolata -w 300 -x 810 -y 500 -nb "#1b1b1b" -nf "#eeeeee" -sb "#eeeeee" -sf "#1b1b1b"

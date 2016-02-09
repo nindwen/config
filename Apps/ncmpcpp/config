@@ -22,7 +22,7 @@ mpd_music_dir = "~/usr/music"
 #visualizer_sync_interval = "5"
 #visualizer_type = "wave" (spectrum/wave)
 #visualizer_look = "**"
-#system_encoding = ""
+system_encoding = "UTF-8"
 #playlist_disable_highlight_delay = "5"
 #message_delay_time = "4"
 
@@ -79,7 +79,7 @@ song_columns_list_format = "(7f)[black]{l} (25)[magenta]{a} (40)[default]{t|f} (
 
 ##### various settings #####
 #
-#execute_on_song_change = "/home/sunn/.xmonad/scripts/dzen_music.sh &> /dev/null &disown"
+execute_on_song_change = "~/bin/notify_dwm $(mpc current)"
 #playlist_show_remaining_time = "no"
 #playlist_shorten_total_times = "no"
 #playlist_separate_albums = "no"

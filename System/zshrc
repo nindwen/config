@@ -36,9 +36,13 @@ alias email="mutt"
 alias r="ranger"
 alias pas='kpcli --kdb ~/usr/database'
 
-PS1=$'\n\E[34m ⟶   \E[0m'
-export PS1 HISTFILE
-export PATH="$PATH:/home/nindwen/bin:/home/nindwen/.gem/ruby/2.2.0/bin"
+autoload -U colors && colors 
+[ -n "$SSH_CLIENT" ] && prompt_synbol="[::]" || prompt_synbol="⟶  "
+
+PROMPT="
+%{$fg[blue]%}%  $prompt_synbol %{$reset_color%}%"
+export HISTFILE
+export PATH="$PATH:/home/nindwen/bin:/home/nindwen/.gem/ruby/2.3.0/bin"
 export EDITOR="nvim"
 export TERM="screen-256color"
 export BROWSER="terminaldl"

@@ -18,12 +18,12 @@
 #upload_rate = 0
 
 # Default directory to save the downloaded torrents.
-directory = ~/Lataukset/Torrentit
+directory = ~/usr/torrent
 
 # Default session directory. Make sure you don't run multiple instance
 # of rtorrent using the same session directory. Perhaps using a
 # relative path?
-session = ~/.config/torrentsession
+#session = ./session
 
 # Watch a directory for new torrents, and stop those that have been
 # deleted.
@@ -53,7 +53,7 @@ session = ~/.config/torrentsession
 #check_hash = no
 
 # Set whether the client should try to connect to UDP trackers.
-use_udp_trackers = yes
+#use_udp_trackers = yes
 
 # Alternative calls to bind and ip that should handle dynamic ip's.
 #schedule = ip_tick,0,1800,ip=rakshasa

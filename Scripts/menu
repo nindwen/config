@@ -1,1 +1,0 @@
-dmenu_run -l 6 -w 400 -y 400 -x 790 -dim 0.2 -nb '#1d1f21' -nf '#c5c8c6' -sb '#1d1f21' -sf '#81a2be' -fn 'Inconsolata'

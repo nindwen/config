@@ -40,3 +40,6 @@ super + ctrl + k
 
 super + y
       ~/bin/videoi
+
+super + shift + y
+      ~/bin/videoi --loop=inf

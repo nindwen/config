@@ -27,7 +27,7 @@ else
   set backup		" keep a backup file
 endif
 set history=51		" keep 50 lines of command line history
-set ruler		" show the cursor position all the time
+set noruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
 set ignorecase
@@ -41,7 +41,8 @@ set directory=~/.vimtmp,.
 set undofile
 set undodir=~/.vim/undo
 set undolevels=5000
-set laststatus=1
+set laststatus=0
+set statusline=-
 
 set wrap
 set linebreak
@@ -58,7 +59,7 @@ set tabstop=6
 set shiftwidth=6
 set hidden
 set confirm
-set noexpandtab
+set expandtab
 set list
 set listchars=tab:»\ ,trail:·
 

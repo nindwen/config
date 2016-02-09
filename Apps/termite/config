@@ -10,7 +10,7 @@ dynamic_title =true
 urgent_on_bell =true
 clickable_url =true
 
-font = tewi 8
+#font = tewi 8
 
 scrollback_lines =1000
 search_wrap =true
@@ -28,7 +28,7 @@ cursor_blink =on
 cursor_shape =block
 padding=10
 
-#font =Monospace 12
+font = Inconsolata 12
 #foreground =#dcdccc
 #background =#3f3f3f
 #border=#3181512
