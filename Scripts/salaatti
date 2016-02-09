@@ -1,0 +1,4 @@
+#!/bin/bash
+STRING=$(curl -s -F "file=@$1" salaatti.usvs.xyz)
+IFS=' ' read -r -a array <<< "$STRING"
+echo "http://salaatti.usvs.xyz/${array[-1]}"
