@@ -1,4 +1,5 @@
 #!/bin/sh
+
 # install AUR packages with cower
 
 cd $HOME/.cower && cower -d "$1"

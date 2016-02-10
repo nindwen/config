@@ -1,6 +1,9 @@
 #!/usr/bin/sh
 
+# Change wallpaper
+# Usage: tausta kaunis.png
+
 cd ~/usr/wallpapers/
 rm current
 ln -s $1 current
-hsetroot -fill current
+setroot -z current

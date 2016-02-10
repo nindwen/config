@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Opens url in appropriate app
+# Usage: terminald "url"
+
 URI_LOWER=`echo $1 | tr '[:upper:]' '[:lower:]'`
 
 case "$URI_LOWER" in

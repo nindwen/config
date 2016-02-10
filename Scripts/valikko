@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Show menu for commonly used apps
+
 valimenu << EOF | sh
 qutebrowser
 firefox
