@@ -1,0 +1,14 @@
+#!/bin/sh
+~/bin/xasetukset
+ 
+redshift -l 61.475514:23.774414 &
+
+xcape&
+unset DBUS_SESSION_BUS_ADDRESS
+setroot -z ~/usr/wallpapers/current &
+dunst&
+compton --config ~/.config/compton.conf &
+unclutter -noevents -root -idle 1 &
+sxhkd &
+mpd&
+exec awesome

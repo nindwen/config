@@ -33,7 +33,7 @@ XF86AudioPrev
     ncmpcpp prev
 
 super + ctrl + i
-		xrandr --output DP-0 --rotate {left,normal}; sleep 3;hsetroot -fill ~/usr/wallpapers/{current_vert,current} > ~/aaa
+		xrandr --output DP-0 --rotate {left,normal}
 
 super + ctrl + k
       termite -e "watch -t date +%R"
