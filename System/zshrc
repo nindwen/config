@@ -35,6 +35,7 @@ alias rss="newsbeuter"
 alias email="mutt"
 alias r="ranger"
 alias pas='kpcli --kdb ~/usr/database'
+alias iii='ii -k IIPASS -s usvs.xyz -p 5656'
 
 autoload -U colors && colors 
 [ -n "$SSH_CLIENT" ] && prompt_synbol="[::]" || prompt_synbol="⟶  "
