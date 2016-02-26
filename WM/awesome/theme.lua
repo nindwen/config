@@ -7,9 +7,9 @@ theme = {}
 theme.font          = "sans 8"
 theme.useless_gap_width = 40
 
-theme.bg_normal     = "#222222"
-theme.bg_focus      = "#535d6c"
-theme.bg_urgent     = "#ff0000"
+theme.bg_normal     = "#1b1b1b"
+theme.bg_focus      = "#3498db"
+theme.bg_urgent     = "#db9834"
 theme.bg_minimize   = "#444444"
 theme.bg_systray    = theme.bg_normal
 
@@ -19,8 +19,8 @@ theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
 
 theme.border_width  = 10
-theme.border_normal = "#000000"
-theme.border_focus  = "#535d6c"
+theme.border_normal = "#1b1b1b"
+theme.border_focus  = "#3498db"
 theme.border_marked = "#91231c"
 
 -- There are other variable sets

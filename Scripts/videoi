@@ -1,0 +1,17 @@
+#!/bin/bash
+notifoi "starting $(xclip -o)"
+MPD_PLAYING=0
+
+if mpc status | grep playing >/dev/null
+then
+      mpc pause
+      MPD_PLAYING=1
+fi
+
+mpv $1 --ytdl-format=best --ytdl $(xclip -o) --ytdl-raw-options=youtube-skip-dash-manifest= || notifoi "failed $(xclip -o)" 
+
+notifoi "Soitettiin $(xclip -o)"
+if [ "$MPD_PLAYING" = 1 ]; then
+      mpc play
+      notifoi "Jatkuu!"
+fi

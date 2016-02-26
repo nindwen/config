@@ -26,3 +26,5 @@ Some small scripts I use often.
 * Qutebrowser the Browser
 * Sxhkd the Hotkey daemon
 * Vim the Editor
+
+![screenshot](screenshot.png)
