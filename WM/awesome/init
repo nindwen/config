@@ -13,4 +13,5 @@ unclutter -noevents -root -idle 1 &
 sxhkd &
 mpd&
 mpd_notify&
+xautolock -time 5 -locker slock&
 exec awesome
