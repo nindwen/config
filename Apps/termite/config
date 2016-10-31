@@ -18,7 +18,7 @@ search_wrap =true
 #geometry =640x480
 
 # 0.0=opaque, 1.0= transparent
-transparency =0.0
+transparency = 0.5
 pseudo_transparency =false
 
 # "system", "on" or "off"
@@ -28,7 +28,7 @@ cursor_blink =on
 cursor_shape =block
 padding=10
 
-font = Inconsolata 12
+font = Monospace 10
 #foreground =#dcdccc
 #background =#3f3f3f
 #border=#3181512
@@ -49,40 +49,39 @@ browser=terminaldl
 [colors]
 
 # special
-foreground      = #bbbbbb
-foreground_bold = #bbbbbb
-cursor          = #bbbbbb
-background      = #1b1b1b
+foreground      = #c5c8c6
+foreground_bold = #c5c8c6
+cursor          = #c5c8c6
+background      = #1c1c1c
 
 # black
-color0  = #3b3b3b
-color8  = #3b3b3b
+color0  = #282a2e
+color8  = #373b41
 
 # red
-color1  = #733222
-color9  = #733222
+color1  = #a54242
+color9  = #cc6666
 
 # green
-color2  = #377222
-color10 = #377222
+color2  = #8c9440
+color10 = #b5bd68
 
 # yellow
-color3  = #977333
-color11 = #977333
+color3  = #de935f
+color11 = #f0c674
 
 # blue
-color4  = #955444
-color12 = #955444
+color4  = #5f819d
+color12 = #81a2be
 
 # magenta
-color5  = #577444
-color13 = #577444
+color5  = #85678f
+color13 = #b294bb
 
 # cyan
-color6  = #a88444
-color14 = #a88444
+color6  = #5e8d87
+color14 = #8abeb7
 
 # white
-color7  = #ffffff
-color15 = #ffffff
-
+color7  = #707880
+color15 = #c5c8c6
