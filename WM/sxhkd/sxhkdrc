@@ -11,14 +11,11 @@ super + p
 super + w
     menu
 
-super + q
-    qutebrowser
-
 super + a
     pavucontrol
 
 super + ctrl+ q
-		pkill -USR1 -x "sxhkd"
+  pkill -USR1 -x "sxhkd"
 
 {_,shift} + XF86AudioRaiseVolume
     ponymix -d {1,2} increase 10
@@ -43,3 +40,22 @@ super + y
 
 super + shift + y
       ~/bin/videoi --loop=inf
+
+ctrl + Left
+      xdotool click 1
+
+ctrl + Right
+      xdotool click 2
+
+super + Right
+      xdotool mousemove_relative 20 0
+
+super + Left
+      xdotool mousemove_relative -- -20 0
+
+super + Up
+      xdotool mousemove_relative 0 -20
+
+super + Down
+      xdotool mousemove_relative 0 20
+

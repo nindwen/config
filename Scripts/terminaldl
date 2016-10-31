@@ -27,4 +27,3 @@ case "$URI_LOWER" in
             ;;
 esac
 
-return 0

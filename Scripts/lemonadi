@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+while true; do
+  echo "%{c}$(date +'%F') %{+o}$(date +'%k:%M')%{-o}           "
+  sleep 30
+done

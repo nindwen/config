@@ -2,4 +2,4 @@
 
 # Dmenu2 conf
 
-dmenu -z -p ">" -dim 0.0 -l 5 -fn Inconsolata -w 300 -x 810 -y 500 -nb "#1b1b1b" -nf "#eeeeee" -sb "#3498db" -sf "#eeeeee" $@
+dmenu -z -p ">" -dim 0.0 -l 5 -fn Inconsolata -w 300 -x 810 -y 500 -nb "#1b1b1b" -nf "#eeeeee" -sb "#de935f" -sf "#eeeeee" $@

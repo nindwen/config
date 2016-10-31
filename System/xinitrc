@@ -16,7 +16,7 @@ fi
 export GPG_AGENT_INFO  # the env file does not contain the export statement
 export SSH_AUTH_SOCK   # enable gpg-agent for ssh
 
-session=${1:-awe}
+session=${1:-2bwm}
 
 case $session in
       test)
@@ -45,5 +45,8 @@ case $session in
             ;;
       dwm)
             exec /home/nindwen/.config/dwm/init
+            ;;
+      2bwm)
+            exec /home/nindwen/.config/2bwm/init
             ;;
 esac

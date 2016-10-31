@@ -1,39 +1,4 @@
-" An example for a vimrc file.
-"
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2011 Apr 15
-"
-" To use it, copy it to
-"     for Unix and OS/2:  ~/.vimrc
-"	      for Amiga:  s:.vimrc
-"  for MS-DOS and Win32:  $VIM\_vimrc
-"	    for OpenVMS:  sys$login:.vimrc
 
-" When started as "evim", evim.vim will already have done these settings.
-if v:progname =~? "evim"
-  finish
-endif
-
-" Use Vim settings, rather than Vi settings (much better!).
-" This must be first, because it changes other options as a side effect.
-set nocompatible
-
-" allow backspacing over everything in insert mode
-set backspace=indent,eol,start
-
-if has("vms")
-  set nobackup		" do not keep a backup file, use versions instead
-else
-  set backup		" keep a backup file
-endif
-set history=51		" keep 50 lines of command line history
-set noruler		" show the cursor position all the time
-set showcmd		" display incomplete commands
-set incsearch		" do incremental searching
-set ignorecase
-set smartcase
-set background=dark
-set breakindent
 set encoding=utf-8
 set path=.,,inc,src,/usr/include,/usr/local/include
 set backupdir=~/.vimtmp,.
@@ -42,31 +7,13 @@ set undofile
 set undodir=~/.vim/undo
 set undolevels=5000
 set laststatus=0
-set statusline=-
 
-set wrap
-set linebreak
-set nolist  " list disables linebreak
-
-"setlocal cm=blowfish2
-
-" Don't use Ex mode, use Q for formatting
-map Q gq
-
-"set scrolloff=999
-set number
-set tabstop=6
-set shiftwidth=6
+set tabstop=2
+set shiftwidth=2
 set hidden
 set confirm
 set expandtab
-set list
-set listchars=tab:»\ ,trail:·
 
-
-" CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
-" so that you can undo CTRL-U after inserting a line break.
-inoremap <C-U> <C-G>u<C-U>
 map - <Nop>
 nmap j gj
 nmap k gk
@@ -86,99 +33,10 @@ endif
 execute pathogen#infect()
 call pathogen#helptags()
 
-if &t_Co > 2 || has("gui_running")
-  syntax on
-  set hlsearch
-endif
 
-fun! JumpToDef()
-      if exists("*GotoDefinition_" . &filetype)
-              call GotoDefinition_{&filetype}()
-                else
-                        exe "norm! \<C-]>"
-                          endif
-                      endf
-
-                      " Jump to tag
-                      " nn <M-g> :call JumpToDef()<cr>
-                      " ino <M-g> <esc>:call JumpToDef()<cr>i
-
-" Only do this part when compiled with support for autocommands.
-if has("autocmd")
-
-  " Enable file type detection.
-  " Use the default filetype settings, so that mail gets 'tw' set to 72,
-  " 'cindent' is on in C files, etc.
-  " Also load indent files, to automatically do language-dependent indenting.
-  filetype plugin indent on
-
-  " Put these in an autocmd group, so that we can delete them easily.
-  augroup vimrcEx
-  au!
-
-  " For all text files set 'textwidth' to 78 characters.
-
-  " When editing a file, always jump to the last known cursor position.
-  " Don't do it when the position is invalid or when inside an event handler
-  " (happens when dropping a file on gvim).
-  " Also don't do it when the mark is in the first line, that is the default
-  " position when opening a file.
-  autocmd BufReadPost * 
-           \ if line("'\"") > 1 && line("'\"") <= line("$") | 
-           \   exe "normal! g`\"" | 
-           \ endif
-
-  augroup END
-
-else
-
-  set autoindent		" always set autoindenting on
-
-endif " has("autocmd")
-
-" Convenient command to see the difference between the current buffer and the
-" file it was loaded from, thus the changes you made.
-" Only define it when not defined already.
-if !exists(":DiffOrig")
-  command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
-		  \ | wincmd p | diffthis
-endif
-
-
-let g:syntastic_cpp_compiler_options = ' -std=c++11'
-let delimitMate_matchpairs = "(:),[:],<:>"
-
-"COLORS {
- " syntax highlighting groups
-"hi Comment ctermfg=12
-"hi Constant ctermfg=1
-""hi Identifier ctermfg=4
-"hi Statement ctermfg=2
-"hi PreProc ctermfg=6
-"hi Type ctermfg=3
-"hi Special ctermfg=5
-"hi Underlined ctermfg=7
-"hi Ignore ctermfg=9
-"hi Error ctermfg=11
-"hi Todo ctermfg=1
-"hi Normal ctermfg=none ctermbg=none
-"hi NonText ctermfg=0 ctermbg=none
-"hi Directory ctermfg=12
-"hi VertSplit ctermfg=black
-"hi StatusLine ctermfg=white
-"hi StatusLineNC ctermfg=0
-"
-"hi Pmenu ctermfg=10 ctermbg=0
-""hi PmenuSel ctermfg=0 ctermbg=14
-"hi LineNr ctermfg=2 ctermbg=none
-"hi CursorLine ctermfg=none ctermbg=none cterm=none
-"hi CursorLineNr ctermfg=none ctermbg=0
-"hi CursorColumn ctermfg=none ctermbg=0
- "
-" }
-
-set t_Co=256
-colorscheme atom-dark-256
+set t_Co=16
+set background=dark
+colorscheme hybrid
 
 noremap  <Up> <NOP>
 noremap! <Up> <NOP>

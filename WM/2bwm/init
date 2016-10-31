@@ -1,0 +1,19 @@
+#!/bin/sh
+~/bin/xasetukset
+ 
+redshift -l 61.475514:23.774414 &
+
+xcape&
+unset DBUS_SESSION_BUS_ADDRESS
+setroot -t ~/usr/wallpapers/current &
+#setroot -sc "#1b1b1b"&
+dunst&
+compton --config ~/.config/compton.conf &
+unclutter -noevents -root -idle 1 &
+sxhkd &
+mpd&
+mpd_notify&
+xautolock -time 5 -locker slock&
+lemonadi | lemonbar -B "#1b1b1b" -f "Inconsolata-9" &
+export _JAVA_AWT_WM_NONREPARENTING=1
+exec 2bwm
