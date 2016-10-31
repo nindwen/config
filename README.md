@@ -20,7 +20,7 @@ Window manager, and other pieces for my personal DE. WM configs, compositor, hot
 Some small scripts I use often.
 
 ####Current setup
-* Awesome the Window manager
+* 2bwm the Window manager
 * Termite the Terminal emulator
 * Zsh the Shell
 * Qutebrowser the Browser
