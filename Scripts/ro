@@ -1,0 +1,7 @@
+#!/bin/bash
+
+FILE=$(rg -l $@ | fzf --height 10)
+if [ -n "$FILE" ]; then
+  $EDITOR $FILE
+fi
+
