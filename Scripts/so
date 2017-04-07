@@ -3,8 +3,8 @@
 # Search in files and filenames, select from results. 
 # Open editor if not empty.
 
-IN_FILE=$(rg -Sl $@)
-IN_NAME=$(rg -g \*$@\* --files)
+IN_FILE=$(rg -Sl "$@")
+IN_NAME=$(rg -g "*$@*" --files)
 FILES=$(echo -e "$IN_FILE""\n""$IN_NAME" | sort | uniq | awk NF)
 if [[ $(echo "$FILES" | wc -l) -ge 2 ]]; then
   FILES=$(echo "$FILES" | fzf --height 10)

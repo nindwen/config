@@ -41,7 +41,7 @@ call plug#end()
 
 set t_Co=16
 set background=dark
-colorscheme hybrid
+colorscheme pencil
 
 noremap  <Up> <NOP>
 noremap! <Up> <NOP>
