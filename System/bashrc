@@ -1,0 +1,34 @@
+# System-wide .bashrc file for interactive bash(1) shells.
+if [ -z "$PS1" ]; then
+   return
+fi
+
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
+export LC_ALL=fi_FI.UTF-8
+export PATH=$PATH:~/bin
+export EDITOR=nvim
+export VISUAL=nvim
+PS1='\w \e[0;31m$\e[0;0m '
+# Make bash check its window size after a process completes
+shopt -s checkwinsize
+set -o vi
+
+[ -r "/etc/bashrc_$TERM_PROGRAM" ] && . "/etc/bashrc_$TERM_PROGRAM"
+
+alias v="nvim"
+alias gen_hash_4='while true; do sleep $(expr $RANDOM % 2); echo -e "\033[1;33m $(rg --files |gsort -R |head -n1)\033[0m"; sleep $(expr $RANDOM % 2); echo -e "\033[0;37m$(date | shasum -) \033[0;32m done"; echo -e "\033[0m"; done'
+alias r="ranger"
+alias g="git"
+alias ll="gls -alhF --color=auto"
+alias l="gls -CF --color=auto"
+
+source ~/.bashrc_work
+
+PATH="/Users/laura.ketola/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/Users/laura.ketola/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/Users/laura.ketola/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/Users/laura.ketola/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/laura.ketola/perl5"; export PERL_MM_OPT;
