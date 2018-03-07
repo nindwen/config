@@ -1,6 +1,8 @@
 My configs
 ----------  
 
+NOTE: These are mostly outdated as I have started using private repo, but I'll keep this public for future interest. 
+
 #### Overview
 Most configs reside in ~/etc (this repository) and are symlinked to their expected locations from there. 
 
